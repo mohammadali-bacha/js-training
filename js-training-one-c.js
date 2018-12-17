@@ -24,7 +24,7 @@ for (var i = 0; i < lg;) {
     // 3eme sous-exo: 
     if (tab[i] % 2 == 0 ){
         tab[i] = 0;
-        console.log(tab);
     }
     i++;
 }
+console.log(tab);

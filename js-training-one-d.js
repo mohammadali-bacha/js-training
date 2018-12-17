@@ -23,7 +23,7 @@ var lg = tab.length;
 for (var i = 0; i < lg;) {
     if (tab[i] % 2 == 0 ){
         tab[i]= tab[i] * 3;
-        console.log(tab);    
     }
     i++;
 }
+console.log(tab);    
