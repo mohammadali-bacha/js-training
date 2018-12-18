@@ -9,4 +9,4 @@ les ecrire sur un cahier :
 - dev objet 
 - def d'une classe, instance d'une classe, propriete/attribut, methode privee, publique, constructeur, heritage,
 classe abstraite,
-
+-DOM
