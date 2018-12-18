@@ -1,12 +1,17 @@
 TODO pour mardi 18/12/18
 
-les ecrire sur un cahier :
+Trouver les definitions des termes de la liste ci-dessus et les ecrire sur un cahier :
 
--chercher langage dynamique et statique exemples + definition
--Variables dynamiques
--Inference
--Chaine de caractère 3,24 méthodes utilisées pour transformer en integer
-- developpement objet 
-- defenition d'une classe, instance d'une classe, propriete/attribut, methode privee, publique, constructeur, heritage,
-classe abstraite,
--DOM
+- Langage dynamique et statique + exemples 
+- Variables dynamiques
+- Inférence
+- Chaine de caractère "3,14", méthodes utilisées pour transformer en integer
+- Développement objet 
+- Classe
+- Instance d'une classe 
+- Propriete/attribut
+- Méthode privée, publique
+- Constructeur
+- Héritage
+- Classe abstraite
+- DOM
