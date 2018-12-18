@@ -9,7 +9,7 @@ Trouver les definitions des termes de la liste ci-dessus et les ecrire sur un ca
 - Développement objet 
 - Classe
 - Instance d'une classe 
-- Propriete/attribut
+- Propriété/attribut
 - Méthode privée, publique
 - Constructeur
 - Héritage
