@@ -2,11 +2,11 @@ TODO pour mardi 18/12/18
 
 les ecrire sur un cahier :
 
--chercher langage dynamik et static exmeples + def
+-chercher langage dynamique et statique exemples + definition
 -Variables dynamiques
 -Inference
 -Chaine de caractère 3,24 méthodes utilisées pour transformer en integer
-- dev objet 
-- def d'une classe, instance d'une classe, propriete/attribut, methode privee, publique, constructeur, heritage,
+- developpement objet 
+- defenition d'une classe, instance d'une classe, propriete/attribut, methode privee, publique, constructeur, heritage,
 classe abstraite,
 -DOM
