@@ -11,9 +11,9 @@ Pour les realiser, il est necessaire d'installer sur son poste de travail:
 
 Grace à ces exercices, l'apprenant pourra apprehender des notions d'algorithmie suivantes.
 
-* Initialiser des variables
-* Parcourir les valeurs d'un tableau
-* Rechercher une valeur dans un tableau
+- Initialiser des variables
+- Parcourir les valeurs d'un tableau
+- Rechercher une valeur dans un tableau
 
 
 * 01-lesson
