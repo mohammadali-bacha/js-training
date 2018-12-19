@@ -1,4 +1,6 @@
-TODO pour mardi 18/12/18
+--TODO-- 
+
+mardi 18/12/2018
 
 Trouver les definitions des termes de la liste ci-dessus et les ecrire sur un cahier :
 
@@ -15,3 +17,11 @@ Trouver les definitions des termes de la liste ci-dessus et les ecrire sur un ca
 - Héritage
 - Classe abstraite
 - DOM
+
+Mercredi 19/12/2018
+
+Implementer les fonctionnalités suivantes 
+
+- une fonction de tri croissant sur un tableau contenant des entiers
+- une fonction de tri decroissant sur un tableau contenant des entiers
+

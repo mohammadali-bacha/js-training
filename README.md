@@ -1,18 +1,34 @@
 # js-training
 
+L'objectif de ce projet est de former aux bases de la programmation toutes personnes desireuses d'apprendre à coder.
 
-Objectif de l'exercice : être capable d'initialiser des variables,de parcourir un tableau,de récupérer la longueur d'un tableau et enfin de changer la valeur d'une variable d'un tableau.
+Ces exercices ont été ecris en javascript.
+Pour les realiser, il est necessaire d'installer sur son poste de travail:
 
-L'exercice consiste à parcourir le tableau et rechercher les valeurs divisibles par 2 puis les  remplacer par un multiple de 3.
+- Un editeur de langage (Visual code)
+- Un gestionnaire de source (Git)
+- Un interpreteur de code javascript NodeJS
 
-Parcourirle tableau = besoin de connaitre la longueur du tableau et d'implémenter un compteur.
+Grace à ces exercices, l'apprenant pourra apprehender des notions d'algorithmie suivantes.
 
-- 1er sous-exercice : parcourir un tableau, récuperer une variable qui récupère la longueur du tableau; pas besoin de boucle.
+* Initialiser des variables
+* Parcourir les valeurs d'un tableau
+* Rechercher une valeur dans un tableau
 
-- 2ème sous-exercice : 1er sous-exercice + afficher la donnée qui se trouve en enième position dans le tableau : log(tab[i]).
 
-- 3ème sous-exercice : lorsque l'element divisible par 2 est trouvé, je le marque par 0.
+* 01-lesson
 
-- 4eme sous-exercice : au lieu de remplacer par zéro, on récupère l'enième position et on multiplie par 3.
+- Initialiser une variable qui récupère la longueur du tableau
+
+* 02-lesson
+
+- Parcourir les variables conrtenues dans le tableau et les afficher
+
+* 03-lesson
+
+- Parcourir les valeurs contenu dans le tableau et rechercher les valeurs visibles par 2 puis les remplacer par 0
+
+* 04-lesson
+- Parcourir le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par un multiple de 3
 
 

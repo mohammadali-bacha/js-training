@@ -1,29 +1,39 @@
+
 /*
-L'exercice consiste a parcourir le tableau et rechercher les valeurs divisibles par 2 puis les  remplacer par un multiple de 3.
-Le 2eme exercice consiste a filtrer par ordre croissant les valeurs du tableau.
 
-exo final : parcourir tableau = besoin de connaitre longeur du tableau + un compteur
+L'exercice consiste a parcourir le tableau 
+et rechercher les valeurs divisibles par 2 
+puis les remplacer par un multiple de 3
 
--4eme sous-exo : au lieu de remplacer par zero, on recupere l'enieme position et on multiplie par 3.
-
-Objectif de l'exo : etre capable d'initialiser variables, parcourir un tablo, recuperer longueur tablo, changer valeur d'une variable dans tablo.
-
-il n'y a pas de console.log dans une condition.
 */
 
-//pusher sur git mais avant il doit marcher, 
-
+/* 
+Initialisation variable d'un tableau
+*/
 var tab = [1,4,2,5,6,12,3];
 
+/* 
+Recuperation de la longeur du tableau
+*/
 var lg = tab.length;
-// console.log('la taille est de '+ lg);
-// var limit = lg - 1; car ne commence pas a compter a 0 mais a 1.
-// console.log(limit);
+
+/*
+Utilisation d'une boucle for pour parcourir le tableau de valeur  
+*/
 
 for (var i = 0; i < lg;) {
+    /*
+      La condition verifie si la valeur en ieme position tab[i] 
+      dans le tableau est divisible par 2.
+      Si la condition est verifié la valeur en ieme position tab[i]
+      est mis à jour avec la valeur en ieme position multiplié par 3
+    */
     if (tab[i] % 2 == 0 ){
         tab[i]= tab[i] * 3;
     }
     i++;
 }
-console.log(tab);    
+// Affichage des valeurs du tableau
+console.log(tab);
+
+
