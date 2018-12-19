@@ -1,16 +1,16 @@
---TODO-- 
+--TODO--
 
 mardi 18/12/2018
 
-Trouver les definitions des termes de la liste ci-dessus et les ecrire sur un cahier :
+Trouver les définitions des termes de la liste ci-dessus et les écrire sur un cahier :
 
-- Langage dynamique et statique + exemples 
+- Langage dynamique et statique + exemples
 - Variables dynamiques
 - Inférence
 - Chaine de caractère "3,14", méthodes utilisées pour transformer en integer
-- Développement objet 
+- Développement objet
 - Classe
-- Instance d'une classe 
+- Instance d'une classe
 - Propriété/attribut
 - Méthode privée, publique
 - Constructeur
@@ -20,8 +20,7 @@ Trouver les definitions des termes de la liste ci-dessus et les ecrire sur un ca
 
 Mercredi 19/12/2018
 
-Implementer les fonctionnalités suivantes 
+Implémenter les fonctionnalités suivantes
 
 - une fonction de tri croissant sur un tableau contenant des entiers
 - une fonction de tri decroissant sur un tableau contenant des entiers
-
