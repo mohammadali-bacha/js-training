@@ -24,3 +24,11 @@ Implémenter les fonctionnalités suivantes
 
 - une fonction de tri croissant sur un tableau contenant des entiers
 - une fonction de tri decroissant sur un tableau contenant des entiers
+
+Jeudi 20/12/2018
+
+Chaine de caractere avec la definition trouver des exemples
+
+ 
+Orienter les definitions sur le JS
+
