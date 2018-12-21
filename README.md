@@ -8,7 +8,7 @@
 - Un gestionnaire de source (Git)
 - Un intérpreteur de code javascript NodeJS
 
-#### Grace à ces exercices, l'apprenant pourra appréhender les notions d'algorithmie suivantes :
+#### Grâce à ces exercices, l'apprenant pourra appréhender les notions d'algorithmie suivantes :
 
 - Initialiser des variables
 - Parcourir les valeurs d'un tableau
