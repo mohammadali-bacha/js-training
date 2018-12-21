@@ -1,9 +1,9 @@
-# js-training
+# Js-training
 
 L'objectif de ce projet est de former aux bases de la programmation toutes personnes désireuses d'apprendre à coder.
 
 Ces exercices ont été écris en javascript.
-Pour les réaliser, il est nécessaire d'installer sur son poste de travail:
+Pour les réaliser, il est nécessaire d'installer sur son poste de travail :
 
 - Un éditeur de langage (Visual code)
 - Un gestionnaire de source (Git)
@@ -24,7 +24,6 @@ Grace à ces exercices, l'apprenant pourra appréhender des notions d'algorithmi
 
 - [x] Parcourir les variables contenues dans le tableau et les afficher (boucle for)
 
-
 * 03-lesson
 
 - [x] Parcourir les valeurs contenues dans le tableau et rechercher les valeurs visibles par 2 puis les remplacer par 0 (boucle for)
@@ -33,7 +32,7 @@ Grace à ces exercices, l'apprenant pourra appréhender des notions d'algorithmi
 - [x] Parcourir le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par un multiple de 3 (boucle for)
 
 * 05-lesson
-- [x] Retourner l'index d'une valeur recherchee dans un tableau (boucle for)
+- [x] Retourner l'index d'une valeur recherchée dans un tableau (boucle for)
 
 * 06-lesson 
 - [x] Manipuler le tableau : (boucle for)
