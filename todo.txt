@@ -27,8 +27,7 @@ Implémenter les fonctionnalités suivantes
 
 Jeudi 20/12/2018
 
-Chaine de caractere avec la definition trouver des exemples
-
- 
-Orienter les definitions sur le JS
+- Chaine de caractere avec la definition trouver des exemples
+- Orienter les exemples/definitions appliquees au JS.
+- Rechercher la plus petite valeur dans le tableau (exercice 8)
 
