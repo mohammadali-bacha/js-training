@@ -1,15 +1,14 @@
 # Js-training
 
-L'objectif de ce projet est de former aux bases de la programmation toutes personnes désireuses d'apprendre à coder.
+### L'objectif de ce projet est de former aux bases de la programmation toutes personnes désireuses d'apprendre à coder.
 
-Ces exercices ont été écris en javascript.
-Pour les réaliser, il est nécessaire d'installer sur son poste de travail :
+#### Ces exercices ont été écris en javascript. Pour les réaliser, il est nécessaire d'installer sur son poste de travail :
 
 - Un éditeur de langage (Visual code)
 - Un gestionnaire de source (Git)
 - Un intérpreteur de code javascript NodeJS
 
-Grace à ces exercices, l'apprenant pourra appréhender des notions d'algorithmie suivantes.
+#### Grace à ces exercices, l'apprenant pourra appréhender les notions d'algorithmie suivantes :
 
 - Initialiser des variables
 - Parcourir les valeurs d'un tableau
