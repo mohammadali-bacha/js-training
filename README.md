@@ -18,30 +18,31 @@ Grace à ces exercices, l'apprenant pourra appréhender des notions d'algorithmi
 
 * 01-lesson
 
-- Initialiser une variable qui récupère la longueur du tableau (boucle for)
+- [x] Initialiser une variable qui récupère la longueur du tableau (boucle for)
 
 * 02-lesson
 
-- Parcourir les variables contenues dans le tableau et les afficher (boucle for)
+- [x] Parcourir les variables contenues dans le tableau et les afficher (boucle for)
+
 
 * 03-lesson
 
-- Parcourir les valeurs contenues dans le tableau et rechercher les valeurs visibles par 2 puis les remplacer par 0 (boucle for)
+- [x] Parcourir les valeurs contenues dans le tableau et rechercher les valeurs visibles par 2 puis les remplacer par 0 (boucle for)
 
 * 04-lesson
-- Parcourir le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par un multiple de 3 (boucle for)
+- [x] Parcourir le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par un multiple de 3 (boucle for)
 
 * 05-lesson
-- Retourner l'index d'une valeur recherchee dans un tableau (boucle for)
+- [x] Retourner l'index d'une valeur recherchee dans un tableau (boucle for)
 
 * 06-lesson 
-- Manipuler le tableau : (boucle for)
+- [x] Manipuler le tableau : (boucle for)
 
 * 07-lesson
-- Rechercher une valeur dans un tableau en utilisant une boucle while (boucle for)
+- [x] Rechercher une valeur dans un tableau en utilisant une boucle while (boucle for)
 
 * 08-lesson
-- Rechercher la plus petite valeur dans un tableau
+- [ ] Rechercher la plus petite valeur dans un tableau
 
 * 09-lesson
-- Trier une suite de nombres
+- [ ] Trier une suite de nombres
