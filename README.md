@@ -10,9 +10,10 @@
 
 #### Grâce à ces exercices, l'apprenant pourra appréhender les notions d'algorithmie suivantes :
 
-- Initialiser des variables
-- Parcourir les valeurs d'un tableau
-- Rechercher une valeur dans un tableau
+1. Initialiser des variables
+2. Parcourir les valeurs d'un tableau
+3. Rechercher une valeur dans un tableau
+
 
 
 * 01-lesson
