@@ -10,3 +10,8 @@ for (var i = 0; arr < lg; i++ ){
     console.log();
     
 }
+
+while (){
+
+    
+}

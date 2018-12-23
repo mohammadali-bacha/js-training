@@ -1,10 +1,7 @@
-
 /*
-
 L'exercice consiste a parcourir le tableau et 
 rechercher les valeurs divisibles 
 par 2 puis les remplacer par un multiple de 3
-
 */
 
 /* 
