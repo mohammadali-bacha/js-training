@@ -2,10 +2,10 @@
 
 mardi 18/12/2018
 
-Trouver les définitions des termes de la liste ci-dessus et les écrire sur un cahier :
+Trouver les définitions des termes de la liste ci-dessous et les écrire sur un cahier :
 
-- [] Langage dynamique et statique + exemples
-- [] Variables dynamiques
+- [x] Langage dynamique et statique + exemples
+- [x] Variables dynamiques
 - [x] Inférence
 - [x] Chaine de caractère "3,14", méthodes utilisées pour transformer en integer
 - [x] Développement objet
@@ -28,5 +28,5 @@ Implémenter les fonctionnalités suivantes
 Jeudi 20/12/2018
 
 - [x] Chaine de caractere avec la definition trouver des exemples
-- [ ] Orienter les exemples/definitions appliquees au JS.
+- [x] Orienter les exemples/definitions appliquees au JS.
 - [ ] Rechercher la plus petite valeur dans le tableau (exercice 8)
