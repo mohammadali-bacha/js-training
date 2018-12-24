@@ -40,7 +40,7 @@
 - [x] Rechercher une valeur dans un tableau en utilisant une boucle while (boucle for)
 
 * 08-lesson
-- [ ] Rechercher la plus petite valeur dans un tableau
+- [x] Rechercher la plus petite valeur dans un tableau
 
 * 09-lesson
 - [ ] Trier une suite de nombres
