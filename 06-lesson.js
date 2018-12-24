@@ -1,6 +1,5 @@
 /*
 Manipuler le tableau :
-
 - Changer une valeur contenue dans un index
 - Ajouter un element a l'index du tableau
 - Supprimer un element contenu dans l'index du tableau

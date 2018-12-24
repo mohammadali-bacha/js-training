@@ -3,19 +3,20 @@ Rechercher la plus petite valeur dans un tableau
 */
 
 var arr = [3, 4, 6, 2, 1, 7, 5, 8];
-var arr1 = null;
-// var result = true;
+var k = null;
+var l = 1;
 
-var n = 0;
-var n1 = 1;
+var lg = arr.length;
+arr.length = lg;
 
-// var lg = arr.length;
-
-// arr.length = lg;
-
-while (n > n1) {
-    n++;
-    n1++;
+for (var index = 0; index < lg; index++){
+    if (arr[index] < arr[l]) {
+        k = arr[index];
+        l++;
+    } else{
+        k = arr[l];
+    }
 }
+
 console.log(arr);
-console.log("La valeur la plus petite est " + arr1);
+console.log("La valeur la plus petite est " + k + ".");

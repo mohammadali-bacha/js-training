@@ -29,4 +29,4 @@ Jeudi 20/12/2018
 
 - [x] Chaine de caractere avec la definition trouver des exemples
 - [x] Orienter les exemples/definitions appliquees au JS.
-- [ ] Rechercher la plus petite valeur dans le tableau (exercice 8)
+- [x] Rechercher la plus petite valeur dans le tableau (exercice 8)
