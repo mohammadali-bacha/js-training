@@ -1,7 +1,6 @@
 /*
 L'exercice consiste a rechercher la plus petite valeur dans un tableau
 */
-
 /* 
 Initialisation variable d'un tableau
 */
@@ -41,3 +40,8 @@ console.log(arr);
 // Affichage de la valeur la plus petite du tableau
 
 console.log("La valeur la plus petite est " + k + ".");
+
+1ere k=null
+mise sur etagere
+ 
+comparaison inferieur ou = 

@@ -43,4 +43,4 @@
 - [x] Rechercher la plus petite valeur dans un tableau
 
 * 09-lesson
-- [ ] Trier une suite de nombres
+- [ ] Trier une suite de nombres dans l'ordre croissant
