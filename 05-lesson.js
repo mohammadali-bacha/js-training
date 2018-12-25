@@ -1,14 +1,11 @@
 /*
-
 L'exercice consiste a trouver l'index d'une valeur recherchee dans le  tableau 
-
 */
 
 /* 
 Initialisation variable d'un tableau
 */
 var tab = [1,4,2,5,6,12,3];
-
 
 /* 
 Recuperation de la longeur du tableau
