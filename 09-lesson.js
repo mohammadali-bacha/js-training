@@ -21,10 +21,6 @@ if(n > n1){
     i++;
     n++;
     n1++;
-    console.log(i);
-    console.log(n);   
-    console.log(n1);   
-    console.log(n0);   
-    console.log(arr[i]);   
+
 }
 console.log(arr);
