@@ -1,5 +1,5 @@
 /*
-L'exercice consiste a rechercher la plus petite valeur dans un tableau
+L'exercice consiste a rechercher la plus petite valeur dans un tableau avec une boucle while
 */
 /* 
 Initialisation variable d'un tableau
@@ -15,11 +15,16 @@ Recuperation de la longeur du tableau
 */
 var longueur = tableau.length;
 tableau.length = longueur;
-
+var index = 0; 
 /*
 Utilisation d'une boucle for pour parcourir le tableau de valeur  
 */
-for (var index = 0; index <= longueur; index++){
+
+/*
+Pour que la boucle while fonctionne, il faut declarer  la variable index en dehors de la condition, 
+et sortir de la condition l'incrementation de index  et l'integrer dans la boucle.
+*/
+while (index <= longueur){
     if (mise_sur_etagere > tableau[index]){
         mise_sur_etagere = tableau[index]
     }
@@ -34,6 +39,7 @@ for (var index = 0; index <= longueur; index++){
     Sinon l'ieme position arr[l] est enregistree dans la variable k.
         */
     // }
+    index++;
 }
 // Affichage des valeurs du tableau
 
@@ -41,5 +47,3 @@ console.log(tableau);
 // Affichage de la valeur la plus petite du tableau
 
 console.log("La valeur la plus petite est " + mise_sur_etagere + ".");
-
-
