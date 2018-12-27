@@ -7,6 +7,16 @@ Rechercher la valeur plus petite que 3
 arr[0] => 3 exclue
 la valeur plus petite = 1
 Le principe du tri a selection est de prendre la 1ere valeur (3), index[0] = 
+
+
+
+
+
+
+
+
+
+
 */
 
 // brouillon :
