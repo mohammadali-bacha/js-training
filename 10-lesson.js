@@ -1,13 +1,13 @@
-function maPremiereFonction(arg1){
-    var resultat = arg1 + 1
-    return  resultat;
-}
+// function maPremiereFonction(arg1){
+//     var resultat = arg1 + 1
+//     return  resultat;
+// }
 
-/*
-cette variable stocke le resultat de la fonction
-*/
-var resultat0 = maPremiereFonction(8);
-console.log(resultat0);
+// /*
+// cette variable stocke le resultat de la fonction
+// */
+// var resultat0 = maPremiereFonction(8);
+// console.log(resultat0);
 
 
 
@@ -51,12 +51,8 @@ var resultat1 = rechercherLaPlusPetiteValeur(tableau);
 console.log("La valeur la plus petite est " + resultat1 + ".");
 
 
-
-
-
-
 function rechercherLaPlusPetiteValeurParIndex(tableau, position){
-    var miseSurEtagere = tableau[0];
+    // var miseSurEtagere = tableau[0];
     var indexMisSurEtagere = position;
     /* 
     Recuperation de la longeur du tableau
@@ -66,7 +62,7 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
     /*
     Utilisation d'une boucle for pour parcourir le tableau de valeur  
     */
-    for (var index = position; index <= longueur; index++) {
+    for (var index = position; index < longueur; index++) {
         if (miseSurEtagere > tableau[index]) {
             miseSurEtagere = tableau[index];
             indexMisSurEtagere = index;
@@ -91,8 +87,9 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
 }
 
 
-var tableau1 = [23,46,12, 34,68,98,21,59]
-var resultat2 = rechercherLaPlusPetiteValeurParIndex(tableau1, 1);
+// var tableau1 = [23,46,12, 34,68,98,21,59]
+var tableau1 = [23,56,78,93,21,43,90];
+var resultat2 = rechercherLaPlusPetiteValeurParIndex(tableau1, 4);
 
 
 console.log("La valeur la plus petite par index est " + resultat2 + ".");

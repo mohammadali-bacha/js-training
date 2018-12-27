@@ -9,7 +9,6 @@ la valeur plus petite = 1
 Le principe du tri a selection est de prendre la 1ere valeur (3), index[0] = 
 
 
-
 La fonction de tri comporte 2 sous-fonctions ,
     -rechercher la plus petite valeur
     -echanger la position de la plus petite valeur avec la valeur courante :
@@ -25,17 +24,16 @@ La fonction de tri comporte 2 sous-fonctions ,
 */
 
 function rechercherLaPlusPetiteValeurParIndex(tableau, position){
-    var miseSurEtagere = tableau[0];
+    var miseSurEtagere = tableau[position];
     var indexMisSurEtagere = position;
     /* 
     Recuperation de la longeur du tableau
     */
-    var longueur = tableau.length;
-    
+    var longueur = tableau.length;   
     /*
     Utilisation d'une boucle for pour parcourir le tableau de valeur  
     */
-    for (var index = position; index <= longueur; index++) {
+    for (var index = position; index < longueur; index++) {
         if (miseSurEtagere > tableau[index]) {
             miseSurEtagere = tableau[index];
             indexMisSurEtagere = index;
@@ -45,14 +43,9 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
         dans le tableau est plus petite que la positon index+1 qui est longueur
         Si la condition est verifiée la valeur en ieme position tableau[index]
         est enregistree dans la variable miseSurEtagere et la variable longueur est incrementee.
-        */
-        /*
         Sinon l'ieme position tableau[index] est enregistree dans la variable miseSurEtagere.
             */
-        // }
     }
-    // Affichage des valeurs du tableau
-  
     // Affichage de la valeur la plus petite du tableau
     
     return indexMisSurEtagere;
@@ -64,12 +57,14 @@ var valeurPositionInitiale = null;
 var valeurPositionFinale = null;
 var indexDeLaPlusPetiteValeur = 0;
 
-for (var index = 0; index <= longueur; index++) {
+for (var index = 0; index < longueur; index++) {
+    console.log(tableau);
+    
     valeurPositionInitiale = tableau[index];
+
     console.log("valeurPositionInitiale: " + valeurPositionInitiale);
     
     console.log("index : " + index);
-
 
     indexDeLaPlusPetiteValeur = rechercherLaPlusPetiteValeurParIndex(tableau, index);
     console.log("indexDeLaPlusPetiteValeur: " + indexDeLaPlusPetiteValeur);
@@ -78,17 +73,17 @@ for (var index = 0; index <= longueur; index++) {
     console.log("valeurPositionFinale : " + valeurPositionFinale);
     
     tableau[indexDeLaPlusPetiteValeur] = valeurPositionInitiale;
-    console.log("indexDeLaPlusPetiteValeur :" + indexDeLaPlusPetiteValeur);
+    console.log("tableau[indexDeLaPlusPetiteValeur] :" + tableau[indexDeLaPlusPetiteValeur]);
     
     tableau[index] = valeurPositionFinale;
     console.log("tableau[index] :" + tableau[index]);
 
     console.log("tableau: " + tableau);
 
-
     console.log("*********************");
-    
-    
     
 }
 console.log(tableau);
+
+
+
