@@ -22,12 +22,12 @@ Mercredi 19/12/2018
 
 Implémenter les fonctionnalités suivantes
 
-- [ ] une fonction de tri croissant sur un tableau contenant des entiers
+- [x] une fonction de tri croissant sur un tableau contenant des entiers
 - [ ] une fonction de tri decroissant sur un tableau contenant des entiers
 
 Jeudi 20/12/2018
 
 - [x] Chaine de caractere avec la definition trouver des exemples
 - [x] Trouver des definitions avec des exemples en langage javascript.
-- [x ] Rechercher la plus petite valeur dans le tableau (exercice 8)
+- [x] Rechercher la plus petite valeur dans le tableau (exercice 8)
 

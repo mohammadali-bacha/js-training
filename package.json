@@ -1,0 +1,25 @@
+{
+  "name": "js-training",
+  "version": "1.0.0",
+  "description": "### L'objectif de ce projet est de former aux bases de la programmation toutes personnes désireuse d'apprendre à coder.",
+  "main": "01-lesson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadali-bacha/js-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadali-bacha/js-training/issues"
+  },
+  "homepage": "https://github.com/mohammadali-bacha/js-training#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
