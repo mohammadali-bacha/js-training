@@ -37,4 +37,4 @@ Samedi 29/12/2018
 - [ ] Trouver les definitions : classe, 
 - [ ] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en return ---> lesson12
 - [ ] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
-- [ ] 
+- [ ]

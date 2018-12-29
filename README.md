@@ -44,3 +44,15 @@
 
 * 09-lesson
 - [x] Trier une suite de nombres dans l'ordre croissant
+
+* 10-lesson
+- [x] Trier une suite de nombres dans l'ordre croissant
+
+* 11-lesson
+- [x] Trier une suite de nombres dans l'ordre croissant
+
+* 12-lesson
+- [ ] Faire fonction addition d'un tableau de valeurs
+
+* 13-lesson
+- [ ] Regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant
