@@ -31,3 +31,10 @@ Jeudi 20/12/2018
 - [x] Trouver des definitions avec des exemples en langage javascript.
 - [x] Rechercher la plus petite valeur dans le tableau (exercice 8)
 
+Samedi 29/12/2018
+
+- [ ] Refaire les exercices avec la fonction de Rechercher
+- [ ] Trouver les definitions : classe, 
+- [ ] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en return ---> lesson12
+- [ ] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
+- [ ] 
