@@ -34,13 +34,15 @@ Jeudi 20/12/2018
 Samedi 29/12/2018
 
 - [ ] Refaire les exercices avec la fonction de Rechercher
-- [ ] Trouver les definitions : classe, propiete, methode, parcours de liste objet
-- [ ] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en retour ---> lesson12
+- [x] Trouver les definitions : classe, propiete, methode,
+- [x] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en retour ---> lesson12
 - [ ] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
-- [ ] Definir les objets d'une voiture, moto, facture, comment parcourir une liste objet
-- [ ] Exemple programmation objet en Javascript avec type litteral et classique, 
+- [x] Definir les objets d'une voiture, moto, facture, comment parcourir une liste objet
+- [x] Exemple programmation objet en Javascript avec type litteral et classique, 
 - [ ] CSS/HTML concepts fondamentaux 
 - [ ] Programme JS pour manipuler les balises HTML (en manipulant le DOM)
+
+
 - [ ] 
 - [ ] 
 - [ ] 
