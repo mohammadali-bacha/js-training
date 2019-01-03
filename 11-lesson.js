@@ -25,7 +25,7 @@ La fonction de tri comporte 2 sous-fonctions ,
     la plus petite valeur a partir de 90 est la valeur 10.
 */
 
-function rechercherLaPlusPetiteValeurParIndex(tableau, position){
+function rechercherLaPlusPetiteValeurParIndex(tableau, position){ 
     var miseSurEtagere = tableau[position];
     var indexMisSurEtagere = position;
     /* 
