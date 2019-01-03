@@ -2,48 +2,32 @@
 Le but de l'exercice est de regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant.
 */
 
-var tableauEntree = [100,200,300,100,50,50,100];
-var tableauSortie = [];
-var longueur = tableau.length;
+function regrouperLesNombresDeMemeValeur(tableau) {
+    var tableauDeMemeValeurs = [];
+    var valeur = null;
 
+    for (var indexValeur = 0; indexValeur < tableau.length; indexValeur++) {
+        var valeur = tableau[indexValeur];
+        var cumul = 0;
+        var nombreDeFoisTrouve = 0;
+        for (var indexRecherche = indexValeur; indexRecherche < tableau.length; indexRecherche++) {
+            if (valeur == tableau[indexRecherche]) {
+                cumul = cumul + valeur;
+                nombreDeFoisTrouve = nombreDeFoisTrouve + 1;
+            }
 
-function addition(tableauEntree) {
-    for (var index = 1 ; index < tableau.length; index++) {
-        console.log(tableau);    
-        console.log("index : " + index);    
-         miseSurEtagere = tableau[index];
-         console.log("miseSurEtagere : " + miseSurEtagere);  
-         // console.log("valeur du tableau :" + tableau[index]);           
-         somme = tableau[index] + miseSurEtagere;
-         index1++;
-         console.log("la somme pendant la boucle est de : "+ somme); 
-     }
-     return somme;
- }
-
-function memeValeurs(tableauEntree) {
-    for (var index = 0; index < tableau; index++){
-        // for ( var nombreRecherche = ){
-    
-     
-        // }        
-        if (nombre = nombreRecherche) {
-            
         }
-    } 
-    return console.log(tableauSortie);
+        if (nombreDeFoisTrouve > 1) {
+            tableauDeMemeValeurs.push(cumul); 
+        }
+    }
+
+    return tableauDeMemeValeurs;
 }
 
 
+var tableau = [100, 200, 300, 100, 50, 50];
 
+var resultat = regrouperLesNombresDeMemeValeur(tableau);
 
-/*
-Exemple :
-var tableauEntree = [100,200,300,100,50,50,100];
-
-var tableauSortie = [];
-
-
-
-
-*/
+console.log(resultat);
