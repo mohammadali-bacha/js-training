@@ -15,29 +15,10 @@ il n'y a pas de console log dans une condition.
 /*
 Les objets d'une voiture sont : 
 - les 4 roues
-- les vitres
-- le pare-brise
-- le volant
-- le chassis 
-- Ceintures de sécurité 
-- Pédale d’accélération 
-- Carrosserie
-- Boîte de vitesse et embrayage 
-- Roues
-- Sièges
-- Moteur
-- Pédale de frein 
-- Système de transmission par courroies 
-- Liquide de frein 
-- Plaquettes de freins 
-- Volant
-- Amortisseur
-- Biellette
-- Porte-fusée 
-- Crémaillère 
-- Colonne  de direction 
-- Disques de freins 
--
+- moteur
+- siege
+- volant
+
 
 Les objets d'une moto sont : 
 - les 2 roues
@@ -53,7 +34,6 @@ Les objets d'une moto sont :
 
 Les objets d'une facture sont : 
 - Date de la facture/Date de la livraison
-- Total TTC
 - Numéro de la facture/commande
 - Description/detail du produit
 - Quantite
@@ -63,6 +43,7 @@ Les objets d'une facture sont :
 - Prix Unitaire
 - prix Taux TVA
 - Prix Unitaire TTC
+- Prix Total TTC
 - Informations concernant le vendeur et l'acheteur
 - 
 */

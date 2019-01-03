@@ -38,14 +38,17 @@ Samedi 29/12/2018
 - [x] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en retour ---> lesson12
 - [x] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
 - [x] Definir les objets d'une voiture, moto, facture, comment parcourir une liste objet
-- [x] Exemple programmation objet en Javascript avec type litteral et classique, 
+
+
+Jeudi 03/01/2019
+
+- [ ] Ajouter commentaires
+- [ ] Fonction Recherche de la plus grande valeur
+- [ ] faire des classes selon les schemas comme voiture, facture et moto
+- [ ] renommer lessons
+
+- [ ] Exemple programmation objet en Javascript avec type litteral et classique, 
 - [ ] CSS/HTML concepts fondamentaux 
 - [ ] Programme JS pour manipuler les balises HTML (en manipulant le DOM)
-
-
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
 - [ ] 
 - [ ] 
