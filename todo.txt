@@ -33,10 +33,10 @@ Jeudi 20/12/2018
 
 Samedi 29/12/2018
 
-- [ ] Refaire les exercices avec la fonction de Rechercher
+- [x] Refaire les exercices avec la fonction de Rechercher
 - [x] Trouver les definitions : classe, propiete, methode,
 - [x] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en retour ---> lesson12
-- [ ] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
+- [x] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
 - [x] Definir les objets d'une voiture, moto, facture, comment parcourir une liste objet
 - [x] Exemple programmation objet en Javascript avec type litteral et classique, 
 - [ ] CSS/HTML concepts fondamentaux 

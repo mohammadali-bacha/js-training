@@ -65,6 +65,17 @@ Les objets d'une facture sont :
 - Prix Unitaire TTC
 - Informations concernant le vendeur et l'acheteur
 - 
-
-
 */
+
+
+var tableau = [23,56,89,12];
+var miseSurEtagere = 
+
+function Rechercher(tableau) {
+    for (var index = 0; index < tableau.length; index++) {
+        var recherche = tableau[index];
+        if (miseSurEtagere ) {
+            
+        }
+    }
+}

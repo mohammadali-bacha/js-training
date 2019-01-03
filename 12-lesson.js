@@ -2,26 +2,37 @@
 Le but de l'exercice est de faire une fonction retournant le resultat de l'addition  de toutes les  valeurs d'un tableau.
 */
 
-
 var tableau = [12,34,56,78,90];
 // la somme de ce tableau est de 270.
+var index1 = null;
 var miseSurEtagere = tableau[0];
-var somme = null;
-var longueur = tableau.length;
+var somme = 0;
+// var longueur = tableau.length; ne marche pas avec tableau 1
 
 function addition(tableau) {
-   for (var index = 1 ; index < longueur; index++) {
+   for (var index = 1 ; index < tableau.length; index++) {
+       console.log(tableau);    
        console.log("index : " + index);    
         miseSurEtagere = tableau[index];
         console.log("miseSurEtagere : " + miseSurEtagere);  
-        console.log("valeur du tableau"+tableau[index]);           
+        // console.log("valeur du tableau :" + tableau[index]);           
         somme = tableau[index] + miseSurEtagere;
-        return console.log("La somme est de " + somme);; 
+        index1++;
+        console.log("la somme pendant la boucle est de : "+ somme); 
     }
+    return somme;
 }
 
 var tableau1 = [23,46,12,34];          
 // la somme de ce tableau est de 115.
-var sum = addition(tableau1);
+var sum0 = addition(tableau);
+console.log("---------------------------------");
 
-console.log("La somme du tableau 1 est de : " + sum);
+var sum1 = addition(tableau1);
+
+console.log("La somme du tableau 0 est de : " + sum0);
+console.log("---------------------------------");
+console.log("La somme du tableau 1 est de : " + sum1);
+
+
+
