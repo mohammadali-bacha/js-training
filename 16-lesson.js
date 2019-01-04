@@ -10,8 +10,8 @@ class Voiture {
         this.roues.push(new Roue());
         this.roues.push(new Roue());
         this.roues.push(new Roue());
-        this.moteur = moteur;
-        this.volant = volant;
+        this.moteur = new Moteur();
+        this.volant = new Volant();
         this.sieges = [];
         this.sieges.push(new Siege()); 
         this.sieges.push(new Siege()); 
@@ -27,40 +27,46 @@ class Roue {
 }
 
 class Volant {
-    constructor(name){
-        this.name = name;
+    constructor(matiere){
         this.matiere = matiere;
     }
 }
 
+// class Type {
+//     constructor(type, matiere, couleur){
+//         this.type = type;
+//         this.matiere = matiere;
+//         this.couleur = couleur;
+//     }
+// }
+
 class Siege {
-    constructor(name){
-        this.name = name;
-        this.couleur = couleur;
-        this.type = type;
+    constructor(couleurDuSiege, matiereDuSiege){
+        this.couleurDuSiege = couleurDuSiege;
+        this.matiereDuSiege = matiereDuSiege;
     }
 }
 
 class Moto {
-    constructor(name){
-        this.name = name;
+    constructor(modele){
+        this.modele = modele;
         this.roues = [];
         this.roues.push(new Roue());
         this.roues.push(new Roue());
         this.guidon = new Guidon();
         this.moteur = new Moteur();
+        this.sieges = new Siege();
+        this.sieges = new Siege();
     }
 }
 
 class Moteur {
-    constructor(name){
-        this.name = name;
+    constructor(){
     }
 }
 
 class Guidon {
-    constructor(name){
-        this.name = name;
+    constructor(matiere){
         this.matiere = matiere;
     }
 }
@@ -74,12 +80,13 @@ class Facture {
         this.tva = new PrixTva();
         this.ttc = new PrixUnitaireTTC();
         this.unitaire = new PrixUnitaire();
+        this.prixTotalTTC = new PrixTotalTTC();
+        this.prixTotalHT = new PrixTotalHT();
         this.addresseDeLaSociete = new AddresseDeLaSociete();
         this.addresseDeFacturation = new AddresseDeFacturation();
-        this.prixTotalHT = new PrixTotalHT();
         this.accompte = new Accompte();
         this.soldeDu = new SoldeDu();
-        this.prixUnitaire = new PrixUnitaire();
+
     }
 }
 
@@ -90,7 +97,7 @@ class DateDeCreation{
 }
 
 class NumeroDeFacture {
-    constructor(numero){
+    constructor(numero, description){
         this.numero = numero;
         this.description = description;
 
@@ -122,6 +129,12 @@ class PrixUnitaireTTC {
     }
 }
 
+class PrixTotalTTC {
+    constructor(name){
+        this.name = name;
+    }
+}
+
 class AddresseDeLaSociete {
     constructor(name){
         this.name = name;
@@ -129,8 +142,7 @@ class AddresseDeLaSociete {
 }
 
 class AddresseDeFacturation {
-    constructor(name){
-        this.name = name;
+    constructor(addresse){
         this.addresse = addresse;
     }
 }
@@ -157,11 +169,11 @@ class SoldeDu {
 
 var voiture = new Voiture("Peugeot 206");
 var moto = new Moto("harley davidsson");
-var facture = new Facture("");
+var facture = new Facture("amazon");
 
 console.log(voiture.name);
-console.log(voiture.roues);
+// console.log(voiture.roues);
 
-console.log(moto.name);
+console.log(moto.modele);
 
-console.log(facture.numero);
+console.log(facture.name);
