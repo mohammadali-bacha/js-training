@@ -42,7 +42,7 @@ Samedi 29/12/2018
 
 Jeudi 03/01/2019
 
-- [ ] Ajouter commentaires
+- [x] Ajouter commentaires
 - [ ] Fonction Recherche de la plus grande valeur
 - [x] faire des classes selon les schemas comme voiture, facture et moto
 - [x] renommer lessons

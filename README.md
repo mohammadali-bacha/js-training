@@ -61,13 +61,13 @@
 - [x] Faire fonction addition d'un tableau de valeurs
 
 * 15-lesson
-- [x] Regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant
+- [x] Regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant.
 
 * 16-lesson
 - [x] Faire des classes selon les schemas objets  comme dans l'exemple sur papier avec voiture, facture et moto.
 
 * 17-lesson
-- [ ] 
+- [ ] Faire une fonction qui recherche la plus grande valeur dans un tableau.
 
 * 18-lesson
 - [ ] 
