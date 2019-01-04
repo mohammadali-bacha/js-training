@@ -2,6 +2,9 @@
 Faire des classes selon les schemas objets  comme dans l'exemple sur papier avec voiture, facture et moto.
 */
 
+/*
+Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
+*/
 class Voiture {
    constructor(name){
         this.name = name;
@@ -46,7 +49,9 @@ class Siege {
         this.matiereDuSiege = matiereDuSiege;
     }
 }
-
+/*
+Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
+*/
 class Moto {
     constructor(modele){
         this.modele = modele;
@@ -70,7 +75,9 @@ class Guidon {
         this.matiere = matiere;
     }
 }
-
+/*
+Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
+*/
 class Facture {
     constructor(name){
         this.name = name;
@@ -99,7 +106,7 @@ class DateDeCreation{
 class NumeroDeFacture {
     constructor(numero, description){
         this.numero = numero;
-        this.description = description;
+        this.description = new Description();
 
     }
 }
@@ -166,11 +173,16 @@ class SoldeDu {
 }
 
 
-
+/*
+On instancie les classes :
+*/
 var voiture = new Voiture("Peugeot 206");
 var moto = new Moto("harley davidsson");
 var facture = new Facture("amazon");
 
+/*
+On affiche les propietes des classes :
+*/
 console.log(voiture.name);
 // console.log(voiture.roues);
 

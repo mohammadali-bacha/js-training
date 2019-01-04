@@ -10,7 +10,6 @@ Le principe du tri a selection est d'echanger les positions de valeurs celle en 
 valeur.
 
 
-
 La fonction de tri comporte 2 sous-fonctions ,
     -rechercher la plus petite valeur
     -echanger la position de la plus petite valeur avec la valeur courante :
