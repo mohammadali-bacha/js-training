@@ -67,7 +67,7 @@
 - [x] Faire des classes selon les schemas objets  comme dans l'exemple sur papier avec voiture, facture et moto.
 
 * 17-lesson
-- [ ] Faire une fonction qui recherche la plus grande valeur dans un tableau.
+- [x] Faire une fonction qui recherche la plus grande valeur dans un tableau.
 
 * 18-lesson
 - [ ] 
