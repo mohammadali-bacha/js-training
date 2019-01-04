@@ -97,12 +97,6 @@ var resultat2 = rechercherLaPlusPetiteValeurParIndex(tableau1, 1);
 console.log("La valeur la plus petite par index est " + resultat2 + ".");
 
 
-
-
-
-
-
-
 /*--------------------------------
 cette variable stocke  la fonction
 ---------------------------------*/

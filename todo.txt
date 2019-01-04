@@ -45,7 +45,7 @@ Jeudi 03/01/2019
 - [ ] Ajouter commentaires
 - [ ] Fonction Recherche de la plus grande valeur
 - [ ] faire des classes selon les schemas comme voiture, facture et moto
-- [ ] renommer lessons
+- [x] renommer lessons
 
 - [ ] Exemple programmation objet en Javascript avec type litteral et classique, 
 - [ ] CSS/HTML concepts fondamentaux 

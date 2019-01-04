@@ -52,10 +52,28 @@
 - [x] Trier une suite de nombres dans l'ordre croissant
 
 * 12-lesson
-- [x] Faire fonction addition d'un tableau de valeurs
+- [x] Rechercher la plus petite valeur a partir d'un tableau
 
 * 13-lesson
-- [ ] Regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant
+- [x] Fonction de recherche de la plus petite valeur d'un tableau par index
 
 * 14-lesson
+- [x] Faire fonction addition d'un tableau de valeurs
+
+* 15-lesson
+- [ ] Regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant
+
+* 16-lesson
+- [ ] Faire des classes selon les schemas objets  comme dans l'exemple sur papier avec voiture, facture et moto.
+
+* 17-lesson
+- [ ] 
+
+* 18-lesson
+- [ ] 
+
+* 19-lesson
+- [ ] 
+
+* 20-lesson
 - [ ] 

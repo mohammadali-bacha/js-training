@@ -1,33 +1,24 @@
 /*
-Le but de l'exercice est de regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant.
+nous allons donc faire une fonction de recherche de la plus petite valeur par index
+tableau = [21,56,87,34,52,12]
+
 */
 
-function regrouperLesNombresDeMemeValeur(tableau) {
-    var tableauDeMemeValeurs = [];
-    var valeur = null;
+var tableau = [21,56,87,34,52,12];
 
-    for (var indexValeur = 0; indexValeur < tableau.length; indexValeur++) {
-        var valeur = tableau[indexValeur];
-        var cumul = 0;
-        var nombreDeFoisTrouve = 0;
-        for (var indexRecherche = indexValeur; indexRecherche < tableau.length; indexRecherche++) {
-            if (valeur == tableau[indexRecherche]) {
-                cumul = cumul + valeur;
-                nombreDeFoisTrouve = nombreDeFoisTrouve + 1;
-            }
+function rechercherLaPlusPetiteValeurParIndex(tableau) {
+    var indexDeLaPlusPetiteValeur = 0;
+    var miseSurEtagere = tableau[0];
+    for (var index = 0; index < tableau.length; index++) {
+        if (miseSurEtagere > tableau[index]) {
+            miseSurEtagere = tableau[index];
+            indexDeLaPlusPetiteValeur = index;
 
-        }
-        if (nombreDeFoisTrouve > 1) {
-            tableauDeMemeValeurs.push(cumul); 
         }
     }
-
-    return tableauDeMemeValeurs;
+    return indexDeLaPlusPetiteValeur;
 }
 
-
-var tableau = [100, 200, 300, 100, 50, 50];
-
-var resultat = regrouperLesNombresDeMemeValeur(tableau);
+resultat = rechercherLaPlusPetiteValeurParIndex(tableau);
 
 console.log(resultat);
