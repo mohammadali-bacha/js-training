@@ -92,23 +92,41 @@ class Facture {
         this._name = name;
         this._numero = numero; 
         this._date = date;
-        this._txva = txTva;
+        this._txTva = txTva;
         this._prixUnitaire = prixUnitaire;
         this._quantite = quantite;
         this._accompte = accompte;
         this._addresseDeLivraison = addresseDeLivraison;
-    
+        this._montantHT =  this._quantite * this._prixUnitaire ;
+        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantTTC = this._montantTVA + this._montantHT;
 
     }
+
     get montantHT(){
-        return montant = this._quantite * this._prixUnitaire;
+        return this._montantHT;
+    } 
+    set txTva(value){
+        this._txTva = value;
+        this._montantHT =  this._quantite * this._prixUnitaire ;
+        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantTTC = this._montantTVA + this._montantHT;
     }
-    get montantTVA(){
-        return tva = this.montant * this._txTva;
+
+    get txTva(){
+        return this._txTva;
     }
-    get montantTTC(){
-        return montant + tva;
-    }    
+
+    set quantite(value){
+        this._quantite = value;
+        this._montantHT =  this._quantite * this._prixUnitaire ;
+        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantTTC = this._montantTVA + this._montantHT;
+    }
+
+    get quantite(){
+        return this._quantite;
+    }
 }
 
 
@@ -151,8 +169,15 @@ console.log(moto.modele);
 
 console.log(facture);
 console.log("montant HT : " + facture.montantHT);
-console.log("montantTTC : " + facture.montantTTC);
-console.log("montantTVA : " + facture.montantTVA);
+console.log(" Tx TVA: " + facture.txTva);
+facture.txTva = 8.00
+console.log(" Tx TVA: " + facture.txTva);
+console.log(facture);
+facture.quantite = 3
+console.log(" Quantité: " + facture.quantite);
+console.log(facture);
+//console.log("montantTTC : " + facture.montantTTC);
+//console.log("montantTVA : " + facture.montantTVA);
 
 
 
