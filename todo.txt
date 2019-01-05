@@ -50,5 +50,11 @@ Jeudi 03/01/2019
 - [ ] Exemple programmation objet en Javascript avec type litteral et classique, 
 - [ ] CSS/HTML concepts fondamentaux 
 - [ ] Programme JS pour manipuler les balises HTML (en manipulant le DOM)
-- [ ] 
-- [ ] 
+
+
+- [ ] relire les commentaires
+- [ ] 18-lesson : autre algo => Remplacer toutes les valeurs divisibles par 2, leur ajouter +1
+
+- [ ]
+- [ ]
+- [ ]
