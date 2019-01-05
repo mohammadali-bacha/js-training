@@ -89,22 +89,27 @@ class Facture {
         accompte,
 
         ){
-        this.name = name;
-        this.numero = numero; 
-        this.date = date;
-        this.txva = txTva;
-        this.prixUnitaire = prixUnitaire;
-        this.quantite = quantite;
-        this.accompte = accompte;
-        this.addresseDeLivraison = addresseDeLivraison;
-        this.montantHT = quantite * prixUnitaire;
-        console.log(this.montantHT);
-        
-        this.montantTVA = this.montantHT * this.txTva;
-        this.montantTC = this.montantHT + this.montantTVA;
-    }
-}
+        this._name = name;
+        this._numero = numero; 
+        this._date = date;
+        this._txva = txTva;
+        this._prixUnitaire = prixUnitaire;
+        this._quantite = quantite;
+        this._accompte = accompte;
+        this._addresseDeLivraison = addresseDeLivraison;
+    
 
+    }
+    get montantHT(){
+        return montant = this._quantite * this._prixUnitaire;
+    }
+    get montantTVA(){
+        return tva = this.montant * this._txTva;
+    }
+    get montantTTC(){
+        return montant + tva;
+    }    
+}
 
 
 class AddresseDeLivraison {
@@ -117,8 +122,6 @@ class AddresseDeLivraison {
         this.codePostal = codePostal;
     }
 }
-
-
 
 /*
 On instancie les classes :
@@ -147,3 +150,9 @@ console.log(voiture.name);
 console.log(moto.modele);
 
 console.log(facture);
+console.log("montant HT : " + facture.montantHT);
+console.log("montantTTC : " + facture.montantTTC);
+console.log("montantTVA : " + facture.montantTVA);
+
+
+
