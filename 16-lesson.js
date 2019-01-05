@@ -79,68 +79,25 @@ class Guidon {
 Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
 */
 class Facture {
-    constructor(name){
+    constructor(name,numero){
         this.name = name;
-        this.numero = new NumeroDeFacture(); 
-        this.date = new DateDeCreation();
-        this.description = new Description();
-        this.tva = new PrixTva();
-        this.ttc = new PrixUnitaireTTC();
-        this.unitaire = new PrixUnitaire();
-        this.prixTotalTTC = new PrixTotalTTC();
-        this.prixTotalHT = new PrixTotalHT();
+        this.numero = numero; 
+        this.date = date;
+        this.description = description;
+        this.tva = tva;
+        this.ttc = ttc ;
+        this.unitaire = unitaire;
+        this.prixTotalTTC = prixTTC;
+        this.prixTotalHT = prixTotalHT;
         this.addresseDeLaSociete = new AddresseDeLaSociete();
         this.addresseDeFacturation = new AddresseDeFacturation();
-        this.accompte = new Accompte();
-        this.soldeDu = new SoldeDu();
+        this.accompte = accompte;
+        this.soldeDu = SoldeDu;
 
     }
 }
 
-class DateDeCreation{
-    constructor(name){
-        this.name = name;
-    }
-}
 
-class NumeroDeFacture {
-    constructor(numero, description){
-        this.numero = numero;
-        this.description = new Description();
-
-    }
-}
-
-class Description {
-    constructor(name){
-        this.name = name;
-    }
-}
-
-
-class PrixUnitaire {
-    constructor(name){
-        this.name = name;
-    }
-}
-
-class PrixTva {
-    constructor(name){
-        this.name = name;
-    }
-}
-
-class PrixUnitaireTTC {
-    constructor(name){
-        this.name = name;
-    }
-}
-
-class PrixTotalTTC {
-    constructor(name){
-        this.name = name;
-    }
-}
 
 class AddresseDeLaSociete {
     constructor(name){
@@ -154,23 +111,7 @@ class AddresseDeFacturation {
     }
 }
 
-class PrixTotalHT {
-    constructor(name){
-        this.name = name;
-    }
-}
 
-class Accompte {
-    constructor(name){
-        this.name = name;
-    }
-}
-
-class SoldeDu {
-    constructor(name){
-        this.name = name;
-    }
-}
 
 
 /*
@@ -188,4 +129,4 @@ console.log(voiture.name);
 
 console.log(moto.modele);
 
-console.log(facture.name);
+console.log(facture);
