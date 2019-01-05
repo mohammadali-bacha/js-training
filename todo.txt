@@ -55,6 +55,12 @@ Jeudi 03/01/2019
 - [ ] relire les commentaires
 - [ ] 18-lesson : autre algo => Remplacer toutes les valeurs divisibles par 2, leur ajouter +1
 
+Samedi 05/01/2019
+
+- [ ] Methode de calcul dans la lesson17 pour eviter des doublons (factorisation du code)
+- [ ] exo 18 
+- [ ] exo 19
 - [ ]
 - [ ]
 - [ ]
+

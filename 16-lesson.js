@@ -146,16 +146,17 @@ On instancie les classes :
 */
 var voiture = new Voiture("Peugeot 206");
 var moto = new Moto("harley davidsson");
+var adresse =  new AddresseDeLivraison(
+    "rue de la republique",
+    "lyon",
+    69003);
 var facture = new Facture("Achat de materiel",
                         1200,
                         "01/02/2019",
                         0.20,
                         200.00,
                         5.00,
-                        new AddresseDeLivraison(
-                            "rue de la republique",
-                            "lyon",
-                            69003),
+                        adresse,
                         150.00,
                          );
 
