@@ -70,7 +70,7 @@
 - [x] Faire une fonction qui recherche la plus grande valeur dans un tableau.
 
 * 18-lesson
-- [ ] Remplacer toutes les valeurs divisibles par 2, par  la valeur +1
+- [ ] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1
 
 * 19-lesson
 - [ ] Implementer les lignes de facture (quantite, prix unitaire, montantHT, txTVA, totalTVA, totalTTC)
