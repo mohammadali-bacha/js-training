@@ -79,38 +79,44 @@ class Guidon {
 Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
 */
 class Facture {
-    constructor(name,numero){
+    constructor(name,
+        numero, 
+        date, 
+        txTva,
+        prixUnitaire,
+        quantite,
+        addresseDeLivraison,
+        accompte,
+
+        ){
         this.name = name;
         this.numero = numero; 
         this.date = date;
-        this.description = description;
-        this.tva = tva;
-        this.ttc = ttc ;
-        this.unitaire = unitaire;
-        this.prixTotalTTC = prixTTC;
-        this.prixTotalHT = prixTotalHT;
-        this.addresseDeLaSociete = new AddresseDeLaSociete();
-        this.addresseDeFacturation = new AddresseDeFacturation();
+        this.txva = txTva;
+        this.prixUnitaire = prixUnitaire;
+        this.quantite = quantite;
         this.accompte = accompte;
-        this.soldeDu = SoldeDu;
-
+        this.addresseDeLivraison = addresseDeLivraison;
+        this.montantHT = quantite * prixUnitaire;
+        console.log(this.montantHT);
+        
+        this.montantTVA = this.montantHT * this.txTva;
+        this.montantTC = this.montantHT + this.montantTVA;
     }
 }
 
 
 
-class AddresseDeLaSociete {
-    constructor(name){
-        this.name = name;
+class AddresseDeLivraison {
+    constructor(rue, 
+        ville, 
+        codePostal)
+    {
+        this.rue = rue;
+        this.ville = ville;
+        this.codePostal = codePostal;
     }
 }
-
-class AddresseDeFacturation {
-    constructor(addresse){
-        this.addresse = addresse;
-    }
-}
-
 
 
 
@@ -119,7 +125,18 @@ On instancie les classes :
 */
 var voiture = new Voiture("Peugeot 206");
 var moto = new Moto("harley davidsson");
-var facture = new Facture("amazon");
+var facture = new Facture("Achat de materiel",
+                        1200,
+                        "01/02/2019",
+                        0.20,
+                        200.00,
+                        5.00,
+                        new AddresseDeLivraison(
+                            "rue de la republique",
+                            "lyon",
+                            69003),
+                        150.00,
+                         );
 
 /*
 On affiche les propietes des classes :
