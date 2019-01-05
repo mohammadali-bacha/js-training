@@ -4,14 +4,14 @@ Le but de l'exercie est de faire une fonction qui recherche la plus grande valeu
 
 
 function rechercheDeLaPlusGrandeValeur(tableau) {
-    var miseSurEtagere = 0;
+    var miseSurEtagere = tableau[0];
 /*
 on cree une boucle pour parcourir le tableau
 */
     for (var index = 0; index < tableau.length; index++) {
 /*
 la condition verifie que miseSurEtagere est plus petite que la valeur du tableau parcourue
-au moment de la boucle et si c'est le cas la stocke jusqu'a trouver plus grand jusqu'a la 
+au moment de la boucle et si c'est le cas, on la stocke jusqu'a trouver la plus grande jusqu'a la 
 fin de la boucle
 */
         if (miseSurEtagere < tableau[index]) {
