@@ -32,7 +32,7 @@ var tableau = [13,18,5,56,42];
 /*
 On stocke le resultat de la fonction dans une variable...
 */
-var resultat = rechercheDeLaPlusGrandeValeur(tableau1);
+var resultat = rechercheDeLaPlusGrandeValeur(tableau);
 
 /*
 pour pouvoir l'afficher ensuite
