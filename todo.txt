@@ -51,16 +51,15 @@ Jeudi 03/01/2019
 - [ ] CSS/HTML concepts fondamentaux 
 - [ ] Programme JS pour manipuler les balises HTML (en manipulant le DOM)
 
-
-- [ ] relire les commentaires
-- [ ] 18-lesson : autre algo => Remplacer toutes les valeurs divisibles par 2, leur ajouter +1
+- [x] 18-lesson : autre algo => Remplacer toutes les valeurs divisibles par 2, leur ajouter +1
 
 Samedi 05/01/2019
 
-- [ ] Methode de calcul dans la lesson16 pour eviter des doublons (factorisation du code)
+- [ ] Méthode de calcul dans la lesson16 pour éviter des doublons (factorisation du code)
 - [x] exo 18 
 - [ ] exo 19
 - [ ] regarder format json
+- [ ] relire les commentaires
 
 
 Mardi 08/01/2019
