@@ -12,7 +12,7 @@ dans cette boucle qui parcourt le tableau, on stocke la valeur du tableau parcou
     somme = tableau[index] + somme;    
 }
 /*
-
+On retourne la valeur car nous sommes dans une fonction
 */
 return somme;
 
