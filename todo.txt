@@ -57,7 +57,7 @@ Jeudi 03/01/2019
 
 Samedi 05/01/2019
 
-- [ ] Methode de calcul dans la lesson17 pour eviter des doublons (factorisation du code)
+- [ ] Methode de calcul dans la lesson16 pour eviter des doublons (factorisation du code)
 - [x] exo 18 
 - [ ] exo 19
 - [ ] regarder format json

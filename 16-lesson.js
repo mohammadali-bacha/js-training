@@ -3,7 +3,7 @@ Faire des classes selon les schemas objets  comme dans l'exemple sur papier avec
 */
 
 /*
-Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
+Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont ré-utilisées ailleurs
 */
 class Voiture {
    constructor(name){
@@ -76,10 +76,15 @@ class Guidon {
     }
 }
 /*
-Dans cette classe, on initilaise les proprietes avec d'autres classes qui sont re-utilisees ailleurs
+Dans cette classe, on initialise les propriétés et paramètres dans le constructeur avec d'autres classes
+ qui sont ré-utilisées ailleurs.
 */
 class Facture {
-    constructor(name,
+    constructor(
+        /*
+On initialise les paramètres dans le constructeur :
+        */
+        name,
         numero, 
         date, 
         txTva,
@@ -89,6 +94,9 @@ class Facture {
         accompte,
 
         ){
+                    /*
+On initialise les propriétés dans le constructeur :
+        */
         this._name = name;
         this._numero = numero; 
         this._date = date;
@@ -102,7 +110,10 @@ class Facture {
         this._montantTTC = this._montantTVA + this._montantHT;
 
     }
-
+                    /*
+Ici, on utilise des getters et setters pour récupérer les valeurs (get) et ensuite les
+modifier (set).
+        */
     get montantHT(){
         return this._montantHT;
     } 
@@ -128,8 +139,14 @@ class Facture {
         return this._quantite;
     }
 }
-
-
+// function calcul(value) {
+//     this._txTva = value;
+//     this._quantite = value;
+//     this._montantHT =  this._quantite * this._prixUnitaire ;
+//     this._montantTVA =  this._montantHT * this._txTva ;
+//     this._montantTTC = this._montantTVA + this._montantHT;
+//     return 
+// }
 class AddresseDeLivraison {
     constructor(rue, 
         ville, 
@@ -161,21 +178,26 @@ var facture = new Facture("Achat de materiel",
                          );
 
 /*
-On affiche les propietes des classes :
+On affiche les propiétés des classes :
 */
 console.log(voiture.name);
-// console.log(voiture.roues);
 
 console.log(moto.modele);
 
+console.log("-------------------------------------------");
+
 console.log(facture);
-console.log("montant HT : " + facture.montantHT);
-console.log(" Tx TVA: " + facture.txTva);
+
+console.log("-------------------------------------------");
+
 facture.txTva = 8.00
-console.log(" Tx TVA: " + facture.txTva);
+
 console.log(facture);
+
+console.log("-------------------------------------------");
+
 facture.quantite = 3
-console.log(" Quantité: " + facture.quantite);
+
 console.log(facture);
 //console.log("montantTTC : " + facture.montantTTC);
 //console.log("montantTVA : " + facture.montantTVA);
