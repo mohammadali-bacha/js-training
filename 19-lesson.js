@@ -19,6 +19,7 @@ On initialise les paramètres dans le constructeur :
         quantite,
         addresseDeLivraison,
         accompte,
+        lignesDeFacture
         ){
         /*
 On initialise les propriétés dans le constructeur :
@@ -34,6 +35,7 @@ On initialise les propriétés dans le constructeur :
         this._montantHT =  this._quantite * this._prixUnitaire ;
         this._montantTVA =  this._montantHT * this._txTva ;
         this._montantTTC = this._montantTVA + this._montantHT;
+        this._lignesDeFacture = [];
 
     }
         /*
@@ -41,40 +43,45 @@ Ici, on utilise des getters et setters pour récupérer les valeurs (get) et ens
 modifier (set).
         */
 
-    //  calcul(value) {
-    //    Facture._txTva = value,
-    //    Facture._quantite = value,
-    //    Facture._montantHT =  this._quantite * this._prixUnitaire ,
-    //    Facture._montantTVA =  this._montantHT * this._txTva,
-    //    Facture._montantTTC = this._montantTVA + this._montantHT
-    // }
-
 
     get montantHT(){
         return this._montantHT;
     } 
-    set txTva(value){
+
+    set txTva(value) {
         this._txTva = value;
-        this._montantHT =  this._quantite * this._prixUnitaire ;
-        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantHT = this._quantite * this._prixUnitaire;
+        this._montantTVA = this._montantHT * this._txTva;
         this._montantTTC = this._montantTVA + this._montantHT;
     }
 
-    get txTva(){
+    get txTva() {
         return this._txTva;
     }
 
-    set quantite(value){
+    set quantite(value) {
         this._quantite = value;
-        this._montantHT =  this._quantite * this._prixUnitaire ;
-        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantHT = this._quantite * this._prixUnitaire;
+        this._montantTVA = this._montantHT * this._txTva;
         this._montantTTC = this._montantTVA + this._montantHT;
     }
 
     get quantite(){
         return this._quantite;
     }
-    
+    ajouterLignesDeFactures(facture) {
+        
+    }
+}
+
+class LignesDeFacture {
+    constructor(name){
+        this.name = name;
+        this._quantite = quantite;
+        this._prixUnitaire = prixUnitaire;
+        this._txTva = txTva;
+    }
+
 }
 
 

@@ -151,13 +151,13 @@ modifier (set).
     
 }
 
-class Calcul {
-    constructor(
+// class Calcul {
+//     constructor(
 
-    ){
+//     ){
 
-    }
-}
+//     }
+// }
 
 class AddresseDeLivraison {
     constructor(
