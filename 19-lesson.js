@@ -1,11 +1,3 @@
-/*
-Le but de l'exercice est d'mplémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
-
-
-/*
-Dans cette classe, on initialise les propriétés et paramètres dans le constructeur avec d'autres classes
- qui sont ré-utilisées ailleurs.
-*/
 class Facture {
     constructor(
         /*
@@ -19,7 +11,6 @@ On initialise les paramètres dans le constructeur :
         quantite,
         addresseDeLivraison,
         accompte,
-        lignesDeFacture
         ){
         /*
 On initialise les propriétés dans le constructeur :
@@ -36,6 +27,7 @@ On initialise les propriétés dans le constructeur :
         this._montantTVA =  this._montantHT * this._txTva ;
         this._montantTTC = this._montantTVA + this._montantHT;
         this._lignesDeFacture = [];
+        this._nbDeLignes = nbDeLignes;
 
     }
         /*
@@ -63,14 +55,25 @@ modifier (set).
     get quantite(){
         return this._quantite;
     }
-    ajouterLignesDeFactures(facture) {
+
+    get ligne(){
+        return this.ajouterLignesDeFactures();
+    }
+
+    set nb(){
         
+    }
+    ajouterLignesDeFactures() {
+        return 
     }
 }
 
 class LignesDeFacture {
-    constructor(name){
-        this.name = name;
+    constructor(
+        quantite,
+        prixUnitaire,
+        txTva
+    ){
         this._quantite = quantite;
         this._prixUnitaire = prixUnitaire;
         this._txTva = txTva;
@@ -96,6 +99,12 @@ var adresse =  new AddresseDeLivraison(
     "lyon",
     69003);
 
+var lignes = new LignesDeFacture(
+    4,
+    50,
+    0.2,
+);
+
 var facture = new Facture(
                         "Achat de materiel",
                         1200,
@@ -110,6 +119,44 @@ var facture = new Facture(
 /*
 On affiche les propiétés des classes :
 */
+console.log(lignes);
+
+console.log(lignes.ligne);
+
+console.log(facture);
+
+// console.log(facture.LignesDeFacture._lignesDeFacture);
+
+
+console.log("-------------------------------------------");
+/*
+On affiche les propiétés des classes :
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 console.log(facture);
