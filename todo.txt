@@ -59,7 +59,6 @@ Samedi 05/01/2019
 - [x] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1
 - [ ] exercice 19
 - [x] css slides
-- [ ] regarder format json
 
 Mardi 08/01/2019
 
@@ -73,6 +72,9 @@ Mardi 08/01/2019
 - [ ] EXERCICE 21 : cumuler les totaux des lignes  de  facture :
 pour y acceder : ligne.montantHT...
 - [ ] relire tous les docs
+- [ ] regarder difference entre format json et format javascript
+
+
 - [ ]
 - [ ]
 - [ ]
