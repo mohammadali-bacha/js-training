@@ -167,5 +167,10 @@ var facture = new Facture(
 facture.ajouterLigneDeFacture(ligne1);
 facture.ajouterLigneDeFacture(ligne2);
 
+console.log("----facture-----");
+
 console.log(facture);
+
+console.log("-----lignesDeFactures----");
+
 console.log(facture.lignesDeFactures);
