@@ -23,10 +23,6 @@ On initialise les propriétés dans le constructeur :
         this._quantite = quantite;
         this._accompte = accompte;
         this._addresseDeLivraison = addresseDeLivraison;
-        // this._montantHT =  this._quantite * this._prixUnitaire ;
-        // this._montantTVA =  this._montantHT * this._txTva ;
-        // this._montantTTC = this._montantTVA + this._montantHT;
-        // Facture.calcul;
     }
         /*
 Ici, on utilise des getters et setters pour récupérer les valeurs (get) et ensuite les

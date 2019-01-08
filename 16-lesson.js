@@ -112,25 +112,15 @@ Ici, on utilise des getters et setters pour récupérer les valeurs (get) et ens
 modifier (set).
         */
 
-    //  calcul(value) {
-    //    Facture._txTva = value,
-    //    Facture._quantite = value,
-    //    Facture._montantHT =  this._quantite * this._prixUnitaire ,
-    //    Facture._montantTVA =  this._montantHT * this._txTva,
-    //    Facture._montantTTC = this._montantTVA + this._montantHT
-    // }
-
-    resultat = calcul(value);
-
     get montantHT(){
         return this._montantHT;
     } 
     set txTva(value){
         this._txTva = value;
         calcul(value);
-        // this._montantHT =  this._quantite * this._prixUnitaire ;
-        // this._montantTVA =  this._montantHT * this._txTva ;
-        // this._montantTTC = this._montantTVA + this._montantHT;
+        this._montantHT =  this._quantite * this._prixUnitaire ;
+        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantTTC = this._montantTVA + this._montantHT;
     }
 
     get txTva(){
@@ -139,10 +129,9 @@ modifier (set).
 
     set quantite(value){
         this._quantite = value;
-        calcul(value);
-        // this._montantHT =  this._quantite * this._prixUnitaire ;
-        // this._montantTVA =  this._montantHT * this._txTva ;
-        // this._montantTTC = this._montantTVA + this._montantHT;
+        this._montantHT =  this._quantite * this._prixUnitaire ;
+        this._montantTVA =  this._montantHT * this._txTva ;
+        this._montantTTC = this._montantTVA + this._montantHT;
     }
 
     get quantite(){
@@ -150,14 +139,6 @@ modifier (set).
     }
     
 }
-
-// class Calcul {
-//     constructor(
-
-//     ){
-
-//     }
-// }
 
 class AddresseDeLivraison {
     constructor(

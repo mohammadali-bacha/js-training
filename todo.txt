@@ -58,9 +58,8 @@ Samedi 05/01/2019
 - [x] Méthode de calcul dans la lesson16 pour éviter des doublons (factorisation du code)
 - [x] exo 18 
 - [ ] exo 19
+- [x] css slides
 - [ ] regarder format json
-- [ ] relire les commentaires
-
 
 Mardi 08/01/2019
 
@@ -69,4 +68,3 @@ Mardi 08/01/2019
 - [ ]
 - [ ]
 - [ ]
-

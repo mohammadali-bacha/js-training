@@ -50,9 +50,6 @@ modifier (set).
 
     set txTva(value) {
         this._txTva = value;
-        this._montantHT = this._quantite * this._prixUnitaire;
-        this._montantTVA = this._montantHT * this._txTva;
-        this._montantTTC = this._montantTVA + this._montantHT;
     }
 
     get txTva() {
@@ -61,9 +58,6 @@ modifier (set).
 
     set quantite(value) {
         this._quantite = value;
-        this._montantHT = this._quantite * this._prixUnitaire;
-        this._montantTVA = this._montantHT * this._txTva;
-        this._montantTTC = this._montantTVA + this._montantHT;
     }
 
     get quantite(){
@@ -81,7 +75,6 @@ class LignesDeFacture {
         this._prixUnitaire = prixUnitaire;
         this._txTva = txTva;
     }
-
 }
 
 
