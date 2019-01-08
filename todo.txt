@@ -72,4 +72,8 @@ Mardi 08/01/2019
 - [ ] refaire exercice 19 (creer facture et ajouter lignes de facture)
 - [ ] EXERCICE 21 : cumuler les totaux des lignes  de  facture :
 pour y acceder : ligne.montantHT...
-- [ ] 
+- [ ] relire tous les docs
+- [ ]
+- [ ]
+- [ ]
+- [ ]
