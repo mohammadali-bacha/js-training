@@ -29,7 +29,7 @@ On initialise les variables
 */
 // var tableau = [23,67,43,98,21,13]; valeur de test
 // var tableau = [2,4,6,8,10,21]; 2eme valeur de test
-var tableau = [12,34,56,78,90];
+var tableau = [12,34,56,0,78,90,21];
 
 
 console.log(tableau);

@@ -56,8 +56,8 @@ Jeudi 03/01/2019
 Samedi 05/01/2019
 
 - [x] Méthode de calcul dans la lesson16 pour éviter des doublons (factorisation du code)
-- [x] exo 18 
-- [ ] exo 19
+- [x] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1
+- [ ] exercice 19
 - [x] css slides
 - [ ] regarder format json
 
