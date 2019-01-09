@@ -27,7 +27,7 @@ Ici, on utilise des getters et setters pour récupérer les valeurs (get) et ens
 modifier (set).
         */
     get montantHT(){
-        return this._montantHT;
+        return this._montantHT; 
     } 
 
     get txTva() {

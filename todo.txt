@@ -62,17 +62,15 @@ Samedi 05/01/2019
 
 Mardi 08/01/2019
 
-- [ ] faire une synthese de toute les regles autour de l'implementation des classes objet (donnnesc calculeees, getter setter, proprietes publiques, privees) en UNE seule feeuille tous les eleemtns
-- [ ] faire algo "les chats ne mangent pas les chiens. Et les souris sont mangees par les chats" ----> fonction qui va stocker dans un tableau tous les mots
-- parcourir la chaine de caractere (boucle)
-- detecter les espaces
+- [x] faire une synthèse de toute les règles autour de l'implémentations des classes objet (donnnées calculées, getter setter, propriétés publiques, privées) en UNE seule feeuille tous les éléments.
+- [x] faire algo "les chats ne mangent pas les chiens. Et les souris sont mangées par les chats" ----> fonction qui va stocker dans un tableau tous les mots.
 
-- [ ] relire(re-executer) exercice 19-bis
-- [ ] refaire exercice 19 (creer facture et ajouter lignes de facture)
-- [ ] EXERCICE 22 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
+- [ ] relire(ré-éxécuter) exercice 19-bis
+- [ ] refaire exercice 19 (créer facture et ajouter lignes de facture)
+- [ ] exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
 
 - [ ] relire tous les docs
-- [ ] regarder difference entre format json et format javascript
+- [x] regarder différence entre format json et format javascript
 
 Vendredi ou Samedi 11 ou 12/01/2019
 
