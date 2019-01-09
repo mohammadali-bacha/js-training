@@ -76,7 +76,16 @@
 - [ ] Implémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
 
 * 20-lesson
-- [ ] 
+- [ ] Faire une fonction qui va stocker dans un tableau tous les mots.
 
 * 21-lesson
+- [ ] Cumuler les totaux des lignes  de  facture.
+
+* 22-lesson
+- [ ] 
+
+* 23-lesson
+- [ ] 
+
+* 24-lesson
 - [ ] 

@@ -69,11 +69,12 @@ Mardi 08/01/2019
 
 - [ ] relire(re-executer) exercice 19-bis
 - [ ] refaire exercice 19 (creer facture et ajouter lignes de facture)
-- [ ] EXERCICE 21 : cumuler les totaux des lignes  de  facture :
-pour y acceder : ligne.montantHT...
+- [ ] EXERCICE 22 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
+
 - [ ] relire tous les docs
 - [ ] regarder difference entre format json et format javascript
 
+Vendredi ou Samedi 11 ou 12/01/2019
 
 - [ ]
 - [ ]
