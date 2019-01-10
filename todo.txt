@@ -66,15 +66,15 @@ Mardi 08/01/2019
 - [x] faire algo "les chats ne mangent pas les chiens. Et les souris sont mangées par les chats" ----> fonction qui va stocker dans un tableau tous les mots.
 
 - [ ] relire(ré-éxécuter) exercice 19-bis
-- [ ] refaire exercice 19 (créer facture et ajouter lignes de facture)
+- [x] refaire exercice 19 (créer facture et ajouter lignes de facture)
 - [ ] exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
-
-- [ ] relire tous les docs
+- [x] relire tous les docs
 - [x] regarder différence entre format json et format javascript
 
-Vendredi ou Samedi 11 ou 12/01/2019
+Vendredi 11/01/2019
 
 - [ ]
 - [ ]
 - [ ]
 - [ ]
+

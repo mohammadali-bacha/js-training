@@ -59,13 +59,6 @@ modifier (set).
     get ligne(){
         return this.ajouterLignesDeFactures();
     }
-
-    set nb(){
-        
-    }
-    ajouterLignesDeFactures() {
-        
-    }
 }
 
 class LignesDeFacture {

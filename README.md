@@ -73,10 +73,10 @@
 - [x] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1
 
 * 19-lesson
-- [ ] Implémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
+- [x] Implémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
 
 * 20-lesson
-- [ ] Faire une fonction qui va stocker dans un tableau tous les mots.
+- [x] Faire une fonction qui va stocker dans un tableau tous les mots.
 
 * 21-lesson
 - [ ] Cumuler les totaux des lignes  de  facture.
