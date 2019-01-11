@@ -2,36 +2,34 @@
 Le but de l'exercice est de faire une fonction qui va stocker dans un tableau tous les mots .
 */
 
-function stockerLesMots(compteRendu) {
+function dictionnaireDeMots(compteRendu) {
+    var mot = "";
+    var dictionnaire = [];
 
-    // var miseSurEtagere = phrase1[0];
-
-    var miseSurEtagere = [];
 
     for (var index = 0; index < compteRendu.length; index++) {
+        var lettre = compteRendu[index];
+  
+        if(lettre != " "){
+            mot = mot + lettre;
 
-        if (compteRendu[index] != " ") {
+        }else{
 
-            // console.log(miseSurEtagere);
-
-            // console.log(index);
-            
-            // miseSurEtagere[index] =  phrase1[index]; 
-
-            miseSurEtagere.push(compteRendu[index]); // pourquoi sa affiche les mêmes valeurs mais ce n'est pas la meme presentation que la ligne commentée ci-dessus ?
-
+            dictionnaire.push(mot);  
+            mot = '';
         }
+        
     }
-    return miseSurEtagere;
+    console.log("dernier moott");
+    dictionnaire.push(mot);  
+    console.log(mot)
+    return dictionnaire;
 }
 
-// var phrase = ["les chats mangent"];
 
 var compteRendu = "les chats mangent";
 
-var resultat = stockerLesMots(compteRendu);
-
-// console.log("-----------------------");
+var resultat = dictionnaireDeMots(compteRendu);
 
 console.log(resultat);
 

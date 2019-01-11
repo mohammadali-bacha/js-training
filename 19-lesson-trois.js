@@ -2,6 +2,12 @@
 Le but de l'exercice est de refaire l'exercice 19 (créer facture et ajouter lignes de facture).
 */
 
+
+/*
+on va initialiser notre facture
+
+
+*/
 class Facture {
     constructor(
         name,
@@ -119,16 +125,6 @@ class AdresseDeLivraison {
     }
 }
 
-var resultat = new Facture(
-    "achat de matériel",
-    1809,
-    "12/09/2018",
-    100,
-    adresse,
-    3,
-    10,
-    0.2,
-);
 
 var ligne1 = new LignesDeFacture(
     5,
@@ -141,6 +137,16 @@ var ligne2 = new LignesDeFacture(
     0.2,
 );
 
+var resultat = new Facture(
+    "achat de matériel",
+    1809,
+    "12/09/2018",
+    100,
+    adresse,
+    3,
+    10,
+    0.2,
+);
 var adresse = new AdresseDeLivraison(
     "18 rue de la République",
     69003,
