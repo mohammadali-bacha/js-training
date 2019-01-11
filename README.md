@@ -79,7 +79,7 @@
 - [x] Faire une fonction qui va stocker dans un tableau tous les mots.
 
 * 21-lesson
-- [ ] Cumuler les totaux des lignes  de  facture.
+- [x] Cumuler les totaux des lignes  de  facture.
 
 * 22-lesson
 - [ ] 

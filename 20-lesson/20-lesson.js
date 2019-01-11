@@ -20,7 +20,7 @@ function dictionnaireDeMots(compteRendu) {
         }
         
     }
-    console.log("dernier moott");
+    console.log("dernier mot");
     dictionnaire.push(mot);  
     console.log(mot)
     return dictionnaire;

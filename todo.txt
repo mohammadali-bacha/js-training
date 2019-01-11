@@ -64,9 +64,8 @@ Mardi 08/01/2019
 
 - [x] faire une synthèse de toute les règles autour de l'implémentations des classes objet (donnnées calculées, getter setter, propriétés publiques, privées) en UNE seule feeuille tous les éléments.
 - [x] faire algo "les chats ne mangent pas les chiens. Et les souris sont mangées par les chats" ----> fonction qui va stocker dans un tableau tous les mots.
-
-- [ ] relire(ré-éxécuter) exercice 19-bis
-- [ ] refaire exercice 19 (créer facture et ajouter lignes de facture)
+- [x] relire(ré-éxécuter) exercice 19-bis
+- [x] refaire exercice 19 (créer facture et ajouter lignes de facture)
 - [x] reflechir a l'exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
 - [x] relire tous les docs
 - [x] regarder différence entre format json et format javascript
@@ -75,18 +74,16 @@ Vendredi 11/01/2019
 
 - [ ] Refaire exercice 20 + concaténer des lettres pour faire des mots, en faire des réflexes
 - [ ] Rédiger compte-rendu d'apprentissage de la journée
-- [ ] Réfléchir fonctionnel puis code .
 - [ ] Implémenter propiété : nombre de lignes
 - [ ] Commenter 19-lesson
 - [ ] Rédiger document : toutes les règles depuis le début.
 - [ ] 1ere page : 
-evaluation en gros; 
-regles de programmation,
+évaluation en gros; 
+règles de programmation,
 principes de l'objet,
 
 
-
-- [ ] creer dossiers pour chaque lesson et mettre index
+- [ ] créer dossiers pour chaque lesson et mettre index
 - [ ]
 - [ ]
 - [ ]
