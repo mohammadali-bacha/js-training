@@ -153,8 +153,4 @@ resultat.miseAJour(ligne2);
 
 console.log(resultat);
 
-// console.log(resultat);
-
-// console.log(resultat);
-
 
