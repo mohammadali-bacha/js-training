@@ -57,7 +57,7 @@ Samedi 05/01/2019
 
 - [x] Méthode de calcul dans la lesson16 pour éviter des doublons (factorisation du code)
 - [x] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1
-- [ ] exercice 19
+- [x] exercice 19
 - [x] css slides
 
 Mardi 08/01/2019
@@ -66,8 +66,8 @@ Mardi 08/01/2019
 - [x] faire algo "les chats ne mangent pas les chiens. Et les souris sont mangées par les chats" ----> fonction qui va stocker dans un tableau tous les mots.
 
 - [ ] relire(ré-éxécuter) exercice 19-bis
-- [x] refaire exercice 19 (créer facture et ajouter lignes de facture)
-- [ ] exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
+- [ ] refaire exercice 19 (créer facture et ajouter lignes de facture)
+- [x] reflechir a l'exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
 - [x] relire tous les docs
 - [x] regarder différence entre format json et format javascript
 

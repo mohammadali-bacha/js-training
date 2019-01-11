@@ -18,7 +18,6 @@ class Facture {
         this._date = date;
         this._accompte = accompte;
         this._addresseDeLivraison = addresseDeLivraison;
-        // AdresseDeLivraison
         this._quantite = quantite;
         this._prixUnitaire = prixUnitaire;
         this._txTVA = txTVA;
@@ -50,21 +49,41 @@ class Facture {
         return this._prixUnitaire;
     }
 
+    set prixUnitaire(value){
+        this._prixUnitaire = value;
+        this.miseAJour();
+    }
+
     get quantite (){
         return this._quantite;
     }
 
-    get txTVA (){
-        return this._adresseDeLivraison;
+    set quantite(value){
+        this._quantite = value;
+        this.miseAJour();
     }
+
+    get txTVA (){
+        return this._txTVA;
+    }
+
+    set txTVA(value){
+        this._txTVA = value;
+        this.miseAJour();
+    }
+    
     get totalHT (){
-        return this._adresseDeLivraison;
+        return this._totalHT;
     }
     get totalTVA () {
         return this._totalTVA;           
     }
     get totalTTC () {
         return this._totalTTC;           
+    }
+
+    get lignesDeFacture(){
+        return this._ligneDeFactures;
     }
 
     miseAJour(ligne) {
@@ -77,18 +96,16 @@ class LignesDeFacture {
     constructor(
         quantite,
         prixUnitaire,
-        txTVA,
+        txTVA,        
     ) {
         this._quantite = quantite;
         this._prixUnitaire = prixUnitaire;
         this._txTVA = txTVA;
-        this._totalHT = this._prixUnitaire * this._quantite; // question , sans le this : prixUnitaire et quantite ont l'air d'etre reconnus
+        this._totalHT = this._prixUnitaire * this._quantite;
         this._totalTVA = this._totalHT * this._txTVA;
-        this._totalTTC = this._totaltHT + this._totalTVA;
+        this._totalTTC = this._totaltHT + this._totalTVA; 
     }
-
 }
-
 
 class AdresseDeLivraison {
     constructor(
@@ -113,12 +130,16 @@ var resultat = new Facture(
     0.2,
 );
 
-var lignes = new LignesDeFacture(
+var ligne1 = new LignesDeFacture(
     5,
     20,
     0.2,
 );
-
+var ligne2 = new LignesDeFacture(
+    5,
+    10,
+    0.2,
+);
 
 var adresse = new AdresseDeLivraison(
     "18 rue de la République",
@@ -127,7 +148,8 @@ var adresse = new AdresseDeLivraison(
 );
 
 
-Facture.miseAJour(lignes);
+resultat.miseAJour(ligne1);
+resultat.miseAJour(ligne2);
 
 console.log(resultat);
 
