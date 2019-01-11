@@ -83,7 +83,7 @@ règles de programmation,
 principes de l'objet,
 
 
-- [ ] créer dossiers pour chaque lesson et mettre index
+- [x] créer dossiers pour chaque lesson et mettre index
 - [ ]
 - [ ]
 - [ ]
