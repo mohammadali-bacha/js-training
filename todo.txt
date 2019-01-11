@@ -73,16 +73,22 @@ Mardi 08/01/2019
 
 Vendredi 11/01/2019
 
-- [ ] Refaire exercice 20 + concatener des lettres pour faire des mots, en faire des reflexes
-- [ ] compte-rendu
-- [ ] reflechir fonctionnel
-- [ ] implementer fonction nombre de lignes
-- [ ] logger de partout quand sa marche pas et pour mieux comprendre
-- [ ] 
+- [ ] Refaire exercice 20 + concaténer des lettres pour faire des mots, en faire des réflexes
+- [ ] Rédiger compte-rendu d'apprentissage de la journée
+- [ ] Réfléchir fonctionnel puis code .
+- [ ] Implémenter propiété : nombre de lignes
+- [ ] Commenter 19-lesson
+- [ ] Rédiger document : toutes les règles depuis le début.
+- [ ] 1ere page : 
+evaluation en gros; 
+regles de programmation,
+principes de l'objet,
+
+
+
+- [ ] creer dossiers pour chaque lesson et mettre index
 - [ ]
 - [ ]
 - [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+
+- [ ] Faire exercice d'algorithmie : en attente 
