@@ -1,3 +1,10 @@
+/*
+Dans ce fichier, nous exportons la classe LignesDeFacture dans laquelle nous passons en paramètres la quantité, le prix unitaire
+et le taux de tva ( qui sont des donées non-calculées) puis nous initialisons  les  propriétés correspondantes + les propriétés 
+avec des données calculées comme le total HT, TVA et TTC. Pour récuperer ces données, nous mettons  en place des getters et 
+setters pour les modifier.
+*/
+
 module.exports = class LignesDeFacture {
     constructor(
         quantite,

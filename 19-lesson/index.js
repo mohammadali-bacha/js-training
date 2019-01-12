@@ -32,9 +32,7 @@ var ligne1 = new LignesDeFacture(
     0.2,
 );
 
-
 facture.ajouterLignes(ligne1);
-
 
 var ligne2 = new LignesDeFacture(
     5,

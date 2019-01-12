@@ -53,15 +53,13 @@ module.exports = class Facture {
             // console.log('-----avant-----');
             
             // console.log("totalHT : "+this._totalHT);
-
-            
+           
             this._totalHT += this._ligneDeFactures[index].totalHT;
             this._totalTVA += this._ligneDeFactures[index].totalTVA;
             this._totalTTC += this._ligneDeFactures[index].totalTTC;
             // console.log('-----apres-----');
 
-            // console.log("totalHT : "+this._totalHT);
-            
+            // console.log("totalHT : "+this._totalHT);            
         }
     }
     get ligne(){
