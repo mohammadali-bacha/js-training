@@ -5,10 +5,22 @@ Le but de l'exercice est de refaire l'exercice 19 (créer facture et ajouter lig
 /*
 on va initialiser notre facture
 */
+
+/*
+dans les const ci-dessous, on importe les autres classes  (contenues dans les différents fichiers du dossier actuel)
+avec require
+*/
+
+/*
+on déclare les variables : 
+*/
 const Facture = require('./facture');
 const AdresseDeLivraison =  require('./adresse');
 const LignesDeFacture = require('./lignesDeFacture');
 
+/*
+on instancie les variables : 
+*/
 var adresse = new AdresseDeLivraison(
     "18 rue de la République",
     69003,
@@ -32,6 +44,9 @@ var ligne1 = new LignesDeFacture(
     0.2,
 );
 
+/*
+on ajoute une ligne (ligne1) dans le tableau via l'appel de la méthode ajouterLignes : 
+*/
 facture.ajouterLignes(ligne1);
 
 var ligne2 = new LignesDeFacture(
@@ -41,6 +56,9 @@ var ligne2 = new LignesDeFacture(
 );
 facture.ajouterLignes(ligne2);
 
+/*
+on affiche le tout :
+*/
 console.log(facture);
 console.log(facture.ligne);
 
