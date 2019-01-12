@@ -60,7 +60,7 @@ besoin de mettre à jour toutes les propiétés car totalTTC et totalTVA dépend
         this._totalTTC = this._totalHT + this._totalTVA;
     }
     /*
-On récupère les propiétés
+On récupère les propiétés :
 */
     get totalHT() {
         return this._totalHT;

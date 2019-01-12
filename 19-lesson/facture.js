@@ -1,9 +1,8 @@
 /*
 Ce fichier contient la classe Facture dans laquelle nous initialisons les données
-relatives a une facturee(nom,date,numeor,adresse,accompte), de plus nous initialisons
+relatives a une facture (nom,date,numeor,adresse,accompte), de plus nous initialisons
 les propiétés totalHT,totalTVA et totalTTC à 0 et _ligneDeFactures avec un tableau vide.     
 */
-
 
 module.exports = class Facture {
     constructor(
@@ -51,13 +50,11 @@ On récupère les propiétés
         return this._totalTTC;
     }
 /*
-Dans cette méthode nous permet d'ajouter des lignes 
+cette méthode nous permet d'ajouter des lignes 
 */
     ajouterLignes(ligne) {
         this._ligneDeFactures.push(ligne);
-/*
-       
-*/
+
         this._totalHT = 0;
         this._totalTTC = 0;
         this._totalTVA = 0;
@@ -68,7 +65,7 @@ Dans cette méthode nous permet d'ajouter des lignes
             
             // console.log("totalHT : "+this._totalHT);
 /*
-
+on met a jour les propiétés du dessus en les cumulant avec la valeur de l'index parcourue au moment t des totaux de chaque ligne        
 */        
             this._totalHT += this._ligneDeFactures[index].totalHT;
             this._totalTVA += this._ligneDeFactures[index].totalTVA;
