@@ -56,11 +56,18 @@ var ligne2 = new LignesDeFacture(
 );
 facture.ajouterLignes(ligne2);
 
+var ligne3 = new LignesDeFacture(
+    4,
+    3,
+    0.2,
+);
+facture.ajouterLignes(ligne3);
+
 /*
 on affiche le tout :
 */
 console.log(facture);
-console.log(facture.ligne);
+console.log("facture.ligne : "+ facture.ligne);
 
 
 

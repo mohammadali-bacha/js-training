@@ -74,7 +74,7 @@ Vendredi 11/01/2019
 
 - [ ] Refaire exercice 20 
 - [ ] exercice pour concaténer des lettres pour faire des mots, en faire des réflexes
-- [ ] Implémenter propiété : nombre de lignes
+- [x] Implémenter propiété : nombre de lignes
 - [x] Commenter 19-lesson
 - [x] Rédiger compte-rendu d'apprentissage de la journée
 - [x] créer dossiers pour chaque lesson et mettre index

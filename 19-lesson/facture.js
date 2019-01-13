@@ -21,6 +21,7 @@ module.exports = class Facture {
         this._totalTVA = 0;
         this._totalTTC = 0;
         this._ligneDeFactures = [];
+        this._nombreDeLignes = 0;
     }
 /*
 On récupère les propiétés
@@ -70,13 +71,17 @@ on met a jour les propiétés du dessus en les cumulant avec la valeur de l'inde
             this._totalHT += this._ligneDeFactures[index].totalHT;
             this._totalTVA += this._ligneDeFactures[index].totalTVA;
             this._totalTTC += this._ligneDeFactures[index].totalTTC;
+            this._nombreDeLignes = this._ligneDeFactures.length;            
             // console.log('-----apres-----');
 
             // console.log("totalHT : "+this._totalHT);            
         }
+        console.log("nb de lignes : " + this._nombreDeLignes);
     }
     get ligne(){
         return this._ligneDeFactures.length;
     }
-
+    get nombreDeLignes(){
+        return this._nombreDeLignes;
+    }
 }
