@@ -82,7 +82,7 @@
 - [x] Cumuler les totaux des lignes  de  facture.
 
 * 22-lesson
-- [ ] Implémenter propiété : nombre de lignes dans Facture
+- [x] Implémenter propiété : nombre de lignes dans Facture
 
 * 23-lesson
 - [ ] 

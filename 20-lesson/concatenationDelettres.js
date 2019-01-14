@@ -9,6 +9,8 @@ la valeur parcourure est concaténée avec la précédente pour ainis former le 
 
 */
 
+// module.exports = 
+
 function mot(lettres) {
 
     var mot = [];
