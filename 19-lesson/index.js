@@ -50,7 +50,7 @@ on ajoute une ligne (ligne1) dans le tableau via l'appel de la méthode ajouterL
 facture.ajouterLignes(ligne1);
 
 var ligne2 = new LigneDeFacture(
-    5,
+    20000,
     10,
     0.2,
 );
@@ -63,12 +63,18 @@ var ligne3 = new LigneDeFacture(
 );
 facture.ajouterLignes(ligne3);
 
+var ligne4 = new LigneDeFacture(
+    10,
+    33,
+    0.2,
+);
+facture.ajouterLignes(ligne4);
 /*
 on affiche le tout :
 */
 console.log(facture);
-// console.log("facture.ligne : "+ facture.ligne);
-
+console.log("facture.ligne : "+ facture.nombreDeLignes);
+facture.toto= 10;
 
 
 

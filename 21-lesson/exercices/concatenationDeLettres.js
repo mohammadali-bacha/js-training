@@ -25,7 +25,7 @@ var lettres0 = ["b","o","n","j","o","u","r"];
 
 var lettres1 = ["s","a","l","u","t"];
 
-var lettres = lettres0;
+var lettres = lettres1;
 
 var resultat = mot(lettres);
 
