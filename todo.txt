@@ -91,5 +91,5 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 
 - [ ] rechercher callbacks avec exemples,
 - [ ] difference entre promise et un callbacks
-- [ ] 
+- [ ] es6 vs es5
 - [ ]
