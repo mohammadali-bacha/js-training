@@ -78,14 +78,9 @@ Vendredi 11/01/2019
 - [x] Commenter 19-lesson
 - [x] Rédiger compte-rendu d'apprentissage de la journée
 - [x] créer dossiers pour chaque lesson et mettre index
-
-- [ ] Rédiger document : toutes les règles depuis le début.
-1ere page : 
-évaluation en gros; 
-règles de programmation,
-principes de l'objet,
-
+- [x] Rédiger document : toutes les règles depuis le début. 
 - [ ] résumer newsletter 
+
 - [ ] Faire exercice d'algorithmie : en attente 
 
 

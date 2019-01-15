@@ -52,14 +52,14 @@ besoin de mettre à jour toutes les propiétés car totalTTC et totalTVA dépend
 
     set prixUnitaire(value) {
         this._prixUnitaire = value;
-        /*
+/*
 besoin de mettre à jour toutes les propiétés car totalTTC et totalTVA dépendent de totalHT qui dépend de prixUnitaire.
 */
         this._totalHT = this._prixUnitaire * this._quantite;
         this._totalTVA = this._totalHT * this._txTVA;
         this._totalTTC = this._totalHT + this._totalTVA;
     }
-    /*
+/*
 On récupère les propiétés :
 */
     get totalHT() {

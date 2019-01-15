@@ -67,7 +67,7 @@ facture.ajouterLignes(ligne3);
 on affiche le tout :
 */
 console.log(facture);
-console.log("facture.ligne : "+ facture.ligne);
+// console.log("facture.ligne : "+ facture.ligne);
 
 
 

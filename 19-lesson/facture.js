@@ -54,12 +54,11 @@ On récupère les propiétés
 cette méthode nous permet d'ajouter des lignes 
 */
     ajouterLignes(ligne) {
-        this._ligneDeFactures.push(ligne);
-
+        this._ligneDeFactures.push(ligne);        
         this._totalHT = 0;
         this._totalTTC = 0;
         this._totalTVA = 0;
-        console.log("ajout d'une nouvelle ligne : ");
+        // console.log("ajout d'une nouvelle ligne : ");
         
         for (var index = 0; index < this._ligneDeFactures.length; index++) {
             // console.log('-----avant-----');
@@ -76,11 +75,11 @@ on met a jour les propiétés du dessus en les cumulant avec la valeur de l'inde
 
             // console.log("totalHT : "+this._totalHT);            
         }
-        console.log("nb de lignes : " + this._nombreDeLignes);
+        // console.log("nb de lignes : " + this._nombreDeLignes);
     }
-    get ligne(){
-        return this._ligneDeFactures.length;
-    }
+    // get ligne(){
+    //     return this._ligneDeFactures.length;
+    // }
     get nombreDeLignes(){
         return this._nombreDeLignes;
     }
