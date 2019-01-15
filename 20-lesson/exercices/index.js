@@ -27,7 +27,7 @@ function dictionnaireDeMots(compteRendu) {
 }
 
 
-var compteRendu = "les chats mangent";
+var compteRendu = "les chats mangent des souris";
 
 var resultat = dictionnaireDeMots(compteRendu);
 
