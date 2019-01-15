@@ -5,7 +5,7 @@ avec des données calculées comme le total HT, TVA et TTC. Pour récuperer ces 
 setters pour les modifier.
 */
 
-module.exports = class LignesDeFacture {
+module.exports = class LigneDeFacture {
     constructor(
         quantite,
         prixUnitaire,

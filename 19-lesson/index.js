@@ -16,7 +16,7 @@ on déclare les variables :
 */
 const Facture = require('./facture');
 const AdresseDeLivraison =  require('./adresse');
-const LignesDeFacture = require('./lignesDeFacture');
+const LigneDeFacture = require('./ligneDeFacture');
 
 /*
 on instancie les variables : 
@@ -38,7 +38,7 @@ var facture = new Facture(
     0.2,
 );
 
-var ligne1 = new LignesDeFacture(
+var ligne1 = new LigneDeFacture(
     5,
     20,
     0.2,
@@ -49,14 +49,14 @@ on ajoute une ligne (ligne1) dans le tableau via l'appel de la méthode ajouterL
 */
 facture.ajouterLignes(ligne1);
 
-var ligne2 = new LignesDeFacture(
+var ligne2 = new LigneDeFacture(
     5,
     10,
     0.2,
 );
 facture.ajouterLignes(ligne2);
 
-var ligne3 = new LignesDeFacture(
+var ligne3 = new LigneDeFacture(
     4,
     3,
     0.2,
