@@ -80,12 +80,19 @@
 
 * 21-lesson
 - [x] Cumuler les totaux des lignes  de  facture.
-
-* 22-lesson
 - [x] Implémenter propiété : nombre de lignes dans Facture
 
+* 22-lesson
+- [ ] Rajouter un mot à un texte.
+
 * 23-lesson
-- [ ] 
+- [ ] Compter le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte
 
 * 24-lesson
+- [ ] 
+
+* 25-lesson
+- [ ] 
+
+* 26-lesson
 - [ ] 

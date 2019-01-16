@@ -79,7 +79,6 @@ Vendredi 11/01/2019
 - [x] Rédiger compte-rendu d'apprentissage de la journée
 - [x] créer dossiers pour chaque lesson et mettre index
 - [x] Rédiger document : toutes les règles depuis le début. 
-- [ ] résumer newsletter 
 
 - [ ] Faire exercice d'algorithmie : en attente 
 
@@ -92,4 +91,6 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 - [ ] rechercher callbacks avec exemples,
 - [ ] difference entre promise et un callbacks
 - [ ] es6 vs es5
-- [ ]
+- [ ] résumer newsletter 
+- [ ] github pages
+
