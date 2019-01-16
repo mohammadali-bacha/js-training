@@ -83,10 +83,10 @@
 - [x] Implémenter propiété : nombre de lignes dans Facture
 
 * 22-lesson
-- [ ] Rajouter un mot à un texte.
+- [x] Rajouter un mot à un texte.
 
 * 23-lesson
-- [ ] Compter le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte
+- [x] Compter le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte
 
 * 24-lesson
 - [ ] 
