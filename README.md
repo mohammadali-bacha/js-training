@@ -74,13 +74,14 @@
 
 * 19-lesson
 - [x] Implémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
+- [x] Cumuler les totaux des lignes  de  facture.
+- [x] Implémenter propiété : nombre de lignes dans Facture
 
 * 20-lesson
 - [x] Faire une fonction qui va stocker dans un tableau tous les mots.
 
 * 21-lesson
-- [x] Cumuler les totaux des lignes  de  facture.
-- [x] Implémenter propiété : nombre de lignes dans Facture
+- [x] Faire une fonction qui va retourner un mot en concaténant des lettres contenues dans un tableau.
 
 * 22-lesson
 - [x] Rajouter un mot à un texte.
