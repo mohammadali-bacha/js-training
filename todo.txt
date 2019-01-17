@@ -90,8 +90,8 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 - [x] rechercher callbacks avec exemples,
 - [x] difference entre promise et un callbacks
 - [x] ES5 vs ES6
+- [x] github pages
 - [ ] résumer newsletter 
-- [ ] github pages
 - [ ] s'entrainer avec try catch throw
 - [ ] rechercher l'héritage en javascript
 
