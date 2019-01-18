@@ -81,9 +81,6 @@ Vendredi 11/01/2019
 - [x] Rédiger document : toutes les règles depuis le début. 
 - [ ] résumer newsletter 
 
-- [ ] Faire exercice d'algorithmie : en attente 
-
-
 Mardi 15/01/2019 :
 
 - [x] prendre un texte et compter le nb de fois que je trouve la lettre selectionée
@@ -97,10 +94,15 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 
 Vendredi 18/01/2019 :
 
-- [ ] 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] faire exemples de callbacks
+- [ ] refaire feuille d'evaluation en regroupant par theme sur papier
+- [ ] generer un site a partir d'un reposur un autre repo github pages
+- [ ] apprendre/maitriser les regles de programmation + objet et la resolution d'exercices
+- [ ] reecrire regles de codage en paysage
+- [ ] retravailler facture
+- [ ] interro objet
+- [ ] exercice : creer une biblioteque de livres :
+modele objet sous papier 
+
 
 
