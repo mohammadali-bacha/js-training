@@ -94,15 +94,16 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 
 Vendredi 18/01/2019 :
 
-- [ ] faire exemples de callbacks
-- [ ] refaire feuille d'evaluation en regroupant par theme sur papier
+- [x] refaire feuille d'evaluation en regroupant par theme sur papier
 - [ ] generer un site a partir d'un repo sur un autre repo github pages
-- [ ] apprendre/maitriser les regles de programmation + objet et la resolution d'exercices
+- [ ] apprendre/maitriser les regles de programmation + objet et la resolution d'exercices => interro objet
 - [ ] reecrire regles de codage en paysage
-- [ ] retravailler facture
-- [ ] interro objet
-- [ ] exercice : creer une biblioteque de livres : 28-lesson
-- [ ] exercice de la prise de sang : 27-lesson
-- [ ] bilan de mardi et aujourd'hui
 
+- [x] bilan de mardi et aujourd'hui
+
+
+- [ ] retravailler facture
+- [ ] faire exemples de callbacks
+- [ ] exercice : creer une biblioteque de livres : 28-lesson
+- [x] exercice de la prise de sang : 27-lesson
 

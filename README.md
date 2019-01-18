@@ -99,7 +99,7 @@
 - [x] Vérifier le taux d'insuline et envoyer un signal selon le cas.
 
 * 27-lesson
-- [ ] Vérifier le taux de lymphocites et retourner un message  selon le cas.
+- [x] Vérifier le taux de lymphocites et retourner un message  selon le cas.
 
 * 28-lesson
 - [ ] Enregistrer des livres dans un objet bibliothèque.
