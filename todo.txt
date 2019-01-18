@@ -94,12 +94,11 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 
 Vendredi 18/01/2019 :
 
+- [x] bilan de mardi et aujourd'hui
 - [x] refaire feuille d'evaluation en regroupant par theme sur papier
 - [ ] generer un site a partir d'un repo sur un autre repo github pages
 - [ ] apprendre/maitriser les regles de programmation + objet et la resolution d'exercices => interro objet
 - [ ] reecrire regles de codage en paysage
-
-- [x] bilan de mardi et aujourd'hui
 
 
 - [ ] retravailler facture
