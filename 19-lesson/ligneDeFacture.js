@@ -72,3 +72,6 @@ On récupère les propiétés :
         return this._totalTTC;
     }
 }
+
+// retoruner les toutes les donnees 
+// setter que les donees non-calculees

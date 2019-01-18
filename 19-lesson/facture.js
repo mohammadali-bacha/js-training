@@ -75,7 +75,6 @@ module.exports = class Facture {
                      throw "";
                  }
 
-
                 this._totalHT += tempTotalHT;
                 this._totalTVA += tempTotalTVA;
                 this._totalTTC += tempTotalTTC;
