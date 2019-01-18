@@ -93,10 +93,10 @@
 - [x] Implémenter try and catch + throw dans un ancien exercice.
 
 * 25-lesson
-- [] Convertir une valeur intialement en euros en dollars.
+- [x] Convertir une valeur intialement en euros en dollars.
 
 * 26-lesson
-- [ ] Vérifier le taux d'insuline et envoyer un signal selon le cas.
+- [x] Vérifier le taux d'insuline et envoyer un signal selon le cas.
 
 * 27-lesson
 - [ ] Vérifier le taux de lymphocites et retourner un message  selon le cas.
