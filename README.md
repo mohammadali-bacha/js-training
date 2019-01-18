@@ -90,10 +90,10 @@
 - [x] Compter le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte.
 
 * 24-lesson
-- [ ] Implémenter try and catch + throw dans un ancien exercice.
+- [x] Implémenter try and catch + throw dans un ancien exercice.
 
 * 25-lesson
-- [ ] Convertir une valeur intialement en euros en dollars.
+- [] Convertir une valeur intialement en euros en dollars.
 
 * 26-lesson
 - [ ] Vérifier le taux d'insuline et envoyer un signal selon le cas.
