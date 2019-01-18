@@ -102,7 +102,7 @@ Vendredi 18/01/2019 :
 - [ ] retravailler facture
 - [ ] interro objet
 - [ ] exercice : creer une biblioteque de livres :
-modele objet sous papier 
+- [ ] exercice de la prise de sang : 28-lesson
 
 
 
