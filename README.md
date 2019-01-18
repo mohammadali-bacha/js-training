@@ -17,48 +17,48 @@
 
 * 01-lesson
 
-- [x] Initialiser une variable qui récupère la longueur du tableau (boucle for)
+- [x] Initialiser une variable qui récupère la longueur du tableau (boucle for).
 
 * 02-lesson
 
-- [x] Parcourir les variables contenues dans le tableau et les afficher (boucle for)
+- [x] Parcourir les variables contenues dans le tableau et les afficher (boucle for).
 
 * 03-lesson
 
-- [x] Parcourir les valeurs contenues dans le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par 0 (boucle for)
+- [x] Parcourir les valeurs contenues dans le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par 0 (boucle for).
 
 * 04-lesson
-- [x] Parcourir le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par un multiple de 3 (boucle for)
+- [x] Parcourir le tableau et rechercher les valeurs divisibles par 2 puis les remplacer par un multiple de 3 (boucle for).
 
 * 05-lesson
-- [x] Retourner l'index d'une valeur recherchée dans un tableau (boucle for)
+- [x] Retourner l'index d'une valeur recherchée dans un tableau (boucle for).
 
 * 06-lesson 
-- [x] Manipuler le tableau : (boucle for)
+- [x] Manipuler le tableau : (boucle for).
 
 * 07-lesson
-- [x] Rechercher une valeur dans un tableau en utilisant une boucle while (boucle for)
+- [x] Rechercher une valeur dans un tableau en utilisant une boucle while (boucle for).
 
 * 08-lesson
-- [x] Rechercher la plus petite valeur dans un tableau
+- [x] Rechercher la plus petite valeur dans un tableau.
 
 * 09-lesson
-- [x] Trier une suite de nombres dans l'ordre croissant
+- [x] Trier une suite de nombres dans l'ordre croissant.
 
 * 10-lesson
-- [x] Trier une suite de nombres dans l'ordre croissant
+- [x] Trier une suite de nombres dans l'ordre croissant.
 
 * 11-lesson
-- [x] Trier une suite de nombres dans l'ordre croissant
+- [x] Trier une suite de nombres dans l'ordre croissant.
 
 * 12-lesson
-- [x] Rechercher la plus petite valeur a partir d'un tableau
+- [x] Rechercher la plus petite valeur a partir d'un tableau.
 
 * 13-lesson
-- [x] Fonction de recherche de la plus petite valeur d'un tableau par index
+- [x] Fonction de recherche de la plus petite valeur d'un tableau par index.
 
 * 14-lesson
-- [x] Faire fonction addition d'un tableau de valeurs
+- [x] Faire fonction addition d'un tableau de valeurs.
 
 * 15-lesson
 - [x] Regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant.
@@ -70,7 +70,7 @@
 - [x] Faire une fonction qui recherche la plus grande valeur dans un tableau.
 
 * 18-lesson
-- [x] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1
+- [x] Remplacer toutes les valeurs divisibles par 2, par  la valeur divisible +1.
 
 * 19-lesson
 - [x] Implémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
@@ -87,13 +87,25 @@
 - [x] Rajouter un mot à un texte.
 
 * 23-lesson
-- [x] Compter le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte
+- [x] Compter le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte.
 
 * 24-lesson
-- [ ] 
+- [ ] Implémenter try and catch + throw dans un ancien exercice.
 
 * 25-lesson
-- [ ] 
+- [ ] Convertir une valeur intialement en euros en dollars.
 
 * 26-lesson
+- [ ] Vérifier le taux d'insuline et envoyer un signal selon le cas.
+
+* 27-lesson
+- [ ] Vérifier le taux de lymphocites et retourner un message  selon le cas.
+
+* 28-lesson
+- [ ] Enregistrer des livres dans un objet bibliothèque.
+
+* 29-lesson
+- [ ] 
+
+* 30-lesson
 - [ ] 

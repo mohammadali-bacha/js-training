@@ -96,13 +96,13 @@ Vendredi 18/01/2019 :
 
 - [ ] faire exemples de callbacks
 - [ ] refaire feuille d'evaluation en regroupant par theme sur papier
-- [ ] generer un site a partir d'un reposur un autre repo github pages
+- [ ] generer un site a partir d'un repo sur un autre repo github pages
 - [ ] apprendre/maitriser les regles de programmation + objet et la resolution d'exercices
 - [ ] reecrire regles de codage en paysage
 - [ ] retravailler facture
 - [ ] interro objet
-- [ ] exercice : creer une biblioteque de livres :
-- [ ] exercice de la prise de sang : 28-lesson
-
+- [ ] exercice : creer une biblioteque de livres : 28-lesson
+- [ ] exercice de la prise de sang : 27-lesson
+- [ ] bilan de mardi et aujourd'hui
 
 
