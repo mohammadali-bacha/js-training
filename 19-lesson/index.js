@@ -7,8 +7,7 @@ on va initialiser notre facture
 */
 
 /*
-dans les const ci-dessous, on importe les autres classes  (contenues dans les différents fichiers du dossier actuel)
-avec require
+dans les const ci-dessous, on importe les autres classes  (contenues dans les différents fichiers du dossier actuel) avec require :
 */
 
 /*
@@ -74,7 +73,7 @@ on affiche le tout :
 */
 console.log(facture);
 console.log("facture.ligne : "+ facture.nombreDeLignes);
-facture.toto= 10;
+facture.toto = 10;
 
 
 
