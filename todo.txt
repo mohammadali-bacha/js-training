@@ -97,14 +97,14 @@ Vendredi 18/01/2019 :
 - [x] bilan de mardi et aujourd'hui
 - [x] refaire feuille d'evaluation en regroupant par theme sur papier
 - [x] reecrire regles de codage en paysage
+- [x] generer un site a partir d'un repo sur un autre repo github pages
 
-- [ ] 2.generer un site a partir d'un repo sur un autre repo github pages
-- [ ] 4..apprendre/maitriser les regles de programmation + objet et la resolution d'exercices => interro objet
-- [ ] 5.résoudre exercices 
+- [ ] 2.faire exemples de callbacks
 
+- [ ] 3.apprendre/maitriser les regles de programmation + objet et la resolution d'exercices => interro objet
+- [ ] 4.résoudre exercices 
 - [ ] 1.retravailler facture
-- [ ] 3.faire exemples de callbacks
 
-- [ ] 0.exercice : créer une biblioteque de livres : 28-lesson
+- [x] 0.exercice : créer une biblioteque de livres : 28-lesson
 - [x] exercice de la prise de sang : 27-lesson
 

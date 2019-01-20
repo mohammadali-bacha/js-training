@@ -102,7 +102,7 @@
 - [x] Vérifier le taux de lymphocites et retourner un message  selon le cas.
 
 * 28-lesson
-- [ ] Enregistrer des livres dans un objet bibliothèque.
+- [x] Enregistrer des livres dans un objet bibliothèque.
 
 * 29-lesson
 - [ ] 
