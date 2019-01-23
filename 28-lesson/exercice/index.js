@@ -1,28 +1,33 @@
 /*
-Le but de l'exercice est d'enregistrer des livres dans un objet bibliothèque.
+Le but de l'exercice est d'enregistrer des livres dans une bibliothèque.
 */
 
-const Biblio = require('./bibliotheque');
-const Livres = require('./livres');
+const Bibliotheque = require('./bibliotheque');
+const Livre = require('./livre');
 
-var bibliotheque = new Biblio();
+var bibliotheque = new Bibliotheque();
 
-var livre0 = new Livres(
+var biographieElonMusk = new Livre(
     "Elon Musk",
     "Ashlee Vance",
     1234,
     "biographie",
 );
 
-bibliotheque.ajouterLivres(livre0);
+bibliotheque.ajouterLivre(biographieElonMusk);
 
-var livre1 = new Livres(
+var biographiePeterThiel = new Livre(
     "Zero to One",
     "Peter Thiel",
     5678,
     "startup"
 );
 
-bibliotheque.ajouterLivres(livre1);
+bibliotheque.ajouterLivre(biographiePeterThiel);
 
-console.log(bibliotheque);
+// var resultats = bibliotheque.rechercherLivreParTitre("Zero to One");
+
+var resultats = bibliotheque.rechercherLivreParCodeBarre(1234);
+
+console.log(resultats);
+

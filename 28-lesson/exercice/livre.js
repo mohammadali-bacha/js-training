@@ -1,11 +1,11 @@
-module.exports = class Livres {
+module.exports = class Livre {
     constructor
-        (
-            titre,
-            auteur,
-            codeBarre,
-            theme
-        ) {
+        (titre,
+         auteur,
+         codeBarre,
+         theme
+        ) 
+        {
             this._titre = titre;
             this._auteur = auteur;
             this._codeBarre = codeBarre;

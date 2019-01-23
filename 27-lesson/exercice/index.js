@@ -4,10 +4,10 @@ Le but de l'exercice est de vérifier le taux de lymphocites et retourner un mes
 
 const priseDeSang = require('./verifierTxDeLymphocites')
 
-var txDeLymphocites = 1.5;
+var txDeLymphocites = 0.9;
 
-var resultat = priseDeSang(txDeLymphocites);
+ priseDeSang(txDeLymphocites);
 
-console.log(resultat);
+
 
 

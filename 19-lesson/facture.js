@@ -65,7 +65,7 @@ module.exports = class Facture {
                 /*
                 on met a jour les propiétés du dessus en les cumulant avec la valeur de l'index parcourue au moment t des totaux de chaque ligne        
                 */
-                var tempTotalHT = this._ligneDeFactures[index].totalHT;
+                var tempTotalHT = this._ligneDeFactures[index].totalHT; //
                 var tempTotalTVA = this._ligneDeFactures[index].totalTVA
                 var tempTotalTTC = this._ligneDeFactures[index].totalTTC;
                 

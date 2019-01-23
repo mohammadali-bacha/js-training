@@ -73,5 +73,5 @@ On récupère les propiétés :
     }
 }
 
-// retoruner les toutes les donnees 
+// retourner les toutes les donnees 
 // setter que les donees non-calculees
