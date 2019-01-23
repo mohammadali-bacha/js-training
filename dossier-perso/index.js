@@ -3,7 +3,7 @@ const concessionnaire = require('./concessionnaire');
 
 var concession = new concessionnaire();
 
-var voiture1 = new voiture(
+var c63 = new voiture(
     "c63",
     true,
     true,
@@ -11,7 +11,7 @@ var voiture1 = new voiture(
     false,
 )
 
-concession.ajouterVoitures(voiture1);
+concession.ajouterVoitures(c63);
 
 // var resultat = new concession(
 

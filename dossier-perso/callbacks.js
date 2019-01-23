@@ -11,16 +11,16 @@ input(malade);
 
 
 
-// function quelAge(age,prenom){
-//     return  console.log(prenom + " a " + age + " ans");
-//   }
+function quelAge(age,prenom){
+    return  console.log(prenom + " a " + age + " ans");
+  }
   
-//   function calculAge(callback){
-//       var age = 2019 - anneeDeNaissance;
-//       var prenom = "M-ALI";
-//     return  callback(age, prenom);
-//   }
+  function calculAge(callback){
+      var age = 2019 - anneeDeNaissance;
+      var prenom = "M-ALI";
+    return  callback(age, prenom);
+  }
   
-//   var anneeDeNaissance = 1997;
+  var anneeDeNaissance = 1997;
   
-//   var resultat = calculAge(quelAge);
+  var resultat = calculAge(quelAge);
