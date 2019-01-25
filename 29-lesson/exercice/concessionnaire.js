@@ -26,13 +26,13 @@ module.exports = class Concessionnaire {
     }
 
     triDesVoitures(voiture) {
-        if (this._voitures.type == "SUV".toUpperCase) {
+        if (this._voitures.type == "SUV") {
             this._suv.push(voiture);
         }
-        if (voiture.type == "berline".toLowerCase) {
+        if (voiture.type == "berline") {
             this._berlines.push(voiture);
         }
-        if (voiture.type == "sportive".toLowerCase) {
+        if (voiture.type == "sportive") {
             this._sportives.push(voiture);
         }
     }
