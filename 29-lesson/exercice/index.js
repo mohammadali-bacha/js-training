@@ -1,74 +1,79 @@
 /*
 Le but de l'exercice est de pouvoir trier des voitures selon leur type.
 */
+const Voiture = require('./voiture');
+const Sport = require('./sport');
+const Suv = require('./suv');
+const Berline = require('./berline');
+const concessionnaire = require('./concessionnaire');
 
-class Voiture {
-    constructor
-        (
-        modele,
-        marque,
-        ) {
-            this._modele = modele;
-            this._marque = marque;
-            this._km = 0;
-        }
-        get km(){
-            return this._km;
-        }
-        set marque(value){
-            this._marque = value;
-        }
-        ajouterKm(km){
-            this._km += km;
-        }
-}
-
-class Sport extends Voiture {
-    constructor(modele,marque) {
-        super(modele,marque)
-    }
-}
-
-class SUV extends Voiture{
-    constructor(modele,marque) {
-        super(modele,marque)
-    }
-}
-
-class Berline extends Voiture{
-    constructor(modele,marque) {
-        super(modele,marque)
-    }
-}
-
-var sport = new Sport(
+var c63 = new Sport(
     "c63",
-    "mercedes"
+    "mercedes",
+    "sport",
 );
 
-var suv = new SUV(
+var gle = new Suv(
     "gle",
-    "mercedes"
+    "mercedes",
+    "SUV",
 );
 
-var berline = new Berline(
+var cla = new Berline(
     "cla",
-    "mercedes"
+    "mercedes",
+    "berline",
 );
 
-console.log(sport);
-console.log( berline);
-suv.marque = "x";
-console.log(suv);
-sport.ajouterKm(25);
-sport.ajouterKm(25);
-sport.ajouterKm(25);
-sport.ajouterKm(25);
+console.log(c63);
+console.log(cla);
+gle.marque = "x";
+console.log(gle);
+c63.ajouterKm(25);
+c63.ajouterKm(25);
+c63.ajouterKm(25);
+c63.ajouterKm(25);
 
-console.log("sport : "+sport.km);
+console.log("sport : "+c63.km);
 
-suv.ajouterKm(25);
-suv.ajouterKm(25);
+gle.ajouterKm(25);
+gle.ajouterKm(25);
 
-console.log("suv : "+suv.km);
+console.log("suv : " + gle.km);
+
+console.log("///////////////////////////");
+
+var test = new Voiture(
+    "X6",
+    "BMW",
+    "SUV",
+    80,
+);
+
+var test1 = new Voiture(
+    "tt",
+    "audi",
+    "sport",
+    0,
+);
+
+
+var test2 = new Voiture(
+    "urus",
+    "lamborghini",
+    "SUV",
+    350,
+);
+
+console.log(test);
+
+conce = new concessionnaire();
+
+conce.ajouterVoitures(test);
+
+conce.ajouterVoitures(test1);
+
+conce.ajouterVoitures(test2);
+
+console.log(conce);
 
