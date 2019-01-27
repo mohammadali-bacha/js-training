@@ -4,16 +4,16 @@ const Cellule = require('./cellule');
 
 
 var ligne = new Ligne(
-
+    "hello"
 );
 
-// var cellule = new Cellule(
-
-// );
+var cellule = new Cellule();
 
 var tableau = new Tableau(
     ligne,
+    cellule
     );
     
+tableau.ajouterLignes(3);
 
 console.log(tableau);

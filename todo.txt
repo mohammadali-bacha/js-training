@@ -114,12 +114,12 @@ Mercredi 23/01/2019 :
 
 Vendredi 25/01/2019 :
 
-- [ ] revoir l'heritage
-- [ ] travailler jeu de donnnées 
-- [ ] relire facture
-- [ ] regles => interro
+- [ ] 3.revoir l'heritage
+- [ ] 4.travailler jeu de donnnées 
+- [ ] 2.relire facture
+- [ ] 1.regles => interro
 - [X] pas de copier-coller
-- [ ] compte-rendu React Native sur feuille
+- [ ] 5.compte-rendu React Native sur feuille
 
 
 - [X] creer des cellules sur 2 lignes en HTML/CSS, avec des div (float,margin,breakline)
@@ -127,7 +127,7 @@ Vendredi 25/01/2019 :
 - [X] classes de couleur : 1er exercice feuille
 - [X] exercice 2 : voir feuille 
 
-- [ ] faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne)
+- [ ] 0.faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne)
 
 - [X] try and catch exemple
 - [X] difference json et javascript object (conditions d'utilisation) sur feuille

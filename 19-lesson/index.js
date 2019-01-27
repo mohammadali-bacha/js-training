@@ -67,6 +67,7 @@ var ligne4 = new LigneDeFacture(
     33,
     0.2,
 );
+
 facture.ajouterLignes(ligne4);
 /*
 on affiche le tout :
