@@ -105,13 +105,13 @@
 - [x] Enregistrer des livres dans un objet bibliothèque.
 
 * 29-lesson
-- [ ] Trier des voitures selon leur type.
+- [x] Trier des voitures selon leur type.
 
 * 30-lesson
 - [X] Créer des 2 lignes de 5 carrés rempli de vert ou de rouge avec HTML/CSS et uniquement des balises <div> et la propriété flex-flow (en CSS) selon l'exemple (voir feuille).
 
 * 31-lesson
-- [ ] Faire la structure HTML selon schéma et carrés cliquables.
+- [X] Faire la structure HTML selon schéma et carrés cliquables.
 
 * 32-lesson
 - [ ] Faire modèle objet avec tableau, ligne et 5 cellules par lignes.

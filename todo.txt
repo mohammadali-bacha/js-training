@@ -132,6 +132,7 @@ Vendredi 25/01/2019 :
 - [X] try and catch exemple
 - [X] difference json et javascript object (conditions d'utilisation) sur feuille
 
+
 Mardi 29/01/2019 :
 
 - [ ] exercice objet de stock Amazon 
