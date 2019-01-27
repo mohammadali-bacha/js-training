@@ -75,7 +75,7 @@
 * 19-lesson
 - [x] Implémenter les lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
 - [x] Cumuler les totaux des lignes  de  facture.
-- [x] Implémenter propiété : nombre de lignes dans Facture
+- [x] Implémenter propiété : nombre de lignes dans Facture.
 
 * 20-lesson
 - [x] Faire une fonction qui va stocker dans un tableau tous les mots.
@@ -105,7 +105,19 @@
 - [x] Enregistrer des livres dans un objet bibliothèque.
 
 * 29-lesson
-- [ ] 
+- [ ] Trier des voitures selon leur type.
 
 * 30-lesson
+- [X] Créer des 2 lignes de 5 carrés rempli de vert ou de rouge avec HTML/CSS et uniquement des balises <div> et la propriété flex-flow (en CSS) selon l'exemple (voir feuille).
+
+* 31-lesson
+- [ ] Faire la structure HTML selon schéma et carrés cliquables.
+
+* 32-lesson
+- [ ] Faire modèle objet avec tableau, ligne et 5 cellules par lignes.
+
+* 33-lesson
+- [ ] 
+
+* 34-lesson
 - [ ] 

@@ -2,12 +2,10 @@ module.exports = class Voiture {
     constructor
         (
             modele,
-            marque,
-            type,
+            marque
         ) {
             this._modele = modele;
             this._marque = marque;
-            this._type = type;
             this._km = 0;
         }
 
@@ -15,15 +13,11 @@ module.exports = class Voiture {
         return this._km;
     }
     get modele() {
-
+        return this._modele;
     }
 
     get marque() {
         return this._marque;
-    }
-
-    get type() {
-        return this._type;
     }
 
     ajouterKm(km) {

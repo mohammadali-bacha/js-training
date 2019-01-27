@@ -1,79 +1,63 @@
 /*
 Le but de l'exercice est de pouvoir trier des voitures selon leur type.
 */
-const Voiture = require('./voiture');
 const Sport = require('./sport');
-const Suv = require('./suv');
+const SUV = require('./suv');
 const Berline = require('./berline');
-const concessionnaire = require('./concessionnaire');
+const Concessionnaire = require('./concessionnaire');
 
-var c63 = new Sport(
-    "c63",
-    "mercedes",
-    "sport",
-);
-
-var gle = new Suv(
-    "gle",
-    "mercedes",
-    "SUV",
-);
-
-var cla = new Berline(
-    "cla",
-    "mercedes",
-    "berline",
-);
-
-console.log(c63);
-console.log(cla);
-gle.marque = "x";
-console.log(gle);
-c63.ajouterKm(25);
-c63.ajouterKm(25);
-c63.ajouterKm(25);
-c63.ajouterKm(25);
-
-console.log("sport : "+c63.km);
-
-gle.ajouterKm(25);
-gle.ajouterKm(25);
-
-console.log("suv : " + gle.km);
-
-console.log("///////////////////////////");
-
-var test = new Voiture(
+var  bmw = new SUV(
     "X6",
-    "BMW",
-    "SUV",
-    80,
+    "BMW"
 );
 
-var test1 = new Voiture(
+var audi = new Sport(
     "tt",
-    "audi",
-    "sport",
-    0,
+    "audi"
 );
 
 
-var test2 = new Voiture(
+var lamborghini = new SUV(
     "urus",
-    "lamborghini",
-    "SUV",
-    350,
+    "lamborghini"
 );
 
-console.log(test);
+var mercedes = new Berline(
+    "cla",
+    "mercedes"
+)
 
-conce = new concessionnaire();
+audi.marque = "x";
+bmw.ajouterKm(25);
+bmw.ajouterKm(25);
+bmw.ajouterKm(25);
+bmw.ajouterKm(25);
+console.log("-----------------");
 
-conce.ajouterVoitures(test);
+console.log(" voiture sport, nombre de km : "+bmw.km);
 
-conce.ajouterVoitures(test1);
+console.log("-----------------");
 
-conce.ajouterVoitures(test2);
+lamborghini.ajouterKm(25);
+lamborghini.ajouterKm(25);
+console.log("-----------------");
 
-console.log(conce);
+console.log("voiture SUV, nombre de km : " + lamborghini.km);
+
+
+console.log("-----------------");
+
+
+
+concessionnaire = new Concessionnaire();
+
+concessionnaire.ajouterVoiture(bmw);
+
+concessionnaire.ajouterVoiture(mercedes);
+
+concessionnaire.ajouterVoiture(audi);
+
+concessionnaire.ajouterVoiture(lamborghini);
+
+console.log(concessionnaire);
 

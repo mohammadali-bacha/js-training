@@ -4,8 +4,7 @@ module.exports = class Livre {
          auteur,
          codeBarre,
          theme
-        ) 
-        {
+        ) {
             this._titre = titre;
             this._auteur = auteur;
             this._codeBarre = codeBarre;

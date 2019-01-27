@@ -1,12 +1,8 @@
 module.exports = class Concessionnaire {
     constructor() {
-        this._voitures = [];
         this._sportives = [];
         this._berlines = [];
         this._suv = [];
-    }
-    get voitures() {
-        return this._voitures;
     }
 
     get sportives() {
@@ -21,24 +17,19 @@ module.exports = class Concessionnaire {
         return this._suv;
     }
 
-    ajouterVoitures(voiture) {
-        this._voitures.push(voiture);
-    }
-
-    triDesVoitures(voiture) {
-        if (this._voitures.type == "SUV") {
+    ajouterVoiture(voiture) {
+        
+        if (voiture.constructor.name == "SUV") {
             this._suv.push(voiture);
         }
-        if (voiture.type == "berline") {
+        if (voiture.constructor.name == "Berline") {
             this._berlines.push(voiture);
         }
-        if (voiture.type == "sportive") {
+        if (voiture.constructor.name == "Sport") {
             this._sportives.push(voiture);
         }
     }
 }
-
-
 
 
 

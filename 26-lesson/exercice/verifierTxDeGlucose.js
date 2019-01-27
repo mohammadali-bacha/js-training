@@ -1,11 +1,16 @@
 module.exports = function verifierTxDeGlucose(txDInsuline) {
     try {
+        var message = "Rien a signaler";
         if (txDInsuline > 1 && txDInsuline < 2) {
             throw "prevenir l'infirmiere";
-        } else if (txDInsuline > 2.5){
+        }
+        if (txDInsuline > 2.5) {
             throw "prevenir SAMU";
         }
-    } catch(error){
-        console.log(error);       
+
+    } catch (error) {
+        message = error;
+    } finally {
+        console.log(message);
     }
 }

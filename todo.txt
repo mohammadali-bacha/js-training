@@ -106,17 +106,35 @@ Vendredi 18/01/2019 :
 
 Mercredi 23/01/2019 :
 
-- [ ] bilan
-- [ ] 4.exemples et exercices de try and catch
-- [ ] 5.realiser exercice concessionnaire en s'inspirant de facture 
-- [ ] 3.apprendre par COEUR regles
+- [X] exemples et exercices de try and catch
+- [X] realiser exercice concessionnaire en s'inspirant de facture 
+- [X] apprendre par COEUR regles
 - [X] refaire evaluation dessin
-- [X] travailler avec webstorm
-
 
 
 Vendredi 25/01/2019 :
 
-- [ ]
-- [ ]
+- [ ] revoir l'heritage
+- [ ] travailler jeu de donnnées 
+- [ ] relire facture
+- [ ] regles => interro
+- [X] pas de copier-coller
+- [ ] compte-rendu React Native sur feuille
 
+
+- [X] creer des cellules sur 2 lignes en HTML/CSS, avec des div (float,margin,breakline)
+- [X] balises sections HTML, flex-flow en CSS (utilisation) sur feuille
+- [X] classes de couleur : 1er exercice feuille
+- [X] exercice 2 : voir feuille 
+
+- [ ] faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne)
+
+- [X] try and catch exemple
+- [X] difference json et javascript object (conditions d'utilisation) sur feuille
+
+Mardi 29/01/2019 :
+
+- [ ] exercice objet de stock Amazon 
+- [ ] 
+- [ ] 
+- [ ] 
