@@ -1,0 +1,14 @@
+div{
+    margin: 10px;
+    /* flex-flow: row wrap; */
+    width: 190px;
+    height: 190px;
+    float: left;
+    padding: 50px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
