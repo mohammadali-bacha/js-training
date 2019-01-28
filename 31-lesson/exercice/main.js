@@ -1,6 +1,18 @@
+var userChoice; 
+
 function changeColor(id) {
-    document.getElementById(id).style.backgroundColor = "#ff0000"; 
+    userChoice = prompt('Etes vous sur de valider ?');
+    if(userChoice == "oui"){
+        document.getElementById(id).style.backgroundColor = "#ff0000"; 
+    } else{
+        document.getElementById(id).style.backgroundColor = "#FFFFFF"; 
+    }
 }
 function changeColorGreen(id) {
-    document.getElementById(id).style.backgroundColor = "#009933"; 
+    userChoice = prompt('Etes vous sur de valider ?');
+    if(userChoice == "oui"){
+        document.getElementById(id).style.backgroundColor = "#009933"; 
+    } else{
+        document.getElementById(id).style.backgroundColor = "#FFFFFF"; 
+    }
 }
