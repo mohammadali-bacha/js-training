@@ -1,19 +1,27 @@
-module.exports = class Applestore{
-    constructor(){
+module.exports = class Applestore {
+    constructor() {
         this._iphones = [];
         this._ipads = [];
-        this.macbooks = [];
+        this._macbooks = [];
     }
-    get iphones(){
+    get iphones() {
         return this._iphones;
     }
-    get ipads(){
+    get ipads() {
         return this._ipads;
     }
-    get macbooks(){
-        return this._macbooks;  
+    get macbooks() {
+        return this._macbooks;
     }
-    ajouterMateriel(){
-
+    ajouterMateriel(apple) {
+        if (apple.constructor.name == "Iphone") {
+            this._iphones.push(apple)
+        }
+        if (apple.constructor.name == "Ipad") {
+            this._ipads.push(apple)
+        }
+        if (apple.constructor.name == "Macbook") {
+            this._macbooks.push(apple)
+        }
     }
 };

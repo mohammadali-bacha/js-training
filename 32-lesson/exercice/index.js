@@ -1,19 +1,15 @@
 const Tableau = require('./tableau');
 const Ligne = require('./ligne');
-const Cellule = require('./cellule');
 
-
-var ligne = new Ligne(
-    "hello"
-);
-
-var cellule = new Cellule();
+var ligne = new Ligne();
 
 var tableau = new Tableau(
     ligne,
-    cellule
-    );
-    
+);
+
+ligne.ajouterCellules();
 tableau.ajouterLignes(3);
+
+console.log(ligne);
 
 console.log(tableau);

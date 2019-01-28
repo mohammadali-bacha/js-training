@@ -114,9 +114,9 @@ Mercredi 23/01/2019 :
 
 Vendredi 25/01/2019 :
 
-- [ ] 3.revoir l'heritage
+- [X] revoir l'heritage
 - [ ] 4.travailler jeu de donnnées 
-- [ ] 2.relire facture
+- [X] relire facture
 - [ ] 1.regles => interro
 - [X] pas de copier-coller
 - [ ] 5.compte-rendu React Native sur feuille
@@ -126,9 +126,7 @@ Vendredi 25/01/2019 :
 - [X] balises sections HTML, flex-flow en CSS (utilisation) sur feuille
 - [X] classes de couleur : 1er exercice feuille
 - [X] exercice 2 : voir feuille 
-
-- [ ] 0.faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne)
-
+- [X] faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne)
 - [X] try and catch exemple
 - [X] difference json et javascript object (conditions d'utilisation) sur feuille
 
