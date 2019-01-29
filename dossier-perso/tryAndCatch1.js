@@ -23,7 +23,7 @@ function saisirNombre(number) {
     }
 }
 
-var resultat = saisirNombre(1.01);
+var resultat = saisirNombre(200);
 
 
 ///////////////version switch case break
