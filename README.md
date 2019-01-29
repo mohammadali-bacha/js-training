@@ -114,7 +114,7 @@
 - [X] Faire la structure HTML selon schéma et carrés cliquables.
 
 * 32-lesson
-- [ ] Faire modèle objet avec tableau, ligne et 5 cellules par lignes.
+- [X] Faire modèle objet avec tableau, ligne et 5 cellules par lignes.
 
 * 33-lesson
 - [ ] 

@@ -29,8 +29,6 @@ var macbook = new Macbook(
     "macOS Mojave"
 );
 
-
-
 applestore.ajouterMateriel(ipad);
 applestore.ajouterMateriel(iphone);
 applestore.ajouterMateriel(macbook);
