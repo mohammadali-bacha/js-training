@@ -1,18 +1,17 @@
-// const Cellule = require('./cellule');
+const Cellule = require('./cellule');
 
 module.exports = class Ligne {
     constructor() {
-        this._cellule = [];
+        this._cellules = [];
+        this._cellules.push(new Cellule("A"));
+        this._cellules.push(new Cellule("B"));
+        this._cellules.push(new Cellule("C"));
+        this._cellules.push(new Cellule("D"));
+        this._cellules.push(new Cellule("E"));
+
     }
-    get cellule() {
-        return this._cellule;
+    get cellules() {
+        return this._cellules;
     }
-    set cellule(value) {
-        this._cellule = value;
-    }
-    ajouterCellules() {
-        for (var index = 0; index < 5; index++) {
-            this._cellule.push([]);
-        }
-    }
+    
 }

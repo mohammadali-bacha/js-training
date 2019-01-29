@@ -1,9 +1,6 @@
 module.exports = class Cellule {
-    constructor() {
-      this._cellule = [];
-    }
-    get cellule() {
-        return this._cellule;
-    }
+    constructor(name) { 
+        this._name = name;
+       }
 
 }
