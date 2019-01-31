@@ -1,0 +1,55 @@
+.vert{
+    background-color: green;
+}
+.rouge{
+    background-color: red;
+}
+
+.tableau{
+
+}
+
+.ligne{
+    clear: both;
+}
+
+.cellule{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 50px;
+}
+
+/* .rectangle{
+    margin: 1.5%;
+    margin-left: 25%;
+    width: 25%;
+    height: 50%;
+    float: left;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+} */
+
+input{
+    margin: 1.5%;
+    margin-left: 25%;
+    width: 25%;
+    height: 50%;
+    float: left;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    /* margin: 1%;
+    margin-left: 75%;
+    width: 20%;
+    height: 0%;
+    float: left;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px; */
+}

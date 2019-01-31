@@ -114,24 +114,31 @@ Mercredi 23/01/2019 :
 
 Vendredi 25/01/2019 :
 
-- [X] revoir l'heritage
-- [X] travailler jeu de donnnées 
-- [X] relire facture
-- [X] regles => interro
-- [X] pas de copier-coller
+- [X] revoir l'heritage (OK)
+- [X] travailler jeu de donnnées (OK)
+- [X] relire facture (OK)
+- [X] regles => interro (OK)
+- [X] pas de copier-coller (OK)
 - [X] compte-rendu React Native sur feuille
 
-- [X] creer des cellules sur 2 lignes en HTML/CSS, avec des div (float,margin,breakline)
-- [X] balises sections HTML, flex-flow en CSS (utilisation) sur feuille
-- [X] classes de couleur : 1er exercice feuille
-- [X] faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne)
-- [X] try and catch exemple
-- [X] difference json et javascript object (conditions d'utilisation) sur feuille
-- [X] exercice 2 : voir feuille 
+- [X] creer des cellules sur 2 lignes en HTML/CSS, avec des div (float,margin,breakline) (OK)
+- [X] balises sections HTML, flex-flow en CSS (utilisation) sur feuille (OK)
+- [X] classes de couleur : 1er exercice feuille (OK)
+- [X] faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne) (OK)
+- [X] try and catch exemple (OK)
+- [X] difference json et javascript object (conditions d'utilisation) sur feuille (OK)
+- [X] exercice 2 : html rectangle voir feuille (OK)
 
 
 Mardi 29/01/2019 :
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [X] mettre en lesson tryandcatch
+- [X] exemples flex-flow
+- [X] exercice sections
+- [ ] INTERRO sur tout + js => objet litteral != json
+- [ ] installer serveur node.js avec express => https://www.grafikart.fr/formations/nodejs
+- [ ] definir REST + recherche API sous express.js
+- [X] voir si plusieurs store sur redux
+- [ ] recap bilan mardi
+
+- [ ] RN --> finir redux
