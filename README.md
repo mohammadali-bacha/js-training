@@ -117,7 +117,13 @@
 - [X] Faire modèle objet avec tableau, ligne et 5 cellules par lignes.
 
 * 33-lesson
-- [ ] 
+- [X] exercice try and catch.
 
 * 34-lesson
+- [ ] installer serveur Node.js avec Express.
+
+* 35-lesson
+- [ ] Ajouter des sections à l'exerice 30.
+
+* 36-lesson
 - [ ] 
