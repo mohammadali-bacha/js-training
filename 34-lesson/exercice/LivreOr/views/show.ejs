@@ -1,0 +1,23 @@
+<% include ../pages/header %>
+
+
+<div class="ui comments">
+    <h3 class="ui dividing header">commentaires </h3>
+    <% for (message of messages) {%>
+    <div class="comment "></div>
+    <a class="avatar" href="/message<%= message.id%>">
+        <img src="" alt="">
+    </a>
+    <div class="content">
+        <div class="metadata"></div>
+        <div class="date">
+                <%= message.created_at.fromNow%>
+        </div>
+        <div class="test">
+             <%= message.content%>
+        </div>
+    </div>
+        <% } %>
+</div>
+
+<% include ./pages/footer %>
