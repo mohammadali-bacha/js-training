@@ -1,17 +1,11 @@
-let http = require('http');
-let fs = require('fs');
-let server = http.createServer();
+let app  = require('express')();
 
-
-server.on('request', (request, response) => { // on peut mettre function et enlever : => . c'est la meme chose
-    fs.readFile('indemx.html', (err, data) => {
-        if (err) {
-            throw err;
-        }
-        response.writeHead(200, {
-            'Content-type': 'text/html; charset=utf8'
-        })
-        response.end(data);
-    })
+app.get('/',  (request, response) => {
+    response.send('Salut tu es à la racine ')
 })
-server.listen(8080);
+
+app.get('/demo', (request,response) => {
+        response.send('Salut tu es sur la demo')
+})
+
+app.listen(8080)

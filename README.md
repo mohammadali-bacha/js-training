@@ -120,10 +120,22 @@
 - [X] exercice try and catch.
 
 * 34-lesson
-- [ ] installer serveur Node.js avec Express.
+- [X] installer serveur Node.js avec Express.
 
 * 35-lesson
-- [ ] Ajouter des sections à l'exerice 30.
+- [X] Ajouter des sections à l'exerice 30.
 
 * 36-lesson
 - [ ] 
+
+* 37-lesson
+- [ ] 
+
+* 38-lesson
+- [ ] 
+
+* 39-lesson
+- [ ]
+
+* 40-lesson
+- [ ]
