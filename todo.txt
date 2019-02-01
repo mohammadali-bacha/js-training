@@ -138,5 +138,7 @@ Mardi 29/01/2019 :
 - [X] installer serveur node.js avec express => https://www.grafikart.fr/formations/nodejs
 - [X] voir si plusieurs store sur redux
 - [X] definir REST
+
+
 - [X] recherche API sous express.js
 - [X] INTERRO sur tout + js => objet litteral != json
