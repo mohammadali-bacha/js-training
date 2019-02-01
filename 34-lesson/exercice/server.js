@@ -1,11 +1,14 @@
-let app  = require('express')();
+var express = require('express');
+var bodyParser = require('body-parser');
 
-app.get('/',  (request, response) => {
-    response.send('Salut tu es à la racine ')
-})
+var app = express();
 
-app.get('/demo', (request,response) => {
-        response.send('Salut tu es sur la demo')
-})
+app.use(bodyParser.json);
+app.use(bodyParser.urlencoded({extended: true}));
 
-app.listen(8080)
+app.listen(1900, function (){
+    console.log("serveur running on port " + this.address().port); 
+});
+
+
+
