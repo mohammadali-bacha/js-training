@@ -126,7 +126,7 @@
 - [X] Ajouter des sections à l'exerice 30.
 
 * 36-lesson
-- [ ] 
+- [ ] Différences entre position relative et absolue en CSS
 
 * 37-lesson
 - [ ] 

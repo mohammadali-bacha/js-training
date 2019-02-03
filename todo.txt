@@ -143,8 +143,13 @@ Mardi 29/01/2019 :
 
 Vendredi 01/02/2019 :
 
-- [ ] kit de dev : commandes a utiliser sous git 
+- [X] kit de dev : commandes a utiliser sous git 
+- [X] difference entre serveur classique et serveur node.js
+- [X] ecrire REST (put,get,post,)
+- [X] position absolue et relative avec exemples
+
 - [ ] flexbox schémas a faire avec exemples
-- [ ] position absolue et relative avec exemples
-- [ ] difference entre serveur classique et serveur node.js
-- [ ] ecrire REST (put,get,post,)
+
+
+
+

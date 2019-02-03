@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Positionnement relatif et absolu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .parent {
+            position: relative;
+        }
+
+        .rectangle {
+            display: inline-flex;
+            flex-direction: row;
+            margin: 10px;
+            width: 250px;
+            height: 40px;
+            background-color: rgb(218, 8, 8);
+        }
+
+        #trois {
+            top: 20px;
+            left: 20px;
+            background-color: green;
+            /* position: relative; */
+        }
+        #huit {
+            top: 20px;
+            left: 20px;
+            background-color: green;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="rectangle" id="un">
+            1
+        </div>
+        <div class="rectangle" id="deux">
+            2
+        </div>
+        <div class="rectangle" id="trois">
+            3 --> position relative
+        </div>
+        <div class="rectangle" id="quatre">
+            4
+        </div>
+        <div class="rectangle" id="cinq">
+          5 
+        </div>
+    </div>
+
+    <div class="parent">
+            <div class="rectangle" id="six">
+                6
+            </div>
+            <div class="rectangle" id="sept">
+                7
+            </div>
+            <div class="rectangle" id="huit">
+                8 --> position absolute
+            </div>
+            <div class="rectangle" id="neuf">
+                9
+            </div>
+            <div class="rectangle" id="dix">
+              10  
+            </div>
+        </div>
+</body>
+
+</html>
