@@ -126,10 +126,10 @@
 - [X] Ajouter des sections à l'exerice 30.
 
 * 36-lesson
-- [ ] Différences entre position relative et absolue en CSS
+- [X] Étude de diverses propiétés : flex-flow, flex-wrap, flex-direction
 
 * 37-lesson
-- [ ] 
+- [X] Différences entre position relative et absolue en CSS
 
 * 38-lesson
 - [ ] 
