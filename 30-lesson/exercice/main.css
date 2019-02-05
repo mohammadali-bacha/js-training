@@ -1,8 +1,7 @@
-div{
+.cell{
     margin: 10px;
-    /* flex-flow: row wrap; */
-    width: 190px;
-    height: 190px;
+    width: 112px;
+    height: 122px;
     float: left;
     padding: 50px;
 }
@@ -11,4 +10,7 @@ div{
 }
 .red{
     background-color: red;
+}
+.row{
+    clear: both;
 }
