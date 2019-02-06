@@ -1,0 +1,9 @@
+{
+    "name": "mon-app",
+    "version": "0.1.0",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "ejs-lint": "^0.3.0",
+        "markdown": "~0.4"
+    }
+}

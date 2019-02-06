@@ -152,13 +152,19 @@ Vendredi 01/02/2019 :
 Mardi 6/02/2019 :
 
 - [ ] mettre a jour papier flexbox et autres
+
 - [X] stocker docs dans documentation
+
 - [ ] rechercher informations pour construire API : {
-    - serveur JS
-    - information/faire routage avec express
-    - connecter à une base de donnnées
-    - API REST Graphql
+
+    - information/faire routage avec express --> OK
+
+    - connecter à une base de donnnées --> 
+
+    - Graphql --> 
 }
+- [ ] exercice objet
+
 
 Vendredi 8/02/2019 :
 
