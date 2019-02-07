@@ -1,20 +1,27 @@
+const { Pool, Client } = require('pg')
 var express = require('express'),
      path = require('path'),
      bodyParser = require('body-parser'),
      cons = require('consolidate'),
      dust = require('dustjs-helpers'),
      pg = require('pg'),
-     pwd = require('../recipebook/process.env')
+     pwd = require('../recipebook/process.env'),
 app = express();
 
+
+
 // DB CONNECT STRING
-const connect = 'postgresql://bachamohammad-ali:' + pwd.DB_PASS + '@localhost/recipebookdb';
+// const connectionString = 'postgresql://bachamohammad-ali:' + pwd.DB_PASS + '@localhost/recipebookdb';
+const connectionString = 'postgresql://test:nfHH94Zaq2vc@localhost:5432/recipebookdb';
+
+const pool = new Pool({
+     connectionString: connectionString,
+   })
 
 //Assign Dust Engine to .dust Files
 app.engine('dust', cons.dust);
 
 // Set default Ext .dust
-
 app.set('view engine', 'dust');
 app.set('views', __dirname + '/views');
 
@@ -29,19 +36,39 @@ app.use(bodyParser.urlencoded({
 
 app.get('/', function (req, res) {
      // PG CONNNECT
-     pg.connect(conString, function (err, client, done) {
+     pool.connect((err, client, release) => {
           if (err) {
-               return console.error('error fetching client form pool', error);
+            return console.error('Error acquiring client', err.stack)
           }
-          client.query('SELECT $1 ::int AS number', ['1'], function (err, result) {
-               done();
-               if (err) {
-                    return console.error('error running query', err);
-               }
-               console.log(result.rows[0].number);
-          });
-     });
+          client.query('SELECT * FROM recipes', (err, result) => {
+            release()
+            if (err) {
+              return console.error('Error executing query', err.stack)
+            }
+            res.render('index', {recipes: result.rows});
+          //   done();
+                console.log(result.rows)
+          })
+        })
+     // pool.connect((connect, (err, client, release) => {
+     //      if (err) {
+     //           return console.error('error fetching client form pool', err.stack);
+     //      }
+     //      client.query('SELECT * FROM recipes',  (err, result) => {
+     //           release();
+     //           if (err) {
+     //                return console.error('error running query', err.stack);
+     //           }
+     //           res.render('index', {recipes: result.rows});
+     //           done();
+       
+     //      });
+     //   });   
 });
+
+////////
+
+//////////////
 
 //Server
 app.listen(3000, function () {

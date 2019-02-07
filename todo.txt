@@ -155,13 +155,13 @@ Mardi 6/02/2019 :
 
 - [X] stocker docs dans documentation
 
-- [ ] rechercher informations pour construire API : {
+- [X] rechercher informations pour construire API : {
 
     - information/faire routage avec express --> OK
 
-    - connecter à une base de donnnées --> 
+    - connecter à une base de donnnées --> OK 
 
-    - Graphql --> 
+    - Graphql --> OK 
 }
 - [ ] exercice objet
 
