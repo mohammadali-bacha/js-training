@@ -151,7 +151,7 @@ Vendredi 01/02/2019 :
 
 Mardi 6/02/2019 :
 
-- [ ] mettre a jour papier flexbox et autres
+- [X] mettre a jour papier flexbox et autres
 
 - [X] stocker docs dans documentation
 
@@ -163,7 +163,6 @@ Mardi 6/02/2019 :
 
     - Graphql --> OK 
 }
-- [ ] exercice objet
 
 
 Vendredi 8/02/2019 :
