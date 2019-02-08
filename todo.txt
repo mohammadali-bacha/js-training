@@ -176,7 +176,7 @@ Vendredi 8/02/2019 :
 - [ ] mvc recherche
 - [ ] regarder microservices
 - [ ] installer environnement Solidity
-- [ ] 
+- [ ] interro REST
 
 
 
