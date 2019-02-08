@@ -1,5 +1,9 @@
+import suppliersController from '../controllers/suppliersController'
+
+
 let express = require('express');
 let router = express.Router();
+
 
 router.get('/', function (res, req) {
     res.json({
@@ -19,10 +23,13 @@ router.get('/customers', function (req, res) {
         message: "customers"
     });
 });
-router.get('/customer/:id', function (req, res) {
+
+router.get('/customers/:id', function (req, res) {
     res.json({
         message: `customer: ${req.params.id}` 
     });
 });
+
+router.get('/suppliers/:id', suppliersController.index);
 
 module.exports = router;
