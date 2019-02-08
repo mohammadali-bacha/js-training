@@ -165,10 +165,11 @@ Mardi 6/02/2019 :
 }
 
 
+
 Vendredi 8/02/2019 :
 
-- [ ]
-- [ ]
+- [ ] commenter flexbox papier
+- [ ] implementer relation cardinalite  1-1 et 1-n 
 - [ ]
 - [ ]
 - [ ]
