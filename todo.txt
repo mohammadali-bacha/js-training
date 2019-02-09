@@ -170,12 +170,17 @@ Vendredi 8/02/2019 :
 
 - [ ] commenter flexbox papier
 - [ ] implementer relation cardinalite  1-1 et 1-n 
-- [ ] mettre en es6 les imports
-- [ ] metre en const
+
+- [X] mettre en es6 les imports + const
+
 - [ ] data mapper -> squeelize
-- [ ] mvc recherche
+- [X] mvc recherche
 - [ ] regarder microservices
+
 - [ ] installer environnement Solidity
+- [ ] amazon lambda
+- [ ] async/await
+
 - [ ] interro REST
 
 

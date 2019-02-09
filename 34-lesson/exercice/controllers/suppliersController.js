@@ -1,4 +1,4 @@
-exports.index = function(req,res){
+exports.index = (req,res) => {
     res.json({
         message: "hello supplier"
     });

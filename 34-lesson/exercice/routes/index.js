@@ -1,22 +1,23 @@
 import suppliersController from '../controllers/suppliersController'
+import express from "express";
 
+const app = express();
 
-let express = require('express');
 let router = express.Router();
 
 
-router.get('/', function (res, req) {
+router.get('/', (res, req) => {
     res.json({
         message: "home"
     });
 });
 
-router.get('/contact', function (req, res) {
+router.get('/contact',  (req, res) => {
     res.json({
         message: "contact"
     });
 });
-router.get('/customers', function (req, res) {
+router.get('/customers', (req, res) => {
     console.log('xxx');
     
     res.json({
@@ -24,7 +25,7 @@ router.get('/customers', function (req, res) {
     });
 });
 
-router.get('/customers/:id', function (req, res) {
+router.get('/customers/:id', (req, res) => {
     res.json({
         message: `customer: ${req.params.id}` 
     });
