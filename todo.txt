@@ -172,14 +172,15 @@ Vendredi 8/02/2019 :
 - [ ] implementer relation cardinalite  1-1 et 1-n 
 
 - [X] mettre en es6 les imports + const
+- [X] mvc recherche
+- [X] regarder microservices
+- [X] amazon lambda
+- [X] async/await
 
 - [ ] data mapper -> squeelize
-- [X] mvc recherche
-- [ ] regarder microservices
 
 - [ ] installer environnement Solidity
-- [ ] amazon lambda
-- [ ] async/await
+
 
 - [ ] interro REST
 

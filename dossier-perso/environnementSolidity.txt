@@ -1,0 +1,7 @@
+Liste des outils à avoir pour pouvoir  développer sur Ethereum :
+
+- Truffle --> 
+- Ganache -->
+- Metamask ;)
+- Go-Ethereum
+- 
