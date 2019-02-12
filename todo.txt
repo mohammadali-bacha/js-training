@@ -169,20 +169,17 @@ Mardi 6/02/2019 :
 Vendredi 8/02/2019 :
 
 - [ ] commenter flexbox papier
-- [ ] implementer relation cardinalite  1-1 et 1-n 
-
+- [X] interro REST
+- [X] implementer relation cardinalite  1-1 et 1-n 
+- [X] lire base de donnnées
+- [X] data mapper -> squeelize
 - [X] mettre en es6 les imports + const
 - [X] mvc recherche
 - [X] regarder microservices
 - [X] amazon lambda
 - [X] async/await
+- [X] installer environnement Solidity
 
-- [ ] data mapper -> squeelize
-
-- [ ] installer environnement Solidity
-
-
-- [ ] interro REST
 
 
 
