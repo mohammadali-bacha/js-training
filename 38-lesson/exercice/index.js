@@ -2,12 +2,16 @@ const Pere = require('./pere');
 const Fils = require('./fils');
 
 
-exemple0 = new Pere('georges');
+georges = new Pere('georges');
 
-exemple1 = new Fils('lucas');
+lucas = new Fils(georges,'lucas');
 
-console.log(exemple0);
+console.log(georges);
 
-console.log(exemple1);
+// console.log(lucas);
 
-console.log(Fils.pere);
+georges.ajouterFils(lucas);
+
+
+console.log(georges.fils[0]);
+

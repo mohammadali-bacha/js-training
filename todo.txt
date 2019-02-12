@@ -168,7 +168,7 @@ Mardi 6/02/2019 :
 
 Vendredi 8/02/2019 :
 
-- [ ] commenter flexbox papier
+- [X] commenter flexbox papier
 - [X] interro REST
 - [X] implementer relation cardinalite  1-1 et 1-n 
 - [X] lire base de donnnées
@@ -182,4 +182,12 @@ Vendredi 8/02/2019 :
 
 
 
+Mardi 12/02/2019 :
 
+- [ ] s'entrainer sur l'objet
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]

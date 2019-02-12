@@ -1,11 +1,12 @@
 module.exports = class Fils {
-    constructor(pere){
-        this._pere = pere;
+    constructor(pere, nom){
+        // this._pere = pere;
+        this._nom = nom;
     }
-    get fils (){
-        return this._fils;
+    get nom (){
+        return this._nom;
     }
-    set fils(value){
-        this._fils = value;
-    }
+    // get pere(){
+    //     return this._pere;
+    // }
 }
