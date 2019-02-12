@@ -186,7 +186,11 @@ Mardi 12/02/2019 :
 - [ ] s'entrainer sur l'objet
 - [ ] exemple AWS lambda
 - [ ] exemple async/await
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] rajouter champs
+- [ ] ajouter dans api-project : colonnes au schema de base de donnee user
+- [ ] ajouter dans api-project la table message
+- [ ] construire le routage pour se connecter a l'utilisateur et pour creer l'utilisateur
+- [ ] creer les controllers (ref --> lesson34)
+- [ ] interr objet rest 
+- [ ] regarder script de table
+- [ ] relire mcd 
