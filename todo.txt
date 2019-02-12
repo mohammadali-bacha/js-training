@@ -181,12 +181,11 @@ Vendredi 8/02/2019 :
 - [X] installer environnement Solidity
 
 
-
 Mardi 12/02/2019 :
 
 - [ ] s'entrainer sur l'objet
-- [ ]
-- [ ]
+- [ ] exemple AWS lambda
+- [ ] exemple async/await
 - [ ]
 - [ ]
 - [ ]
