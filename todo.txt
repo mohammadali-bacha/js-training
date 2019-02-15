@@ -188,11 +188,17 @@ Mardi 12/02/2019 :
 - rajouter champs :
 - [X] ajouter dans api-project : colonnes au schema de base de donnee user
 - [X] ajouter dans api-project la table message
-
 - [X] construire le routage pour se connecter a l'utilisateur et pour creer l'utilisateur
 - [X] creer les controllers (ref --> lesson34)
-
 - [X] interr objet rest 
 - [X] regarder script de table
 - [X] relire mcd 
 
+Vendredi 12
+
+-[ ] faire api pour recuperer liste des utilisateurs
+-[ ] promise
+-[ ] voir destructuring serialization
+-[ ] relire
+-[ ] 
+-[ ] 
