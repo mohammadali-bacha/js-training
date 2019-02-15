@@ -132,10 +132,25 @@
 - [X] Différences entre position relative et absolue en CSS
 
 * 38-lesson
-- [ ] 
+- [X] Relations cardinalités  1-1 et 1-n 
 
 * 39-lesson
-- [ ]
+- [X] Serveur Node.js
 
 * 40-lesson
+- [X] AWS exemple
+
+* 41-lesson
+- [X] Exemple async/await
+
+* 42-lesson
+- [ ]
+
+* 43-lesson
+- [ ]
+
+* 44-lesson
+- [ ]
+
+* 45-lesson
 - [ ]
