@@ -183,14 +183,22 @@ Vendredi 8/02/2019 :
 
 Mardi 12/02/2019 :
 
-- [ ] s'entrainer sur l'objet
-- [ ] exemple AWS lambda
-- [ ] exemple async/await
-- [ ] rajouter champs
-- [ ] ajouter dans api-project : colonnes au schema de base de donnee user
-- [ ] ajouter dans api-project la table message
-- [ ] construire le routage pour se connecter a l'utilisateur et pour creer l'utilisateur
-- [ ] creer les controllers (ref --> lesson34)
-- [ ] interr objet rest 
-- [ ] regarder script de table
-- [ ] relire mcd 
+- [X] exemple AWS lambda
+- [X] exemple async/await
+- rajouter champs :
+- [X] ajouter dans api-project : colonnes au schema de base de donnee user
+- [X] ajouter dans api-project la table message
+- [X] construire le routage pour se connecter a l'utilisateur et pour creer l'utilisateur
+- [X] creer les controllers (ref --> lesson34)
+- [X] interr objet rest 
+- [X] regarder script de table
+- [X] relire mcd 
+
+Vendredi 12
+
+-[ ] faire api pour recuperer liste des utilisateurs
+-[ ] promise
+-[ ] voir destructuring serialization
+-[ ] relire
+-[ ] 
+-[ ] 
