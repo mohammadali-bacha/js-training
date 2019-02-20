@@ -194,11 +194,18 @@ Mardi 12/02/2019 :
 - [X] regarder script de table
 - [X] relire mcd 
 
-Vendredi 12
+Vendredi 12/02/2019 :
 
--[ ] faire api pour recuperer liste des utilisateurs
--[ ] promise
--[ ] voir destructuring serialization
+-[X] faire api pour recuperer liste des utilisateurs
+-[X] promise
+-[X] voir destructuring serialization
 -[ ] relire
+
+
+Jeudi 21/02/2019 : 
+
 -[ ] 
+-[ ]
+-[ ]
+-[ ]
 -[ ] 
