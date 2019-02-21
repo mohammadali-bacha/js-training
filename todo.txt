@@ -204,8 +204,10 @@ Vendredi 12/02/2019 :
 
 Jeudi 21/02/2019 : 
 
--[ ]  rajouter methode de classe static dans dossier objet
+-[ ] rajouter methode de classe static dans dossier objet
 -[ ] toujours git status apres git add .
--[ ]
--[ ]
--[ ] 
+-[ ] ajouter commentaires
+-[ ] creer page html users qui affiche liste des utilisateurs de la db
+-[ ] schema de fonctionnement de api-project
+-[ ] ajouter bootstrap
+-[ ] page avec composant react 

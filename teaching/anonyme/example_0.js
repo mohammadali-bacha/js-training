@@ -1,21 +1,10 @@
 console.log('-------');
-
-var test0 = function(){
-    return 200;
+//methode annonyme :
+var test0 = function(a,b,c){ //test0 pointe sur fonction
+    return a + b + c;
 };
 
-console.log(test0());
+console.log(test0(10,20,30));
 
-var [a,b,c] = [1,56,6];
 
-(function(x,y,z){
 
-x += 2;
-y += 4;
-z += 6;
-
-})(a,b,c);
-
-console.log('a :'+ a);
-console.log('b :'+ b);
-console.log('c :'+ c);
