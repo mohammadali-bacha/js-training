@@ -204,7 +204,7 @@ Vendredi 12/02/2019 :
 
 Jeudi 21/02/2019 : 
 
--[ ] 
+-[ ]  rajouter methode de classe static dans dossier objet
 -[ ]
 -[ ]
 -[ ]

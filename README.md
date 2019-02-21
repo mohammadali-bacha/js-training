@@ -144,10 +144,11 @@
 - [X] Exemple async/await
 
 * 42-lesson
-- [ ] Exemple de promises
+- [X] Faire api pour recuperer liste des utilisateurs 
 
 * 43-lesson
-- [ ] Faire api pour recuperer liste des utilisateurs 
+- []  Exemples de promises
+
 
 * 44-lesson
 - [ ]

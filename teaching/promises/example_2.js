@@ -28,6 +28,8 @@ async function sequentialStart(){
     const slow = await resolveAfter2secondes();
     const fast = await resolveAfter1secondes();
 
+    console.log('xxx');  
+
     console.log(slow);
     console.log(fast);
     
@@ -53,13 +55,11 @@ function stillSerial(){
 }
 
 
+// sequentialStart();
 
+concurrentStart();
 
-//sequentialStart();
-
-//concurrentStart()
-
-stillSerial();
+// stillSerial();
 
 
 
