@@ -7,7 +7,7 @@ Trouver les définitions des termes de la liste ci-dessous et les écrire sur un
 - [x] Langage dynamique et statique + exemples
 - [x] Variables dynamiques
 - [x] Inférence
-- [x] Chaine de caractère "3,14", méthodes utilisées pour transformer en integer
+- [x] Chaîne de caractères "3,14", méthodes utilisées pour transformer en integer
 - [x] Développement objet
 - [x] Classe
 - [x] Instance d'une classe
@@ -20,38 +20,38 @@ Trouver les définitions des termes de la liste ci-dessous et les écrire sur un
 
 Mercredi 19/12/2018
 
-Implémenter les fonctionnalités suivantes
+Implémenter les fonctionnalités suivantes :
 
 - [x] une fonction de tri croissant sur un tableau contenant des entiers
-- [ ] une fonction de tri decroissant sur un tableau contenant des entiers
+- [ ] une fonction de tri décroissant sur un tableau contenant des entiers
 
 Jeudi 20/12/2018
 
-- [x] Chaine de caractere avec la definition trouver des exemples
-- [x] Trouver des definitions avec des exemples en langage javascript.
+- [x] Chaine de caractère avec la definition + trouver des exemples
+- [x] Trouver des définitions avec des exemples en langage Javascript.
 - [x] Rechercher la plus petite valeur dans le tableau (exercice 8)
 
 Samedi 29/12/2018
 
-- [x] Refaire les exercices avec la fonction de Rechercher
-- [x] Trouver les definitions : classe, propiete, methode,
-- [x] Relire comment faire une fonction + exemple fonction addition avec tableau de valeur entree et fournir la somme du tableau en retour ---> lesson12
-- [x] Faire algo 'regrouper les nombres de meme valeur' --> lesson13
-- [x] Definir les objets d'une voiture, moto, facture, comment parcourir une liste objet
+- [x] Refaire les exercices avec la fonction de Rechercher.
+- [x] Trouver les definitions : classe, propiété, méthode.
+- [x] Relire comment faire une fonction + exemple de fonction d'addition avec tableau de valeur en entrée et en sortie la somme du tableau en retour ---> lesson12
+- [x] Faire algorithme 'regrouper les nombres de meme valeur' --> lesson13
+- [x] Définir les objets d'une voiture, moto, facture, comment parcourir une liste objet.
 
 
 Jeudi 03/01/2019
 
-- [x] Ajouter commentaires
-- [x] Fonction Recherche de la plus grande valeur
-- [x] faire des classes selon les schemas comme voiture, facture et moto
-- [x] renommer lessons
+- [x] Ajouter commentaires.
+- [x] Fonction Recherche de la plus grande valeur.
+- [x] Faire des classes selon les schémas comme voiture, facture et moto.
+- [x] Renommer lessons.
 
-- [ ] Exemple programmation objet en Javascript avec type litteral et classique, 
+- [ ] Exemple programmation objet en Javascript avec type littéral et classique, 
 - [ ] CSS/HTML concepts fondamentaux 
 - [ ] Programme JS pour manipuler les balises HTML (en manipulant le DOM)
 
-- [x] 18-lesson : autre algo => Remplacer toutes les valeurs divisibles par 2, leur ajouter +1
+- [x] 18-lesson : autre algo => Remplacer toutes les valeurs divisibles par 2, leur ajouter +1.
 
 Samedi 05/01/2019
 
@@ -62,30 +62,30 @@ Samedi 05/01/2019
 
 Mardi 08/01/2019
 
-- [x] faire une synthèse de toute les règles autour de l'implémentations des classes objet (donnnées calculées, getter setter, propriétés publiques, privées) en UNE seule feeuille tous les éléments.
+- [x] faire une synthèse de toute les règles autour de l'implémentation des classes objet (donnnées calculées, getter setter, propriétés publiques, privées) en UNE seule feeuille tous les éléments.
 - [x] faire algo "les chats ne mangent pas les chiens. Et les souris sont mangées par les chats" ----> fonction qui va stocker dans un tableau tous les mots.
-- [x] relire(ré-éxécuter) exercice 19-bis
+- [x] relire (ré-éxécuter) exercice 19-bis
 - [x] refaire exercice 19 (créer facture et ajouter lignes de facture)
-- [x] reflechir a l'exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
-- [x] relire tous les docs
-- [x] regarder différence entre format json et format javascript
+- [x] réfléchir a l'exercice 21 : cumuler les totaux des lignes  de  facture : pour y acceder : ligne.montantHT...
+- [x] relire tous les documents.
+- [x] regarder différence entre format json et format javascript.
 
 Vendredi 11/01/2019
 
 - [x] Refaire exercice 20 
-- [x] exercice pour concaténer des lettres pour faire des mots, en faire des réflexes
-- [x] Implémenter propiété : nombre de lignes
+- [x] exercice pour concaténer des lettres pour faire des mots, en faire des réflexes.
+- [x] Implémenter propiété : nombre de lignes.
 - [x] Commenter 19-lesson
-- [x] Rédiger compte-rendu d'apprentissage de la journée
-- [x] créer dossiers pour chaque lesson et mettre index
+- [x] Rédiger compte-rendu d'apprentissage de la journée.
+- [x] créer dossiers pour chaque lesson et mettre index.
 - [x] Rédiger document : toutes les règles depuis le début. 
-- [ ] résumer newsletter 
+- [ ] Résumer newsletter.
 
 Mardi 15/01/2019 :
 
 - [x] prendre un texte et compter le nb de fois que je trouve la lettre selectionée
 ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
-- [x] rechercher callbacks avec exemples,
+- [x] rechercher callbacks avec exemples
 - [x] difference entre promise et un callbacks
 - [x] ES5 vs ES6
 - [x] github pages
@@ -95,11 +95,11 @@ ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
 Vendredi 18/01/2019 :
 
 - [x] bilan de mardi et aujourd'hui (ok)
-- [x] refaire feuille d'evaluation en regroupant par theme sur papier (ok)
-- [x] reecrire regles de codage en paysage (ok)
-- [x] generer un site a partir d'un repo sur un autre repo github pages (ok)
+- [x] refaire feuille d'evaluation en regroupant par thème sur papier (ok)
+- [x] réecrire règles de codage en paysage (ok)
+- [x] générer un site à partir d'un repository sur un autre repository github pages (ok)
 - [x] faire exemples de callbacks (ok)
-- [x] exercice : créer une biblioteque de livres : 28-lesson (ok)
+- [x] exercice : créer une bibliothèque de livres : 28-lesson (ok)
 - [x] exercice de la prise de sang : 27-lesson (ok)
 
 
@@ -107,26 +107,26 @@ Vendredi 18/01/2019 :
 Mercredi 23/01/2019 :
 
 - [X] exemples et exercices de try and catch
-- [X] realiser exercice concessionnaire en s'inspirant de facture 
-- [X] apprendre par COEUR regles
-- [X] refaire evaluation dessin
+- [X] réaliser exercice concessionnaire en s'inspirant de facture 
+- [X] apprendre par COEUR règles
+- [X] refaire évaluation du dessin
 
 
 Vendredi 25/01/2019 :
 
-- [X] revoir l'heritage (OK)
-- [X] travailler jeu de donnnées (OK)
+- [X] revoir l'héritage (OK)
+- [X] travailler jeu de données (OK)
 - [X] relire facture (OK)
-- [X] regles => interro (OK)
+- [X] règles => interro (OK)
 - [X] pas de copier-coller (OK)
 - [X] compte-rendu React Native sur feuille
 
-- [X] creer des cellules sur 2 lignes en HTML/CSS, avec des div (float,margin,breakline) (OK)
+- [X] créer des cellules sur 2 lignes en HTML/CSS, avec des div (float,margin,breakline) (OK)
 - [X] balises sections HTML, flex-flow en CSS (utilisation) sur feuille (OK)
 - [X] classes de couleur : 1er exercice feuille (OK)
-- [X] faire un objet tableau avec cellules et lignes sur papier (schema), puis implementation code (ajouter lignes + 5 cellules/ligne) (OK)
+- [X] faire un objet tableau avec cellules et lignes sur papier (schema), puis implémentation code (ajouter lignes + 5 cellules/ligne) (OK)
 - [X] try and catch exemple (OK)
-- [X] difference json et javascript object (conditions d'utilisation) sur feuille (OK)
+- [X] différence json et javascript object (conditions d'utilisation) sur feuille (OK)
 - [X] exercice 2 : html rectangle voir feuille (OK)
 
 
@@ -143,15 +143,15 @@ Mardi 29/01/2019 :
 
 Vendredi 01/02/2019 :
 
-- [X] kit de dev : commandes a utiliser sous git  OK
-- [X] difference entre serveur classique et serveur node.js 
-- [X] ecrire REST (put,get,post,)
+- [X] kit de dev : commandes à utiliser sous git  OK
+- [X] différence entre serveur classique et serveur node.js 
+- [X] écrire REST (put,get,post,)
 - [X] position absolue et relative avec exemples
-- [X] flexbox schémas a faire avec exemples
+- [X] flexbox schémas à faire avec exemples
 
 Mardi 6/02/2019 :
 
-- [X] mettre a jour papier flexbox et autres
+- [X] mettre à jour papier flexbox et autres
 
 - [X] stocker docs dans documentation
 
@@ -170,7 +170,7 @@ Vendredi 8/02/2019 :
 
 - [X] commenter flexbox papier
 - [X] interro REST
-- [X] implementer relation cardinalite  1-1 et 1-n 
+- [X] implémenter relation cardinalité  1-1 et 1-n 
 - [X] lire base de donnnées
 - [X] data mapper -> squeelize
 - [X] mettre en es6 les imports + const
@@ -186,17 +186,17 @@ Mardi 12/02/2019 :
 - [X] exemple AWS lambda
 - [X] exemple async/await
 - rajouter champs :
-- [X] ajouter dans api-project : colonnes au schema de base de donnee user
+- [X] ajouter dans api-project : colonnes au schéma de base de donnée user
 - [X] ajouter dans api-project la table message
-- [X] construire le routage pour se connecter a l'utilisateur et pour creer l'utilisateur
-- [X] creer les controllers (ref --> lesson34)
-- [X] interr objet rest 
+- [X] construire le routage pour se connecter a l'utilisateur et pour créer l'utilisateur
+- [X] créer les controllers (ref --> lesson34)
+- [X] interrogation objet sur rest 
 - [X] regarder script de table
 - [X] relire mcd 
 
 Vendredi 12/02/2019 :
 
--[X] faire api pour recuperer liste des utilisateurs
+-[X] faire api pour récupérer liste des utilisateurs
 -[X] promise
 -[X] voir destructuring serialization
 -[ ] relire
@@ -204,12 +204,12 @@ Vendredi 12/02/2019 :
 
 Jeudi 21/02/2019 : 
 
--[ ] rajouter methode de classe static dans dossier objet
--[ ] schema de fonctionnement de api-project
--[X] toujours git status apres git add .
+-[X] rajouter méthode de classe static dans dossier objet
+-[ ] schéma de fonctionnement de api-project
+-[X] toujours git status après git add .
 
 -[X] ajouter commentaires
--[X] creer page html users qui affiche liste des utilisateurs de la db
+-[X] créer page html users qui affiche liste des utilisateurs de la db
 -[X] ajouter bootstrap
 -[ ] page avec composant react 
 
