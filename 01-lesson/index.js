@@ -1,14 +1,14 @@
 /*
-L'exercice consiste à recuperer la longeur d'un tableau
+L'exercice consiste à récupérer la longeur d'un tableau
 */
 
 /* 
-Initialisation variable d'un tableau
+Initialisation d'une variable tab contenant un tableau
 */
 var tab = [1,4,2,5,6,12,3];
 
 /* 
-Recuperation de la longeur du tableau
+Récupération de la longeur du tableau
 */
 var lg = tab.length;
 

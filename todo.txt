@@ -205,12 +205,33 @@ Vendredi 12/02/2019 :
 Jeudi 21/02/2019 : 
 
 -[X] rajouter méthode de classe static dans dossier objet
--[ ] schéma de fonctionnement de api-project
--[X] toujours git status après git add .
+-[X] schéma de fonctionnement de api-project
+-[X] TOUJOURS git status après git add .
 
 -[X] ajouter commentaires
 -[X] créer page html users qui affiche liste des utilisateurs de la db
 -[X] ajouter bootstrap
 -[ ] page avec composant react 
 
+Vendredi 01/03/2019 :
 
+-[X] ajouter popper a api-project
+-[X] faire les vues signup, users
+-[X] refaire les schemas des composants react-native
+
+
+-[ ] react native
+
+-[ ] tuto react 
+
+
+
+Vendredi 08/03/2019 :
+
+-[ ]
+-[ ]
+-[ ]
+-[ ]
+-[ ]
+-[ ]
+-[ ]

@@ -1,14 +1,14 @@
 /*
-L'exercice consiste a trouver l'index d'une valeur recherchee dans le  tableau 
+L'exercice consiste à trouver l'index d'une valeur recherchée dans le tableau.
 */
 
 /* 
-Initialisation variable d'un tableau
+Initialisation d'une variable tab contenant un tableau.
 */
 var tab = [1,4,2,5,6,12,3];
 
 /* 
-Recuperation de la longeur du tableau
+Récupération de la longeur du tableau.
 */
 var lg = tab.length;
 
@@ -17,7 +17,7 @@ Rechercher l'index de la valeur 12
 */
 var search = 12;
 /*
-On souhaite stocker le resultat de la valeur recherchee
+On souhaite stocker le résultat de la valeur recherchée.
 */
 var result = null;
 
