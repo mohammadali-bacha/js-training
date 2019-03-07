@@ -218,19 +218,20 @@ Vendredi 01/03/2019 :
 -[X] ajouter popper a api-project
 -[X] faire les vues signup, users
 -[X] refaire les schemas des composants react-native
-
+-[X] ajouter nom et prenom dans base de donnees (migrate +model), suppr puis recreer base
+-[X] renvoyer vers accueil apres submit
 
 -[ ] react native
-
 -[ ] tuto react 
 
 
 
-Vendredi 08/03/2019 :
+Jeudi 07/03/2019 :
 
--[ ]
--[ ]
--[ ]
+-[ ] Ajouter méthodes dans sessionController
+-[ ] Ajouter authentification (cookies, proxies, session)
+-[ ] Ajouter Materialize
+-[ ] 
 -[ ]
 -[ ]
 -[ ]

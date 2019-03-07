@@ -149,7 +149,6 @@
 * 43-lesson
 - [ ] Exemples de promises
 
-
 * 44-lesson
 - [ ]
 
