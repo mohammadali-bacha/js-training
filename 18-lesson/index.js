@@ -8,12 +8,12 @@ Le but de l'exercice est de remplacer toutes les valeurs divisibles par 2, en le
 function valeursDivisiblePar2(tableau){
 for (var index = 0; index < tableau.length; index++) { 
     /*
-    dans cette condition, on verifie qu'il ny a pas de reste a la division du nombre parcouru
+    dans cette condition, on vérifie qu'il n'y a pas de reste de la division du nombre parcouru
     dans le tableau par 2 et si c'est le cas...
     */
     if (tableau[index] % 2 == 0) {
         /*
-        la valeur du tableau est egale a celle-ci plus 1 
+        la valeur du tableau est égale a celle-ci plus 1 
         */
         tableau[index] = tableau[index]+1;      
     }

@@ -27,4 +27,4 @@ var resultat = dictionnaireDeMots(dictionnaire);
 console.log(resultat);
 
 
-// resultat souhaite : [ 'les', 'voitures', 'roulent' ]
+// résultat souhaite : [ 'les', 'voitures', 'roulent' ]

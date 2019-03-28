@@ -145,12 +145,9 @@
 
 * 42-lesson
 - [X] API récupérant la liste des utilisateurs préalablement enregistrée dans une base de données.
+Voir https://github.com/mohammadali-bacha/api-project 
 
-* 43-lesson
-- [ ] Exemples de promises
+<!-- * 43-lesson
+- [ ] Exemples de promises -->
 
-* 44-lesson
-- [ ]
 
-* 45-lesson
-- [ ]

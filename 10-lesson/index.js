@@ -4,7 +4,7 @@ function maPremiereFonction(arg1){
 }
 
 /*
-cette variable stocke le resultat de la fonction
+cette variable stocke le résultat de la fonction
 */
 var resultat0 = maPremiereFonction(8);
 console.log(resultat0);
@@ -13,7 +13,7 @@ console.log(resultat0);
 function rechercherLaPlusPetiteValeur(tableau){
     var miseSurEtagere = tableau[0];
     /* 
-    Recuperation de la longeur du tableau
+    Récuperation de la longeur du tableau
     */
     var longueur = tableau.length;
     
@@ -25,13 +25,13 @@ function rechercherLaPlusPetiteValeur(tableau){
             miseSurEtagere = tableau[index]
         }
         /*
-        La condition verifie si la valeur en ieme position tableau[index] 
+        La condition vérifie si la valeur en ième position tableau[index] 
         dans le tableau est plus petite que la positon index+1 qui est longueur
-        Si la condition est verifiée la valeur en ieme position tableau[index]
-        est enregistree dans la variable miseSurEtagere et la variable longueur est incrementee.
+        Si la condition est verifiée la valeur en ième position tableau[index]
+        est enregistrée dans la variable miseSurEtagere et la variable longueur est incrémentée.
         */
         /*
-        Sinon l'ieme position tableau[index] est enregistree dans la variable miseSurEtagere.
+        Sinon l'ième position tableau[index] est enregistrée dans la variable miseSurEtagere.
             */
         // }
     }
@@ -58,7 +58,7 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
     var miseSurEtagere = tableau[0];
     var indexMisSurEtagere = position;
     /* 
-    Recuperation de la longeur du tableau
+    Récuperation de la longeur du tableau
     */
     var longueur = tableau.length;
     
@@ -71,13 +71,13 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
             indexMisSurEtagere = index;
         }
         /*
-        La condition verifie si la valeur en ieme position tableau[index] 
+        La condition vérifie si la valeur en ième position tableau[index] 
         dans le tableau est plus petite que la positon index+1 qui est longueur
-        Si la condition est verifiée la valeur en ieme position tableau[index]
-        est enregistree dans la variable miseSurEtagere et la variable longueur est incrementee.
+        Si la condition est vérifiée la valeur en ième position tableau[index]
+        est enregistrée dans la variable miseSurEtagere et la variable longueur est incrémentée.
         */
         /*
-        Sinon l'ieme position tableau[index] est enregistree dans la variable miseSurEtagere.
+        Sinon l'ième position tableau[index] est enregistrée dans la variable miseSurEtagere.
             */
         // }
     }

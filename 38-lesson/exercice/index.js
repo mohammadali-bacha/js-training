@@ -1,3 +1,8 @@
+/*
+ Le but de cet exercice est d'étudier les relations cardinalités 1-1 et 1-n.
+*/
+
+
 const Pere = require('./pere');
 const Fils = require('./fils');
 

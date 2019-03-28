@@ -1,25 +1,24 @@
 
 /*
-Trier une suite de nombres a l'aide de la methode du tri a selection 
+Trier une suite de nombres à l'aide de la méthode du tri à selection 
 Exemple :
  var tableau = [3,4,6,2,1,7,5,8]
  tableau[0] => 3
-Rechercher la valeur plus petite que 3 en l'excluant de la recherche 
-la valeur plus petite sera 1
-Le principe du tri a selection est d'echanger les positions de valeurs celle en  position courante avec la plus petite
+Rechercher la valeur plus petite que 3 en l'excluant de la recherche la valeur plus petite sera 1.
+Le principe du tri à selection est d'échanger les positions de valeurs celle en  position courante avec la plus petite
 valeur.
 
 
 La fonction de tri comporte 2 sous-fonctions ,
     -rechercher la plus petite valeur
-    -echanger la position de la plus petite valeur avec la valeur courante :
+    -échanger la position de la plus petite valeur avec la valeur courante :
     [3,9,2,4,5,6,7,8]
      -   -       
      0   2
-     on echange les positions  0 et 2
-     on va donc developper une fonction qui va nous permettre de rechercher la plus petite valeur en nous renvoyant la position de cette valeur 
-     contenue dans le tableau
-     Dans cette fonction, on va rajouter la possibilite de definir le point de depart de cette recherche :
+     on échange les positions  0 et 2
+     on va donc développer une fonction qui va nous permettre de rechercher la plus petite valeur en nous renvoyant la position de cette valeur 
+     contenue dans le tableau.
+     Dans cette fonction, on va rajouter la possibilité de définir le point de départ de cette recherche :
      [12,45,87,90,10,40]
     la plus petite valeur a partir de 90 est la valeur 10.
 */
@@ -28,7 +27,7 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
     var miseSurEtagere = tableau[position];
     var indexMisSurEtagere = position;
     /* 
-    Recuperation de la longeur du tableau
+    Récupération de la longeur du tableau
     */
     var longueur = tableau.length;
     
@@ -41,9 +40,9 @@ function rechercherLaPlusPetiteValeurParIndex(tableau, position){
             indexMisSurEtagere = index;
         }
         /*
-        La condition verifie si la valeur en ieme position tableau[index] 
-        dans le tableau est plus petite que la valeur mise sur l'etagere
-        si la condition est verifié on echange les valeurs et on stocke dans une variable
+        La condition vérifie si la valeur en ième position tableau[index] 
+        dans le tableau est plus petite que la valeur mise sur l'étagère
+        si la condition est vérifiée on échange les valeurs et on stocke dans une variable
         temporaire index de la valeur mise sur l'etagere dans indexMisSurEtagere
         */
 

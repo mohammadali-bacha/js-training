@@ -1,3 +1,8 @@
+/*
+ Modèle objet avec tableau, ligne et 5 cellules par lignes.
+*/
+
+
 const Tableau = require('./tableau');
 const Ligne = require('./ligne');
 

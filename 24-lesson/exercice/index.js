@@ -1,3 +1,7 @@
+/*
+Implémentation de try and catch + throw dans un ancien exercice
+*/
+
 const divisibleParDeux = require('./divisibleParDeux');
 // const testFonction = require('./testFonction');
 

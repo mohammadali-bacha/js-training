@@ -1,3 +1,8 @@
+/*
+Exemple de fonction uploadée dans AWS Lambda.
+*/
+
+
 function plusGrandeValeurTableau(tableau) {
     var miseSurEtagere = tableau[0];
     for (var index = 0; index < tableau.length; index++) {

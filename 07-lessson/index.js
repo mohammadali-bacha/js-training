@@ -12,18 +12,16 @@ var j = null;
 while (valide) {
     if (arr0[i] == search){
         valide = false;
-        // i++; // s'arrete jamais
-        //pourquoi -1 si j'inverse true et false ?
+        // i++;  ne s'arrête jamais
     }
     i++;
     console.log(i);   
 }
 
 /*
-Lorsque la valeur recherchee dans la boucle est trouvee
-la valeur de l'index i est incremente en plus 
+Lorsque la valeur recherchée dans la boucle est trouvée la valeur de l'index i est incrementé
 exemple:
-si la valeur 9 a un index de 2 l'index passe a 3
+si la valeur 9 à un index de 2 l'index passe à 3
 */
 
 j = i - 1

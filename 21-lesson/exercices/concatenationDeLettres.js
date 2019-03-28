@@ -4,8 +4,8 @@ dans un tableau.
 */
 
 /*
-Dans cette fonction, nous parcourons le tableau de lettres aà l'aide d'une boucle for et à chaque parcourt,
-la valeur parcourure est concaténée avec la précédente pour ainis former le mot.
+Dans cette fonction, nous parcourons le tableau de lettres à l'aide d'une boucle for et à chaque parcours,
+la valeur parcourue est concaténée avec la précédente pour ainsi former le mot.
 
 */
 

@@ -1,5 +1,5 @@
 /*
-Le but de l'exercice est de rechercher la plus petite valeur a partir d'un tabeleau
+Le but de l'exercice est de rechercher la plus petite valeur à partir d'un tabeleau
 [23,56,98,43,67,11,3]
 */
 
@@ -14,8 +14,8 @@ function rechercherLaPlusPetiteValeur(tableau) {
     for (var index = 0; index < tableau.length; index++) {
         console.log("tableau" + tableau[index]);
     /*
-        Dans cette condition, si miseSurEtager est plus grande que la valeur au moment du parcours de la boucle dans le tableau, alors miseSurEtager est
-        egale a cette valeur jusqu'a que ce soit la plus petite
+        Dans cette condition, si miseSurEtagere est plus grande que la valeur au moment du parcours de la boucle dans le tableau, alors miseSurEtagere est
+        égale à cette valeur jusqu'à que ce soit la plus petite
     */
         if (miseSurEtagere > tableau[index]) {
             miseSurEtagere = tableau[index];
@@ -34,7 +34,7 @@ On initialise la variable tableau
 var tableau = [23,56,12,43,67,11];
 
 /*
-On stocke le resultat de la fonction dans une variable...
+On stocke le résultat de la fonction dans une variable...
 */
 resultat = rechercherLaPlusPetiteValeur(tableau);
 

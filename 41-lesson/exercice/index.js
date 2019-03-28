@@ -1,3 +1,8 @@
+/*
+Exemple de cas d'utilisation d'async/await
+*/
+
+
 (async function() {
     let attente = await fetch('/')
     console.log(await attente.text())

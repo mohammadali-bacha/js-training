@@ -1,5 +1,5 @@
 /*
-Le but de l'exercice est d'enregistrer des livres dans une bibliothèque.
+Le but de l'exercice est d'enregistrer des livres dans une bibliothèque(tableau).
 */
 
 const Bibliotheque = require('./bibliotheque');

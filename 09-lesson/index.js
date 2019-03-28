@@ -1,5 +1,5 @@
 /*
-L'exercice consiste a rechercher la plus petite valeur dans un tableau
+L'exercice consiste à rechercher la plus petite valeur dans un tableau
 */
 /* 
 Initialisation variable d'un tableau
@@ -9,7 +9,7 @@ Initialisation variable d'un tableau
 var tableau = [25,47,32,18,56]; 
 var miseSurEtagere = tableau[0];
 /* 
-Recuperation de la longeur du tableau
+Récuperation de la longeur du tableau
 */
 var longueur = tableau.length;
 
@@ -21,13 +21,13 @@ for (var index = 0; index <= longueur; index++) {
         miseSurEtagere = tableau[index]
     }
     /*
-    La condition verifie si la valeur en ieme position tableau[index] 
+    La condition vérifie si la valeur en ième position tableau[index] 
     dans le tableau est plus petite que la positon index+1 qui est longueur
-    Si la condition est verifiée la valeur en ieme position tableau[index]
-    est enregistree dans la variable miseSurEtagere et la variable longueur est incrementee.
+    Si la condition est vérifiée la valeur en ième position tableau[index]
+    est enregistrée dans la variable miseSurEtagere et la variable longueur est incrementée.
     */
     /*
-    Sinon l'ieme position tableau[index] est enregistree dans la variable miseSurEtagere.
+    Sinon l'ième position tableau[index] est enregistrée dans la variable miseSurEtagere.
         */
     // }
 }

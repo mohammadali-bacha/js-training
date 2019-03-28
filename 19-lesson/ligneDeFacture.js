@@ -26,7 +26,7 @@ module.exports = class LigneDeFacture {
     set txTVA(value) {
         this._txTVA = value;
         /*
-        besoin de mettre à jour la propiété totalTTC car dépend de totalTVA qui elle même depend de txTVA 
+        besoin de mettre à jour la propiété totalTTC car dépend de totalTVA qui elle même dépend de txTVA 
         */
         this._totalTVA = this._totalHT * this._txTVA;
         this._totalTTC = this._totalHT + this._totalTVA;

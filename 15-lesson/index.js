@@ -1,12 +1,12 @@
 /*
-Le but de l'exercice est de regrouper les nombres de meme valeurs d'un tableau dans un autre tableau en les additionnant.
+Le but de l'exercice est de regrouper les nombres de même valeurs d'un tableau dans un autre tableau en les additionnant.
 */
 
 function regrouperLesNombresDeMemeValeur(tableau) {
     var tableauDeMemeValeurs = [];
     var valeur = null;
 /*
-on cree une boucle pour parcourir le tableau
+on crée une boucle pour parcourir le tableau
 */
     for (var indexValeur = 0; indexValeur < tableau.length; indexValeur++) {
 /*
@@ -16,12 +16,12 @@ on initialise les variables
         var cumul = 0;
         var nombreDeFoisTrouve = 0;
 /*
-dans cette 2eme boucle, nous allons chercher dans le tableau si 
+dans cette 2ème boucle, nous allons chercher dans le tableau si 
 */
         for (var indexRecherche = indexValeur; indexRecherche < tableau.length; indexRecherche++) {
 /*
-dans cette condition, si la valeur contenue dans le tableau est egale a la valeur parcourue dans le tableau alors
-cumul est egale a celle-ci a chaque fois et on ajoute un compteur pour stocker dans nombreDeFoisTrouve combien de fois cette valeur apparait...
+dans cette condition, si la valeur contenue dans le tableau est égale à la valeur parcourue dans le tableau alors
+cumul est égale à celle-ci à chaque fois et on ajoute un compteur pour stocker dans nombreDeFoisTrouve combien de fois cette valeur apparait...
 */
             if (valeur == tableau[indexRecherche]) {
                 cumul = cumul + valeur;
@@ -30,8 +30,8 @@ cumul est egale a celle-ci a chaque fois et on ajoute un compteur pour stocker d
 
         }
 /*
-...pour ensuite ajouter la condition que si cette valeur est plus grande que 1, alors cumul a le droit d'etre ajoutee dans le tableau de sortie,
-c'est pour eviter que dans le tableau de sortie, il y ait les valeurs uniques du tableau d'entree
+...pour ensuite ajouter la condition que si cette valeur est plus grande que 1, alors cumul à le droit d'être ajoutée dans le tableau de sortie,
+c'est pour éviter que dans le tableau de sortie, il y ait les valeurs uniques du tableau d'entrée
 */
         if (nombreDeFoisTrouve > 1) {
             tableauDeMemeValeurs.push(cumul); 
