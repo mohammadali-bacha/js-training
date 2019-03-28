@@ -64,13 +64,13 @@
 - [x] Regroupe les nombres de même valeurs d'un tableau dans un autre tableau en les additionnant.
 
 * 16-lesson
-- [x] Classe selon la modelisation objets comme dans l'exemple sur papier avec voiture, facture et moto.
+- [x] Classe selon la modélisation objet comme dans l'exemple sur papier avec voiture, facture et moto.
 
 * 17-lesson
 - [x] Fonction qui recherche la plus grande valeur contenue dans un tableau.
 
 * 18-lesson
-- [x] Remplace toutes les valeurs divisibles par 2, par la valeur divisible +1.
+- [x] Remplace toutes les valeurs divisibles par 2, par la valeur divisible +1 .
 
 * 19-lesson
 - [x] Implémentation de lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
@@ -108,7 +108,7 @@
 - [x] Tri de voitures selon leur type.
 
 * 30-lesson
-- [X] Création des 2 lignes de 5 carrés rempli de vert ou de rouge avec HTML/CSS et uniquement avec des balises <div> et la propriété flex-flow (en CSS) selon l'exemple (voir feuille).
+- [X] Création des 2 lignes de 5 carrés remplis de vert ou de rouge avec HTML/CSS et uniquement avec des balises <div> et la propriété flex-flow (en CSS) selon l'exemple (voir feuille).
 
 * 31-lesson
 - [X] Structure HTML selon schéma et carrés cliquables.
