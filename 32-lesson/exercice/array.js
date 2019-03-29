@@ -1,11 +1,11 @@
-module.exports = class Table {
+module.exports = class Array {
     constructor() {
         this._lines =[];
     }
     addLine(line){
-        this._lignes.push(line);
+        this._lines.push(line);
     }
     get lines(){
-        return this._lignes;
+        return this._lines;
     }
 }

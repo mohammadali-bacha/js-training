@@ -3,11 +3,10 @@ The purpose of the exercise is to take a text and count the number of times I fi
 ex: "the cat eats the mouse" => how many times is there the letter l?
 */
 
-
-function letterNumberfunction(text,letterSearch) {
+function numberOFtimesLetter(text,requestedLetter) {
     var account = null;
     for (var index = 0; index < text.length; index++) {
-        if (text[index] == letterSearch ){
+        if (text[index] == requestedLetter ){
            numberOFTimes = index; 
             account++;
         }
@@ -17,10 +16,10 @@ function letterNumberfunction(text,letterSearch) {
 
 var text = "the cat eats the mouse"; 
 
-var letterResearch ="";
+var requestedLetter ="u";
 
 var numberOfTimes = 0; // must be equal to 2 at the end
 
-var result = numberOFtimesLetter(text,letterSearch);
+var result = numberOFtimesLetter(text,requestedLetter);
 
 console.log(result);

@@ -3,7 +3,7 @@ The purpose of the exercise is to register books in a library (table).
 */
 
 const Library = require('./library');
-const Book = require('./livre');
+const Book = require('./book');
 
 var library = new Library();
 
@@ -16,7 +16,7 @@ var biographyElonMusk = new Book(
 
 library.addBook(biographyElonMusk);
 
-var biographiePeterThiel = new Book(
+var biographyPeterThiel = new Book(
     "Zero to One.",
     "Peter Thiel",
     5678,
@@ -27,7 +27,7 @@ library.addBook(biographyPeterThiel);
 
 // var results = library.searchBookParTitle("Zero to One");
 
-var results = library.searchBarCodePaper(1234);
+var results = library.searchBarCodeBook(1234);
 
 console.log(results);
 

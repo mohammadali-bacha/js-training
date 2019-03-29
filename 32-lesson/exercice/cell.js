@@ -1,4 +1,4 @@
-module.exports = class Cellule {
+module.exports = class Cell {
     constructor(name) { 
         this._name = name;
        }

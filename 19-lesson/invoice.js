@@ -16,11 +16,11 @@ module.exports = class Invoice {
         this._numero = number;
         this._date = date;
         this._account = deposit;
-        this.deliveryAddress = deliveryAddress;
+        this._deliveryAddress = deliveryAddress;
         this._totalHT = 0;
         this._totalVAT = 0;
         this._totalTTC = 0;
-        this._InvoiceLine = [];
+        this._invoiceLine = [];
         this._numberOfLines = 0;
     }
     /*
@@ -36,10 +36,10 @@ module.exports = class Invoice {
         return this._date;
     }
     get deposit() {
-        return this. _account;
+        return this._account;
     }
     get deliveryAddress() {
-        return this. deliveryAddress;
+        return this._deliveryAddress;
     }
     get totalHT() {
         return this._totalHT;
@@ -60,7 +60,7 @@ module.exports = class Invoice {
             this._totalTTC = 0;
             this._totalVAT = 0;
     
-            for (var index = 0; index < this._ligneDeFactures.length; index++) {
+            for (var index = 0; index < this._numberOfLines.length; index++) {
     
                 /*
                 the properties above are updated by adding them to the value of the index searched at time t of the totals of each line        
@@ -80,7 +80,7 @@ module.exports = class Invoice {
                 this._totalTTC += tempTotalTTC;
   
             }
-            this._numberOfLines = this._invoice.line.length;
+            this._numberOfLines = this._invoiceLine.length;
         } catch (error) {
             this._invoiceLine.pop();
             console.log("The invoice amount is greater than $10,000!");

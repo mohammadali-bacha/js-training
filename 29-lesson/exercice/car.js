@@ -1,4 +1,4 @@
-module.exports = class Voiture {
+module.exports = class Car {
     constructor
         (
             model,
@@ -20,7 +20,7 @@ module.exports = class Voiture {
         return this._brand;
     }
 
-    ajouterKm(km) {
+    addKm(km) {
         this._km += km;
     }
 }

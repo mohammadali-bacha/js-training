@@ -1,24 +1,24 @@
 /*
- Object model with table, line and 5 cells per line.
+ Object model with array, line and 5 cells per line.
 */
 
 
-const Table = require('./table');
+const Array = require('./array');
 const Line = require('./line');
 
 var lineA = new Line();
 var lineB = new Line();
 
-var table = new Table(
+var array = new Array(
 );
 
-table.addLine(lineA);
-table.addLine(lineB);
+array.addLine(lineA);
+array.addLine(lineB);
 
-console.log(table.lines[1]);
+console.log(array.lines[1]);
 
 
 //4th cell of line 2
 
-console.log(table.lines[1].cells[3]);
+console.log(array.lines[1].cells[3]);
 

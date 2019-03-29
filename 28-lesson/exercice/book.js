@@ -5,19 +5,19 @@ module.exports = class Livre {
          barcode,
          theme
         ) {
-            this.title = title;
+            this._title = title;
             this._author = author;
-            this.barcode = codeBarre;
+            this._barcode = barcode;
             this._theme = theme;
         }
     get title() {
-        return this.title;
+        return this._title;
     }
     get author() {
         return this._author;
     }
-    get codeBarre() {
-        return this.barcode;
+    get barcode() {
+        return this._barcode;
     }
     get theme() {
         return this._theme;

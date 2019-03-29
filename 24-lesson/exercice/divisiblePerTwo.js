@@ -1,4 +1,4 @@
-module.exports = function valueDivisibleValuePerTwo(value) {
+module.exports = function divisiblePerTwo(value) {
     try {
     var answer = false;
      var rest = value % 2;
@@ -7,7 +7,7 @@ module.exports = function valueDivisibleValuePerTwo(value) {
         }else{
            throw "the value is not divisible by 2";    
         }
-        return reply;
+        return answer;
     } catch (error) {
         console.log(error);   
     }

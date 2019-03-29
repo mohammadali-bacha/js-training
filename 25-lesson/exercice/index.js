@@ -4,6 +4,6 @@ The program below converts a euro value into dollars at the specified exchange r
 
 const conversion = require('./conversion');
 
-var result = conversion (250,1.14);
+var result = conversion (25,1.15);
 
 console.log(result);

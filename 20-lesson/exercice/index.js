@@ -7,7 +7,7 @@ function dictionaryWords(report) {
     var dictionary = [];
 
 
-    for (var index = 0; index < reportReport.length; index++) {
+    for (var index = 0; index < report.length; index++) {
         var letter = report[index];
   
         if(letter !=""){
@@ -20,14 +20,14 @@ function dictionaryWords(report) {
         }
         
     }
-    console.log("last word");
+    // console.log("last word");
     dictionary.push(word);  
     console.log(word)
     return dictionary;
 }
 
 
-varReport = "cats eat mouses";
+var report = "cats eat mouses";
 
 var result = dictionaryWords(report);
 

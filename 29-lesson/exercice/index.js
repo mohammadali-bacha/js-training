@@ -1,10 +1,11 @@
 /*
 The purpose of the exercise is to be able to sort cars by type.
 */
+
 const Sport = require('./sport');
 const SUV = require('./suv');
 const Sedan = require('./sedan');
-Concessionaire = require('./concessionaire');
+Dealer = require('./dealer');
 
 var bmw = new SUV(
     "X6",
@@ -27,7 +28,7 @@ var mercedes = new Sedan(
     "mercedes"
 )
 
-audi.mark = "x";
+audi.brand = "x";
 bmw.addKm(25);
 bmw.addKm(25);
 bmw.addKm(25);
@@ -48,8 +49,7 @@ console.log("SUV car, number of km:" + lamborghini.km);
 console.log("-------------------------");
 
 
-
-concessionary = new Concessionnary();
+dealer = new Dealer();
 
 dealer.addCar(bmw);
 
@@ -59,7 +59,7 @@ dealer.addCar(audi);
 
 dealer.addCar(lamborghini);
 
-console.log(concessionary);
+console.log(dealer);
 
 
 

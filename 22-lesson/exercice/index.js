@@ -3,7 +3,7 @@ The objective of the exercise is to add a word to a text.
 */
 
 function addWordText(word, text)  {
-    var newText = text +"" + word ;
+    var newText = text +" " + word ;
     return newText;
 }
 

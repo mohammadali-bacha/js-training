@@ -16,7 +16,7 @@ module.exports = class InvoiceLine {
         this._txVAT = txVAT;
         this._totalHT = this._UnitaryPrice * this._quantity;
         this._totalVAT = this._totalHT * this._txVAT;
-        this._totalTTC = this._totalHT + this._totalTVA;
+        this._totalTTC = this._totalHT + this._totalVAT;
     }
 
     get txVAT() {
@@ -29,7 +29,7 @@ module.exports = class InvoiceLine {
         need to update the total ownership incl. VAT because it depends on totalVAT which itself depends on VAT incl. 
         */
         this._totalVAT = this._totalHT * this._txVAT;
-        this._totalTTC = this._totalHT + this._totalTVA;
+        this._totalTTC = this._totalHT + this._totalVAT;
     }
 
     get quantity() {
@@ -43,7 +43,7 @@ need to update all properties because totalTTC and totalTVA depend on totalHT wh
 */
         this._totalHT = this._UnitaryPrice* this._quantity;
         this._totalVAT = this._totalHT * this._txVAT;
-        this._totalTTC = this._totalHT + this._totalTVA;
+        this._totalTTC = this._totalHT + this._totalVAT;
     }
 
     get UnitPrice(){
@@ -57,7 +57,7 @@ need to update all properties because totalTTC and totalVAT depend on totalHT wh
 */
         this._totalHT = this._UnitaryPrice * this._quantity;
         this._totalVAT = this._totalHT * this._txVAT;
-        this._totalTTC = this._totalHT + this._totalTVA;
+        this._totalTTC = this._totalHT + this._totalVAT;
     }
 /*
 We get the properties back:

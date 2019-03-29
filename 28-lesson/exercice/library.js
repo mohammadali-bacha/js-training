@@ -4,26 +4,26 @@ module.exports = class Library  {
         this._books = [];
     }
     get book(){
-        return this._livre;
+        return this._books;
     }
 
     addBook(book){
-        this._pounds.push(book);
+        this._books.push(book);
     }
     searchBookPartner(title){
         var overShelving = [];
-        for (var index = 0; index < this._livres.length; index++) {
+        for (var index = 0; index < this._books.length; index++) {
             if (this._books[index].title == title) {
-                miseSurEtagere.push(this._livres[index]);
+                overShelving.push(this._books[index]);
             }
         }
         return overShelving;
     }
     searchBarCodeBook(barcode){
         var overShelving = null;
-        for (var index = 0; index < this._livres.length; index++) {
+        for (var index = 0; index < this._books.length; index++) {
             if (this._books[index].barcode == barcode) {
-                shelving = this._books[index];
+                overShelving = this._books[index];
             }
         }
         return overShelving;

@@ -23,7 +23,7 @@ function enterNumber(number) {
     }
 }
 
-var result = enterNumber(200);
+var result = enterNumber(100);
 
 
 //////////////////////version switch case break

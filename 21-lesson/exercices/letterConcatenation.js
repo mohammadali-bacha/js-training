@@ -9,8 +9,6 @@ the value traveled is concatenated with the previous one to form the word.
 
 */
 
-// module.exports = 
-
 function word(letters) {
 
     var word = [];
@@ -25,7 +23,7 @@ var letters0 = ["m", "o", "r", "n", "i", "n", "g"]
 
 var letters1 = ["h", "e", "l", "l", "o"];
 
-var letters = letters1;
+var letters = letters0;
 
 var result = word(letters);
 

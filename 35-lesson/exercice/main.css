@@ -1,19 +1,15 @@
-.vert{
+.green{
     background-color: green;
 }
-.rouge{
+.red{
     background-color: red;
 }
 
-.tableau{
-
-}
-
-.ligne{
+.line{
     clear: both;
 }
 
-.cellule{
+.cell{
     margin: 10px;
     width: 50px;
     height: 50px;

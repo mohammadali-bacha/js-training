@@ -3,7 +3,7 @@
 */
 
 
-const Pere = require('./pere');
+const Pere = require('./dad');
 const Son = require('./son');
 
 

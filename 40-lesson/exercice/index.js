@@ -3,20 +3,20 @@ Example of a function uploaded in AWS Lambda.
 */
 
 
-function plusLargeValueTable(table) {
-    var overShelving = table[0];
-    for (var index = 0; index < table.length; index++) {
-        if (overShelving < table[index]) {
-            overShelving = table[index];
+function largestValueArray(array) {
+    var overShelving = array[0];
+    for (var index = 0; index < array.length; index++) {
+        if (overShelving < array[index]) {
+            overShelving = array[index];
 
         }
     }
-    return console.log(shelving);
+    return console.log(overShelving);
 }
 
-var table =[3, 90, 54, 32, 19];
+var array =[3, 90, 54, 32, 19];
 
-result = largestLargestValueTable(table);
+result = largestValueArray(array);
 
 
 /////

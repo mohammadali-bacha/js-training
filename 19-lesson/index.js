@@ -16,7 +16,7 @@ we declare the variables:
 */
 const Invoice = require('./invoice');
 const DeliveryAddress = require('./address');
-const InvoiceLine = require('./InvoiceLine');
+const InvoiceLine = require('./invoiceLine');
 
 /*
 we instantiate the variables: 
@@ -27,7 +27,7 @@ var address = new DeliveryAddress(
     "Lyon",
 );
 
-var invoice = new invoice(
+var invoice = new Invoice(
     "purchase of equipment",
     1809,
     "12/09/2018",
@@ -74,5 +74,5 @@ invoice.addLines(line4);
 we display it all:
 */
 console.log(invoice);
-console.log("invoice.line: "+ invoice.numberoflines);
-toto.invoice = 10;
+console.log("invoice.line: "+ invoice.numberOfLines);
+invoice.toto = 10;
