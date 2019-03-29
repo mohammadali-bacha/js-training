@@ -60,7 +60,7 @@ module.exports = class Invoice {
             this._totalTTC = 0;
             this._totalVAT = 0;
     
-            for (var index = 0; index < this._numberOfLines.length; index++) {
+            for (var index = 0; index < this._invoiceLine.length; index++) {
     
                 /*
                 the properties above are updated by adding them to the value of the index searched at time t of the totals of each line        
@@ -88,7 +88,7 @@ module.exports = class Invoice {
         }
     }
     get numberOfLines() { {
-        return this. _numberOfLines;
+        return this._numberOfLines;
     }
 }
 }

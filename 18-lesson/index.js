@@ -36,7 +36,7 @@ function valuesDivisiblePer2(array){
     /*
     The function is stored in a variable....
     */
-    var result = valuesDivisiblePar2(array);
+    var result = valuesDivisiblePer2(array);
     /*
     so that you can then display it.
     */

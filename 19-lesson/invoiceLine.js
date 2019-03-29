@@ -41,7 +41,7 @@ module.exports = class InvoiceLine {
 /*
 need to update all properties because totalTTC and totalTVA depend on totalHT which depends on quantity.
 */
-        this._totalHT = this._UnitaryPrice* this._quantity;
+        this._totalHT = this._UnitaryPrice * this._quantity;
         this._totalVAT = this._totalHT * this._txVAT;
         this._totalTTC = this._totalHT + this._totalVAT;
     }

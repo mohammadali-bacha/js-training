@@ -1,135 +1,135 @@
-class Facture {
+class Invoice {
     constructor(
         /*
-On initialise les paramètres dans le constructeur :
+We initialize the parameters in the constructor:
         */
         name,
-        numero, 
+        number, 
         date, 
-        txTva,
-        prixUnitaire,
-        quantite,
-        addresseDeLivraison,
-        accompte,
+        txVAT,
+        UnitPrice,
+        quantity,
+        deliveryAddress,
+        deposit,
         ){
         /*
-On initialise les propriétés dans le constructeur :
+We initialize the properties in the constructor:
         */
         this._name = name;
-        this._numero = numero; 
+        this._numero = number; 
         this._date = date;
-        this._txTva = txTva;
-        this._prixUnitaire = prixUnitaire;
-        this._quantite = quantite;
-        this._accompte = accompte;
-        this._addresseDeLivraison = addresseDeLivraison;
+        this._txVAT = txVAT;
+        this._UnitaryPrice = UnitPrice;
+        this._quantity = quantity;
+        this._account = deposit;
+        this._deliveryAddress = deliveryAddress;
 
-        this._montantHT =  this._quantite * this._prixUnitaire ;
-        this._montantTVA =  this._montantHT * this._txTva ;
-        this._montantTTC = this._montantTVA + this._montantHT;
+        this._totalHT = this._UnitaryPrice * this._quantity;
+        this._totalVAT = this._totalHT * this._txVAT;
+        this._totalTTC = this._totalHT + this._totalVAT;
     }
         /*
-Ici, on utilise des getters et setters pour récupérer les valeurs (get) et ensuite les
-modifier (set).
+Here, we use getters and setters to retrieve the values (get) and then the
+change (set).
         */
 
-    get montantHT(){
-        return this._montantHT;
+    get totalHT(){
+        return this. _totalHT;
     } 
 
-    set txTva(value){
+    set txVAT(value){
         this._txTva = value;
-        this.miseAjourFacture();
+        this.updateInvoice();
     }
 
     get txTva(){
         return this._txTva;
     }
 
-    set quantite(value){
-        this._quantite = value;
-        this.miseAjourFacture();
+    set quantity (value){
+        this._quantity = value;
+        this.updateInvoice();
 
     }
 
-    get quantite(){
-        return this._quantite;
+    get quantity(){
+        return this._quantity;
     }
 
-    miseAjourFacture(){
-        this._montantHT =  this._quantite * this._prixUnitaire ;
-        this._montantTVA =  this._montantHT * this._txTva ;
-        this._montantTTC = this._montantTVA + this._montantHT;
+    updateInvoice(){ 
+        this._totalHT = this._UnitaryPrice * this._quantity;
+        this._totalVAT = this._totalHT * this._txVAT;
+        this._totalTTC = this._totalHT + this._totalVAT;
     }
-    MiseAjourName(name){
+    UpdateName(name){
         this._name = name;
     }
 
 }
 
-class AddresseDeLivraison {
+class DeliveryAddress {
     constructor(
-        rue, 
-        ville, 
-        codePostal)
+        street, 
+        city, 
+        postalCode)
     {
-        this.rue = rue;
-        this.ville = ville;
-        this.codePostal = codePostal;
+        this.street = street;
+        this.city = city;
+        this.postalCode = postalCode;
     }
 }
 
-var adresse =  new AddresseDeLivraison(
+var address = new DeliveryAddress(
     "rue de la republique",
-    "lyon",
+    "Lyon",
     69003);
 
-var facture = new Facture(
-    "Achat de materiel",
+var invoice = new Invoice(
+    "Purchase of equipment",
     1801,
     "01/02/2019",
     0.20,
     200.00,
     5.00,
-    adresse,
+    address,
     150.00,
      );
 
      
-console.log(facture);
+console.log(invoice);
 
 /*
-Cas "Modification de la quantité"
+Case "Modification of the quantity"
 */
 
-facture.quantite = 6 ;
-console.log(facture)
+invoice.quantity = 6 ;
+console.log(invoice)
 
 /*
-Cas "Modification du tx"
+Case "Modification of the tx"
 */
 
-facture.txTva = 0.1 ;
-console.log(facture)
+invoice.txVAT = 0.1 ;
+console.log(invoice)
 
 /*
-Cas "Mis à jour du nom"
+"Name update" case
 */
 
-facture.MiseAjourName("toto");
-console.log(facture)
+invoice.UpdateName("toto");
+console.log(invoice)
 
-//console.log(facture.calcul);
+//console.log(invoice.calculation);
 
 
-// console.log("-------------------------------------------");
+// console.log("-------------------------------------------------------------------");
 
-// facture.txTva = 8.00
+// invoice.txVAT = 8.00
 
-// console.log(facture);
+// console.log(invoice);
 
-// console.log("-------------------------------------------");
+// console.log("-------------------------------------------------------------------");
 
-// facture.quantite = 3
+// Invoice.quantity = 3
 
-// console.log(facture);
+// console.log(invoice);
