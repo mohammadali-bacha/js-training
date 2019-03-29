@@ -108,43 +108,43 @@
 - [x] Sorting of cars by type.
 
 * 30-lesson
-- [X]] Creation of the 2 lines of 5 squares filled with green or red with HTML/CSS and only with <div> tags and the flex-flow property (in CSS) according to the example (see sheet).
+- [X] Creation of the 2 lines of 5 squares filled with green or red with HTML/CSS and only with <div> tags and the flex-flow property (in CSS) according to the example (see sheet).
 
 * 31-lesson
-- [X]] HTML structure according to schema and clickable squares.
+- [X] HTML structure according to schema and clickable squares.
 
 * 32-lesson
-- [X]] Object model with table, line and 5 cells per line.
+- [X] Object model with table, line and 5 cells per line.
 
 * 33-lesson
-- [X]] Exercise try and catch.
+- [X] Exercise try and catch.
 
 * 34-lesson
-- [X]] Installation of a Node.js server with Express.
+- [X] Installation of a Node.js server with Express.
 
 * 35-lesson
-- [X]] Addition of sections to exercise 30.
+- [X] Addition of sections to exercise 30.
 
 * 36-lesson
-- [X]] Study of various properties: flex-flow, flex-wrap, flex-direction.
+- [X] Study of various properties: flex-flow, flex-wrap, flex-direction.
 
 * 37-lesson
-- [X]] Differences between relative and absolute position in CSS.
+- [X] Differences between relative and absolute position in CSS.
 
 * 38-lesson
-- [X]] Cardinality relations 1-1 and 1-n.
+- [X] Cardinality relations 1-1 and 1-n.
 
 * 39-lesson
-- [X]] Node.js server.
+- [X] Node.js server.
 
 * 40-lesson
-- [X]] Example of using AWS Lambda.
+- [X] Example of using AWS Lambda.
 
 * 41-lesson
-- [X]] Example with async/await
+- [X] Example with async/await
 
 * 42-lesson
-- [X]] API retrieving the list of users previously saved in a database.
+- [X] API retrieving the list of users previously saved in a database.
 See https://github.com/mohammadali-bacha/api-project 
 
 
