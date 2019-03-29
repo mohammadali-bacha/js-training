@@ -1,28 +1,40 @@
-/*
-Example of async/await use case
-*/
+exports.handler =  (event,context, callabck) => {
 
-
-(async function() {
-    let expectation = await fetch('/')
-    console.log(await expectation.text())
-  })()
-
-
-
+  // const isPalindrome = (string) => {
+    const string = event.string;
+    const reverse = string.split('').reverse().join('');
+    const isPalindrome = (string === reverse);
+      
+    const result = isPalindrome ? `${string} is a Palindrome` : `${string} is not a Palindrome`;
+      
+     callabck(result, null);
+  };
   
-(async () => {
-  try {
-    const res = await fetch('//api.github.com/users/lquixada');
-
-    if (res.status >= 400) {
-      throw new Error("error");
-    }
-
-    const user = await res.json();
-
-    console.log(user);
-  } catch (err) {
-    console.error(err);
-  }
-})();
+  // function plusGrandeValeurTableau(tableau) {
+  //     var miseSurEtagere = tableau[0];
+  //     for (var index = 0; index < tableau.length; index++) {
+  //         if (miseSurEtagere < tableau[index]) {
+  //             miseSurEtagere = tableau[index];
+  //         }
+  //     }
+  //     return console.log(miseSurEtagere);
+  // };
+  // var tableau = event.string;
+  
+  // var resultat = plusGrandeValeurTableau(tableau);
+  
+  // callabck(result, null);
+  // };
+  
+  // exports.handler = (event, context, callback) => {
+      
+  // var tableau = event.string;
+  
+  // var length = tableau.length;
+  
+  // console.log('la taille est du tableau est de  '+ length);
+  
+  // callaback(null,result);
+  
+  // // callback(error, response);
+  // };

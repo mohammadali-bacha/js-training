@@ -31,7 +31,7 @@ We return the value
 We initialize the array variable
 */
 
-var array =[23,56,12,12,43,67,11];
+var array =[23,56,12,43,67,11];
 
 /*
 The result of the function is stored in a variable....

@@ -47,7 +47,7 @@ var array = [23,46,12];
 var result1 = searchTheSmallestValue(array);
 
 
-console.log("The smallest value is" + result1 +".");
+console.log("The smallest value is " + result1 +".");
 
 
 
@@ -65,7 +65,7 @@ function searchTheSmallestValuePerIndex(array, position){
     for (var index = position; index <= length; index++) {
         if (overShelving > array[index]) {
             overShelving = array[index];
-            indexOverShelve = index;
+            indexOverShelving = index;
         }
         /*
         The condition checks if the value in ith array position[index] 
@@ -83,15 +83,15 @@ function searchTheSmallestValuePerIndex(array, position){
     console.log(array);
     // Display of the smallest value in the array
     
-    return indexOnOverShelving;
+    return indexOverShelving;
 }
 
 
-var array1 =[23,46,12, 34,68,98,21,59]
+var array1 =[23,46,12,34,68,98,21,59]
 var result2 = searchTheSmallestValuePerIndex(array1, 1);
 
 
-console.log("The smallest value per index is" + result2 +".");
+console.log("The smallest value per index is " + result2 +".");
 
 
 /*--------------------------------

@@ -53,10 +53,10 @@ The sorting function has 2 sub-functions,
 }
 
 
-array =[23,56,78,78,93,21,43,90]
+array =[23,56,78,93,21,43,90]
 var length = array.length;
-var valuePositionInitial = null;
-var valuePositionFinalValue = null;
+var PositionInitialValue = null;
+var PositionFinalValue = null;
 var indexOfTheSmallestValue = 0;
 
 
@@ -65,18 +65,18 @@ for (var index = 0; index < length; index++) {
     console.log("array:" + array);
 
     console.log("index :" + index);
-    InitialPositionValue = array[index];
-    console.log("InitialPositionValue:" + InitialPositionValue);
+    PositionInitialValue = array[index];
+    console.log("PositionInitialValue:" + PositionInitialValue);
 
 
     indexOfTheSmallestValue = searchTheSmallestValuePerIndex(array, index);
-    console.log("SmallestValueOfIndex:" + SmallestValueOfIndexValue);
+    console.log("SmallestValueOfIndex:" + indexOfTheSmallestValue);
     
-    FinalPositionValue = array[SmallestPointsIndex];
-    console.log("FinalPositionValue:" + FinalPositionValue);
+    PositionFinalValue = array[indexOfTheSmallestValue];
+    console.log("valuePositionFinalValue:" + PositionFinalValue);
     
-    array[SmallestValueOfIndexValue] = InitialPositionValue;    
-    array[index] = valueFinalPositionValue;
+    array[indexOfTheSmallestValue] = PositionInitialValue;    
+    array[index] = PositionFinalValue;
 
 
     console.log("****************************************************");

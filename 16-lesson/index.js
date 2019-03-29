@@ -38,12 +38,12 @@ change (set).
     } 
 
     set txVAT(value){
-        this._txTva = value;
+        this._txVAT = value;
         this.updateInvoice();
     }
 
     get txTva(){
-        return this._txTva;
+        return this._txVAT;
     }
 
     set quantity (value){

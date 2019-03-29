@@ -1,4 +1,4 @@
-/*
+/*e
 The purpose of the exercise is to group the numbers of the same values from one array 
 into another array by adding them together.
 */
@@ -24,8 +24,8 @@ in this 2nd loop, we will look in the array to see if
 in this condition, if the value contained in the array is equal to the value traveled in the array then
 cumulation is equal to this one each time and a counter is added to store in numberFromTimeFind how many times this value appears....
 */
-            if (value == array[indexSearch]) {
-                cumulation = cumulation + value;
+            if (value == array[indexResearch]) {
+                cumulative = cumulative + value;
                 numberOfTimesFound = numberOfTimesFound + 1;
             }
 
@@ -47,7 +47,7 @@ it is to avoid that in the output array, there are the unique values of the inpu
 /*
 We initialize the variables
 */
-var array =[100, 200, 300, 100, 50, 50, 50];
+var array =[100, 200, 300, 100, 50, 50];
 /*
 The function is stored in a variable....
 */

@@ -1,16 +1,16 @@
 /*
-The exercise consists in finding the index of a searched value in the table.
+The exercise consists in finding the index of a searched value in the arrayle.
 */
 
 /* 
-Initialization of a tab variable containing an array
+Initialization of a array variable containing an array
 */
-var tab =[1,4,2,2,5,5,6,6,12,3];
+var array =[1,4,2,5,6,12,3];;
 
 /* 
 Recovery of the length of the painting
 */
-var lg = tab.length;
+var lg = array.length;
 
 /* 
 Search for the index of the value 12
@@ -24,7 +24,7 @@ var result = null;
 
 for (var index = 0; index < lg; index++) {
 
-    if (tab[index] == search){
+    if (array[index] == search){
      result = index;
     }
 }

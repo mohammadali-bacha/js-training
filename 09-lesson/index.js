@@ -6,7 +6,7 @@ Variable initialization of an array
 */
 
 // uncomment to test the algorithm with other values:
-var array =[25,47,32,32,18,56]; 
+var array =[25,47,32,18,56]; 
 var overShelving = array[0];
 /* 
 Recovery of the length of the painting

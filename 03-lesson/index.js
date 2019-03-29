@@ -7,7 +7,7 @@ then replace them with 0.
 /* 
 Initialization of a variable in an array
 */
-var tab =[1,4,2,2,5,5,6,6,12,3];
+var tab =[1,4,2,5,6,12,3];
 
 /* 
 Recovery of the length of the array

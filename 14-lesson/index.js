@@ -20,7 +20,7 @@ return sum;
 /*
 We initialize the variables
 */
-var array =[12,34,56,56,78,90];
+var array =[12,34,56,78,90];
 /*
 The function is stored in a variable....
 */

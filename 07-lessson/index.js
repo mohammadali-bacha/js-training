@@ -4,7 +4,7 @@ Search the index of a value in the array using a while loop :
 
 console.log("Search for a value in the index:");
 var search = 9;
-var arr0 =[4,8,9,9,0,0,2,5];
+var arr0 =[4,8,9,0,2,5];
 var i = 0;
 var valid = true;
 var j = null;
