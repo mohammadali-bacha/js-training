@@ -1,39 +1,39 @@
 /*
-Le but de l'exercie est de faire une fonction qui recherche la plus grande valeur d'un tableau.
+The purpose of the exercise is to make a function that looks for the highest value of a painting.
 */
 
-function rechercheDeLaPlusGrandeValeur(tableau) {
-    var miseSurEtagere = tableau[0];
+function searchLargestValue(array) {
+    var overShelving = array[0];
 /*
-on crée une boucle pour parcourir le tableau
+we create a loop to browse the array
 */
-    for (var index = 0; index < tableau.length; index++) {
+    for (var index = 0; index < array.length; index++) {
 /*
-la condition vérifie que miseSurEtagere est plus petite que la valeur du tableau parcourue
-au moment de la boucle et si c'est le cas, on la stocke jusqu'a trouver la plus grande jusqu'à la 
-fin de la boucle
+the condition verifies that the staging is smaller than the value of the array being scanned
+at the time of the loop and if this is the case, it is stored until the largest one is found until the 
+end of the loop
 */
-        if (miseSurEtagere < tableau[index]) {
-            miseSurEtagere = tableau[index];
+        if (overShelving < array[index]) {
+            overShelving = array[index];
         }
     }
 /*
-On retourne la valeur 
+We return the value 
 */
-    return miseSurEtagere;
+    return overShelving;
 }
 
 /*
-On initialise la variable tableau
+We initialize the array variable
 */
-var tableau = [13,18,5,56,42];
-// var tableau1 = [23,56,12,43,67,11]; // valeur de test
+var array =[13,18,5,5,56,42];
+// var array1 =[23,56,12,12,43,67,11]; // test value
 /*
-On stocke le resultat de la fonction dans une variable...
+The result of the function is stored in a variable....
 */
-var resultat = rechercheDeLaPlusGrandeValeur(tableau);
+var result = searchLargestValue(array);
 
 /*
-pour pouvoir l'afficher ensuite
+so that it can be displayed later
 */
-console.log("Voici la plus grande valeur : " + resultat);
+console.log("This is the highest value:" + result);

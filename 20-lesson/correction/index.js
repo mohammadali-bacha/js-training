@@ -1,30 +1,31 @@
 /*
-Le but de l'exercice est de refaire une fonction qui va stocker dans un tableau tous les mots .
+The purpose of the exercise is to redo a function that will store all the words in a array.
 */
 
-function dictionnaireDeMots(dictionnaire) {
-   var  tableau = [];
-   var mot = " ";
-    for (var index = 0; index < dictionnaire.length; index++) {
-        if (dictionnaire[index] != " ") {
-            mot += dictionnaire[index];
-            console.log(mot);
-            
-        } else{
-            tableau.push(mot);
-            mot = "";
-        }
-    }      
-    tableau.push(mot);
-
-    return tableau;
-}
-
-var dictionnaire = "les voitures roulent";
-
-var resultat = dictionnaireDeMots(dictionnaire);
-
-console.log(resultat);
-
-
-// résultat souhaite : [ 'les', 'voitures', 'roulent' ]
+function WordsDictionary(dictionary) {
+    var array = [];
+    var word ="";
+     for (var index = 0; index < dictionary.length; index++) {
+         if (dictionary[index] !="") {
+             word += dictionary[index];
+             console.log(word);
+             
+         } else{ 
+             array.push(word);
+             word ="";
+         }
+     }      
+     array.push(word);
+ 
+     return array;
+ }
+ 
+ var dictionary = "cars drive";
+ 
+ var result = WordsDictionary(dictionary);
+ 
+ console.log(result);
+ 
+ 
+ // desired result: "The',''cars',''cars',''roll''.
+ 

@@ -1,22 +1,22 @@
 /*
-Exemple de fonction uploadée dans AWS Lambda.
+Example of a function uploaded in AWS Lambda.
 */
 
 
-function plusGrandeValeurTableau(tableau) {
-    var miseSurEtagere = tableau[0];
-    for (var index = 0; index < tableau.length; index++) {
-        if (miseSurEtagere < tableau[index]) {
-            miseSurEtagere = tableau[index];
+function plusLargeValueTable(table) {
+    var overShelving = table[0];
+    for (var index = 0; index < table.length; index++) {
+        if (overShelving < table[index]) {
+            overShelving = table[index];
 
         }
     }
-    return console.log(miseSurEtagere);
+    return console.log(shelving);
 }
 
-var tableau = [3, 90, 54, 32, 19];
+var table =[3, 90, 54, 32, 19];
 
-resultat = plusGrandeValeurTableau(tableau);
+result = largestLargestValueTable(table);
 
 
 /////

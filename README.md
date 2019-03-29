@@ -1,151 +1,152 @@
 # Js-training
 
-### L'objectif de ce projet est de former aux bases de la programmation toute personne désireuse d'apprendre à coder.
+#### The objective of this project is to train anyone who wants to learn how to code to the basics of programming.
 
-#### Ces exercices ont été écris en Javascript. Pour les réaliser, il est nécessaire d'installer sur son poste de travail :
+###### These exercises have been written in Javascript. To carry them out, it is necessary to install on your workstation:
 
-- Un éditeur de langage (Visual code)
-- Un gestionnaire de source (Git)
-- Un intérpreteur de code javascript NodeJS
+- A language editor (Visual code)
+- A source manager (Git)
+- A NodeJS javascript code interpreter
 
-#### Grâce à ces exercices, l'apprenant pourra appréhender les notions d'algorithmie suivantes :
+#### Thanks to these exercises, the learner will be able to understand the following algorithmic concepts:
 
-1. Initialiser des variables
-2. Parcourir les valeurs d'un tableau
-3. Rechercher une valeur dans un tableau
+1. Initialize variables
+2. Browse the values of an array
+3. Searching for a value in an array
 
 
 * 01-lesson
 
-- [x] Initialise une variable qui récupère la longueur d'un tableau (boucle for).
+- [x] Initializes a variable that recovers the length of an array (for loop).
 
 * 02-lesson
 
-- [x] Parcours les variables contenues dans un tableau et les affichent (boucle for).
+- [x] Scrolls through the variables contained in a table and displays them (for loop).
 
 * 03-lesson
 
-- [x] Parcours les valeurs contenues dans un tableau et recherche les valeurs divisibles par 2 puis les remplace par 0 (boucle for).
+- [x] Scrolls through the values contained in a table and searches for values that can be divided by 2 and then replaces them with 0 (for loop).
 
 * 04-lesson
-- [x] Parcours un tableau et rechercher les valeurs divisibles par 2 puis les remplacent par un multiple de 3 (boucle for).
+- [x] Scroll through an array and search for values divisible by 2 and then replace them with a multiple of 3 (for loop).
 
 * 05-lesson
-- [x] Retourne l'index d'une valeur recherchée dans un tableau (boucle for).
+- [x] Returns the index of a searched value in an array (for loop).
 
 * 06-lesson 
-- [x] Manipulation d'un tableau : (boucle for).
+- [x] Manipulation of an array: (for loop).
 
 * 07-lesson
-- [x] Recherche une valeur dans un tableau en utilisant une boucle while (boucle for).
+- [x] Searches for a value in an array using a while loop (loop for).
 
 * 08-lesson
-- [x] Recherche la plus petite valeur dans un tableau.
+- [x] Search for the smallest value in an array.
 
 * 09-lesson
-- [x] Tri d'une suite de nombres dans l'ordre croissant.
+- [x] Sorting a sequence of numbers in ascending order.
 
 * 10-lesson
-- [x] Tri d'une suite de nombres dans l'ordre croissant.
+- [x] Sorting a sequence of numbers in ascending order.
 
 * 11-lesson
-- [x] Tri d'une suite de nombres dans l'ordre croissant.
+- [x] Sorting a sequence of numbers in ascending order.
 
 * 12-lesson
-- [x] Recherche la plus petite valeur à partir d'un tableau.
+- [x] Search for the smallest value from an array.
 
 * 13-lesson
-- [x] Fonction de recherche de la plus petite valeur d'un tableau par index.
+- [x] Search function for the smallest value of an array by index.
 
 * 14-lesson
-- [x] Fonction addition d'un tableau de valeurs.
+- [x] Function to add a table of values.
 
 * 15-lesson
-- [x] Regroupe les nombres de même valeurs d'un tableau dans un autre tableau en les additionnant.
+- [x] Groups the numbers of the same values from one table into another table by adding them together.
 
 * 16-lesson
-- [x] Classe selon la modélisation objet comme dans l'exemple sur papier avec voiture, facture et moto.
+- [x] Class according to object modeling as in the example on paper with car, invoice and motorcycle.
 
 * 17-lesson
-- [x] Fonction qui recherche la plus grande valeur contenue dans un tableau.
+- [x] Function that searches for the highest value contained in an array.
 
 * 18-lesson
-- [x] Remplace toutes les valeurs divisibles par 2, par la valeur divisible +1 .
+- [x] Replaces all values divisible by 2, by the divisible value +1 .
 
 * 19-lesson
-- [x] Implémentation de lignes de facture (quantité, prix unitaire, montantHT, txTVA, totalTVA, totalTTC).
-- [x] Cumul des totaux des lignes de facture.
-- [x] Implémentation de la propiété : nombre de lignes dans Facture.
+- [x] Implementation of invoice lines (quantity, unit price, amountHT, txTVA, totalVAT, totalTVA, totalTTC).
+- [x] Sum of the totals of the invoice lines.
+- [x] Implementation of the property: number of lines in Invoice.
 
 * 20-lesson
-- [x] Fonction qui va stocker dans un tableau tous les mots.
+- [x] Function that will store all the words in a table.
 
 * 21-lesson
-- [x] Fonction qui va retourner un mot en concaténant des lettres contenues dans un tableau.
+- [x] Function that will return a word by concatenating letters contained in a table.
 
 * 22-lesson
-- [x] Rajoute un mot à un texte.
+- [x] Add a word to a text.
 
 * 23-lesson
-- [x] Compte le nombre d'occurences d'une lettre préalablement sélectionnée dans un texte.
+- [x] Counts the number of occurrences of a previously selected letter in a text.
 
 * 24-lesson
-- [x] Implémentation de try and catch + throw dans un ancien exercice.
+- [x] Implementation of try and catch + throw in an old exercise.
 
 * 25-lesson
-- [x] Convertit une valeur intialement en euros en dollars.
+- [x] Converts a value initially in euros to dollars.
 
 * 26-lesson
-- [x] Vérification du taux d'insuline et envoi d'un signal selon le cas.
+- [x] Check insulin level and send a signal as appropriate.
 
 * 27-lesson
-- [x] Vérification du taux de lymphocites et retourne un message selon le cas.
+- [x] Check lymphocyte level and return a message as appropriate.
 
 * 28-lesson
-- [x] Enregistrement de livres dans un objet bibliothèque.
+- [x] Saving books in a library object.
 
 * 29-lesson
-- [x] Tri de voitures selon leur type.
+- [x] Sorting of cars by type.
 
 * 30-lesson
-- [X] Création des 2 lignes de 5 carrés remplis de vert ou de rouge avec HTML/CSS et uniquement avec des balises <div> et la propriété flex-flow (en CSS) selon l'exemple (voir feuille).
+- [X]] Creation of the 2 lines of 5 squares filled with green or red with HTML/CSS and only with <div> tags and the flex-flow property (in CSS) according to the example (see sheet).
 
 * 31-lesson
-- [X] Structure HTML selon schéma et carrés cliquables.
+- [X]] HTML structure according to schema and clickable squares.
 
 * 32-lesson
-- [X] Modèle objet avec tableau, ligne et 5 cellules par lignes.
+- [X]] Object model with table, line and 5 cells per line.
 
 * 33-lesson
-- [X] Exercice try and catch.
+- [X]] Exercise try and catch.
 
 * 34-lesson
-- [X] Installation d'un serveur Node.js avec Express.
+- [X]] Installation of a Node.js server with Express.
 
 * 35-lesson
-- [X] Ajout de sections à l'exerice 30.
+- [X]] Addition of sections to exercise 30.
 
 * 36-lesson
-- [X] Étude de diverses propiétés : flex-flow, flex-wrap, flex-direction.
+- [X]] Study of various properties: flex-flow, flex-wrap, flex-direction.
 
 * 37-lesson
-- [X] Différences entre position relative et absolue en CSS.
+- [X]] Differences between relative and absolute position in CSS.
 
 * 38-lesson
-- [X] Relations cardinalités  1-1 et 1-n.
+- [X]] Cardinality relations 1-1 and 1-n.
 
 * 39-lesson
-- [X] Serveur Node.js.
+- [X]] Node.js server.
 
 * 40-lesson
-- [X] Exemple d'utilisation d'AWS Lambda.
+- [X]] Example of using AWS Lambda.
 
 * 41-lesson
-- [X] Exemple avec async/await
+- [X]] Example with async/await
 
 * 42-lesson
-- [X] API récupérant la liste des utilisateurs préalablement enregistrée dans une base de données.
-Voir https://github.com/mohammadali-bacha/api-project 
+- [X]] API retrieving the list of users previously saved in a database.
+See https://github.com/mohammadali-bacha/api-project 
+
 
 <!-- * 43-lesson
 - [ ] Exemples de promises -->

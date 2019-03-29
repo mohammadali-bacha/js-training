@@ -1,39 +1,39 @@
 /*
-nous allons donc faire une fonction de recherche de la plus petite valeur par index
-tableau = [21,56,87,34,52,12]
+we will therefore make a search function of the smallest value by index
+table =[21,56,87,87,34,52,12]
 */
 
-var tableau = [21,56,87,34,52,12];
+var table =[21,56,87,87,34,52,12];
 
-function rechercherLaPlusPetiteValeurParIndex(tableau) {
+function searchSmallestValuePerIndex(table) {
 /*
-On initialise les variables indexDeLaPlusPetiteValeur et miseSurEtagere est assignée à la 1ere valeur du tableau
+The index variablesLaPlusSmallestValue are initialized and placed on the shelf is assigned to the 1st value of the array
 */
-    var indexDeLaPlusPetiteValeur = 0;
-    var miseSurEtagere = tableau[0];
-    for (var index = 0; index < tableau.length; index++) {
+    var indexOfSmallestValue = 0;
+    var overShelving = table[0];
+    for (var index = 0; index < table.length; index++) {
 /*
-Dans cette condition, si miseSurEtagere est plus grande que la valeur au moment du parcours de la boucle dans le tableau, alors miseSurEtagere est
-égale à cette valeur jusqu'a que ce soit la plus petite...
+In this condition, if the overlay shelf is greater than the value at the time of the loop path in the array, then the overlay shelf is
+equal to this value until it is the smallest....
 */
-        if (miseSurEtagere > tableau[index]) {
+        if (overShelving > table[index]) {
 /*
-et l'on stocke l'index de cette valeur dans indexDeLaPlusPetiteValeur.
+and the index of this value is stored in the SmallestLowestValue Index.
 */
-            miseSurEtagere = tableau[index];
-            indexDeLaPlusPetiteValeur = index;
+            overShelving = table[index];
+            indexOfSmallestValue = index;
 
         }
     }
-    return indexDeLaPlusPetiteValeur;
+    return indexOfSmallestValue;
 }
 /*
-On stocke la fonction dans une variable...
+The function is stored in a variable....
 */
-resultat = rechercherLaPlusPetiteValeurParIndex(tableau);
+result = searchLowestSmallestValuePerIndex(table);
 
 /*
-pour pouvoir ensuite l'afficher.
+so that you can then display it.
 */
-console.log(resultat);
+console.log(result);
 

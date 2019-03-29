@@ -1,20 +1,20 @@
 /*
-2ème exercice try and catch : le but est de retourner des exceptions 
+2nd try and catch exercise: the goal is to return exceptions 
 */
 
 
-function saisirNombre(number) {
+function enterNumber(number) {
     try {
-        var message = "voici le nombre que vous avez saisi :" + number;
+        var message = "this is the number you entered:" + number;
         if (number <= 1) {
-            throw "n doit etre plus grand que 1 et plus petit que 10";
+            throw "n must be greater than 1 and smaller than 10";
         }
         if (number >= 10) {
-            throw "Rentrez un nombre compris entre 1 et 10"
+            throw "Enter a number between 1 and 10"
 
         }
         if (isNaN(number)) {
-            throw "Veuillez rentrer un nombre";
+            throw "Please enter a number";
         }
     } catch (error) {
         message = error;
@@ -23,30 +23,30 @@ function saisirNombre(number) {
     }
 }
 
-var resultat = saisirNombre(200);
+var result = enterNumber(200);
 
 
-///////////////version switch case break
+//////////////////////version switch case break
 
 
-// function saisirChoix(number) {
-//     try {
-//         var message = "voici le nombre que vous avez saisi :" + number;
-//         switch(number){
-//          case number <= 1 :
-//          throw "n doit etre plus grand que 1 et plus petit que n ";
-//          break;
-//         case number >= number :
-//         throw "Rentrez un nombre compris entre 1 et n"
-//          break;
-//          case isNaN(number) :
-//          throw "Veuillez rentrer un nombre"
-//     }
-//     } catch (error) {
-//         message = error;
-//     } finally {
-//         console.log(message);       
-//     }
+// function enterChoice(number) {
+// try {
+// var message = "this is the number you entered:" + number;
+// switch(number){
+// case number <= 1 :
+// throw "n must be greater than 1 and smaller than n";
+// break;
+// case number >= number :
+// throw "Enter a number between 1 and n"
+// break;
+// box isNaN(number) :
+// throw "Please enter a number"
+// }
+// } catch (error) {
+// message = error;
+// } finally {
+// console.log(message);       
+// }
 // }
 
-// var resultat = saisirChoix(0);
+// var result = enterChoice(0);

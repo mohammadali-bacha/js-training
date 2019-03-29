@@ -1,26 +1,26 @@
 /*
-Le but de l'exercice est de prendre un texte et compter le nombre de fois que je trouve la lettre sélectionée
-ex : "le chat mange la souris" => combien de fois y-a t-il la lettre l ?
+The purpose of the exercise is to take a text and count the number of times I find the selected letter
+ex: "the cat eats the mouse" => how many times is there the letter l?
 */
 
 
-function nombreDeFoisLettre(texte,lettreRecherchee) {
-    var compte = null;
-    for (var index = 0; index < texte.length; index++) {
-        if (texte[index] == lettreRecherchee ){
-           nombreDeFois = index; 
-            compte++;
+function letterNumberfunction(text,letterSearch) {
+    var account = null;
+    for (var index = 0; index < text.length; index++) {
+        if (text[index] == letterSearch ){
+           numberOFTimes = index; 
+            account++;
         }
     }
-    return compte; 
+    return account; 
 }
 
-var texte = "le chat mange la souris"; 
+var text = "the cat eats the mouse"; 
 
-var lettreRecherchee = " ";
+var letterResearch ="";
 
-var nombreDeFois = 0; // doit être égal à 2 à la fin
+var numberOfTimes = 0; // must be equal to 2 at the end
 
-var resultat = nombreDeFoisLettre(texte,lettreRecherchee);
+var result = numberOFtimesLetter(text,letterSearch);
 
-console.log(resultat);
+console.log(result);

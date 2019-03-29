@@ -1,23 +1,24 @@
 /*
- Modèle objet avec tableau, ligne et 5 cellules par lignes.
+ Object model with table, line and 5 cells per line.
 */
 
 
-const Tableau = require('./tableau');
-const Ligne = require('./ligne');
+const Table = require('./table');
+const Line = require('./line');
 
-var ligneA = new Ligne();
-var ligneB = new Ligne();
+var lineA = new Line();
+var lineB = new Line();
 
-var tableau = new Tableau(
+var table = new Table(
 );
 
-tableau.ajouterLigne(ligneA);
-tableau.ajouterLigne(ligneB);
+table.addLine(lineA);
+table.addLine(lineB);
 
-console.log(tableau.lignes[1]);
+console.log(table.lines[1]);
 
 
-//4eme cellule de la ligne 2
+//4th cell of line 2
 
-console.log(tableau.lignes[1].cellules[3]);
+console.log(table.lines[1].cells[3]);
+

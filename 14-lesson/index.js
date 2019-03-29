@@ -1,34 +1,34 @@
 /*
-Le but de l'exercice est de faire une fonction retournant le résultat de l'addition  de toutes les  valeurs d'un tableau.
+The purpose of the exercise is to make a function that returns the result 
+of adding all the values in an array.
 */
 
-
-function addition(tableau) {
-    var somme = 0;
-for (var index = 0; index < tableau.length; index++) {
+function addition(array) {
+    var sum = 0;
+for (var index = 0; index < array.length; index++) {
 /*
-dans cette boucle qui parcourt le tableau, on stocke la valeur du tableau parcourue au moment de la boucle à chaque itération
+in this loop that runs through the array, the value of the array run at the time of the loop is stored at each iteration
 */
-    somme = tableau[index] + somme;    
+    sum = array[index] + sum;    
 }
 /*
-On retourne la valeur car nous sommes dans une fonction
+We return the value because we are in a function
 */
-return somme;
+return sum;
 
 }
 /*
-On initialise les variables
+We initialize the variables
 */
-var tableau = [12,34,56,78,90];
+var array =[12,34,56,56,78,90];
 /*
-On stocke la fonction dans une variable...
+The function is stored in a variable....
 */
-resultat = addition(tableau);
+result = addition (array);
 /*
-pour pouvoir ensuite l'afficher.
+so that you can then display it.
 */
-console.log(resultat);
+console.log(result);
 
 
 

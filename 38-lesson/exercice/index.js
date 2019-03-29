@@ -1,22 +1,23 @@
 /*
- Le but de cet exercice est d'étudier les relations cardinalités 1-1 et 1-n.
+ The purpose of this exercise is to study the cardinal relationships 1-1 and 1-n.
 */
 
 
 const Pere = require('./pere');
-const Fils = require('./fils');
+const Son = require('./son');
 
 
 georges = new Pere('georges');
 
-lucas = new Fils(georges,'lucas');
+lucas = new Son (georges,'lucas');
 
 console.log(georges);
 
 // console.log(lucas);
 
-georges.ajouterFils(lucas);
+georges.addFils(lucas);
 
 
 console.log(georges.fils[0]);
+
 

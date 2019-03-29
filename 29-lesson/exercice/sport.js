@@ -1,7 +1,7 @@
-const Voiture = require('./voiture');
+const Car = require('./car');
 
-module.exports = class Sport extends Voiture {
-    constructor(modele,marque) {
-        super(modele,marque)
+module.exports = class Sport extends Car {
+    constructor(model,brand) {
+        super (model, brand)
     }
 }

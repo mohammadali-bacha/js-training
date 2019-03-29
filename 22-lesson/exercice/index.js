@@ -1,16 +1,16 @@
 /*
-L'objectif de l'exercie est de rajouter un mot à un texte.
+The objective of the exercise is to add a word to a text.
 */
 
-function ajouterMotTexte(mot, texte) {
-    var nouveauTexte = texte + " " + mot ;
-    return nouveauTexte;
+function addWordText(word, text)  {
+    var newText = text +"" + word ;
+    return newText;
 }
 
-var mot = "chat";
+var word = "cat";
 
-var texte = "les souris mangent le";
+var text = "mouses eat it";
 
-var resultat = ajouterMotTexte(mot,texte);
+var result =  addWordText(word,text);
 
-console.log(resultat);
+console.log(result);

@@ -99,27 +99,21 @@ var facture = new Facture(
 console.log(facture);
 
 /*
-
 Cas "Modification de la quantité"
-
 */
 
 facture.quantite = 6 ;
 console.log(facture)
 
 /*
-
 Cas "Modification du tx"
-
 */
 
 facture.txTva = 0.1 ;
 console.log(facture)
 
 /*
-
 Cas "Mis à jour du nom"
-
 */
 
 facture.MiseAjourName("toto");

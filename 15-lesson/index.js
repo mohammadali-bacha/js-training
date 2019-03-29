@@ -1,57 +1,58 @@
 /*
-Le but de l'exercice est de regrouper les nombres de même valeurs d'un tableau dans un autre tableau en les additionnant.
+The purpose of the exercise is to group the numbers of the same values from one array 
+into another array by adding them together.
 */
 
-function regrouperLesNombresDeMemeValeur(tableau) {
-    var tableauDeMemeValeurs = [];
-    var valeur = null;
+function groupTheSameValueNumbers(array) {
+    var arrayOfSameValues = [];
+    var value = null;
 /*
-on crée une boucle pour parcourir le tableau
+we create a loop to browse the array
 */
-    for (var indexValeur = 0; indexValeur < tableau.length; indexValeur++) {
+    for (var indexValue = 0; indexValue < array.length; indexValue++) {
 /*
-on initialise les variables 
+we initialize the variables 
 */
-        var valeur = tableau[indexValeur];
-        var cumul = 0;
-        var nombreDeFoisTrouve = 0;
+        var value = array[indexValue];
+        var cumulative  = 0;
+        var numberOfTimesFound = 0;
 /*
-dans cette 2ème boucle, nous allons chercher dans le tableau si 
+in this 2nd loop, we will look in the array to see if 
 */
-        for (var indexRecherche = indexValeur; indexRecherche < tableau.length; indexRecherche++) {
+        for (var indexResearch = indexValue; indexResearch < array.length; indexResearch++) {
 /*
-dans cette condition, si la valeur contenue dans le tableau est égale à la valeur parcourue dans le tableau alors
-cumul est égale à celle-ci à chaque fois et on ajoute un compteur pour stocker dans nombreDeFoisTrouve combien de fois cette valeur apparait...
+in this condition, if the value contained in the array is equal to the value traveled in the array then
+cumulation is equal to this one each time and a counter is added to store in numberFromTimeFind how many times this value appears....
 */
-            if (valeur == tableau[indexRecherche]) {
-                cumul = cumul + valeur;
-                nombreDeFoisTrouve = nombreDeFoisTrouve + 1;
+            if (value == array[indexSearch]) {
+                cumulation = cumulation + value;
+                numberOfTimesFound = numberOfTimesFound + 1;
             }
 
         }
 /*
-...pour ensuite ajouter la condition que si cette valeur est plus grande que 1, alors cumul à le droit d'être ajoutée dans le tableau de sortie,
-c'est pour éviter que dans le tableau de sortie, il y ait les valeurs uniques du tableau d'entrée
+...and then add the condition that if this value is greater than 1, then cumulates the right to be added in the output array,
+it is to avoid that in the output array, there are the unique values of the input array
 */
-        if (nombreDeFoisTrouve > 1) {
-            tableauDeMemeValeurs.push(cumul); 
+        if (numberOfTimesFound > 1) {
+            arrayOfSameValues.push(cumulative); 
         }
     }
 /*
 
 */
-    return tableauDeMemeValeurs;
+    return arrayOfSameValues;
 }
 
 /*
-On initialise les variables
+We initialize the variables
 */
-var tableau = [100, 200, 300, 100, 50, 50];
+var array =[100, 200, 300, 100, 50, 50, 50];
 /*
-On stocke la fonction dans une variable...
+The function is stored in a variable....
 */
-var resultat = regrouperLesNombresDeMemeValeur(tableau);
+var result = groupTheSameValueNumbers(array);
 /*
-pour pouvoir ensuite l'afficher.
+so that you can then display it.
 */
-console.log(resultat);
+console.log(result);

@@ -1,7 +1,7 @@
 /*
-Le but de l'exercice est de vérifier le taux de glucose  et de retourner un message  selon le cas.
+The purpose of the exercise is to check the glucose level and return a message as appropriate.
 */
 
-const verifierTxDeGlucose = require('./verifierTxDeGlucose');
+const verifyTxOfGlucose = require('./verifyTxDeGlucose');
 
-verifierTxDeGlucose(1.5);
+checkTxOfGlucoseTx(1.5);

@@ -1,63 +1,64 @@
 /*
-L'exercice consiste à rechercher la plus petite valeur dans un tableau avec une boucle while.
+The exercise consists in searching for the smallest value in an array with a while loop.
 */
 
 /* 
-Initialisation variable d'un tableau
+Variable initialization of an array
 */
-var tableau = [3, 4, 6, 2, 1, 7, 5, 8];
+var array =[3, 4, 6, 2, 1, 7, 5, 8];
 
-// dé-commenter pour tester l'algorithme avec d'autres valeurs :
-// var tableau = [25,47,32,18,56]; 
+// uncomment to test the algorithm with other values:
+// var array =[25,47,32,32,18,56]; 
 
-var miseSurEtagere = tableau[0];
+var overShelving = array[0];
 
 /* 
-Récupération de la longeur du tableau
+Recovery of the length of the painting
 */
-var longueur = tableau.length;
+var length = array.length;
 var index = 0; 
-var valide = true; 
+var valid = true; 
 /*
-Utilisation d'une boucle for pour parcourir le tableau de valeur  
+Using a for loop to browse the value array  
 */
 
 /*
-Pour que la boucle while fonctionne, il faut déclarer la variable index en dehors de la condition, 
-et sortir de la condition l'incrémentation de index  et l'intégrer dans la boucle.
+For the while loop to work, the index variable must be declared outside the condition, 
+and remove the index incrementation from the condition and integrate it into the loop.
 */
-while (valide){
+while (valid){
     /*
-    Cette condition peremt de vérifier la sortie du tableau : 
-    si  0 >= 7 la condition n'est pas verifiée donc la boucle continue
-    si  1 >= 7 la condition n'est pas verifiée donc la boucle continue
+    This condition allows to check the output of the array: 
+    if 0 >= 7 the condition is not checked so the loop continues
+    if 1 >= 7 the condition is not checked so the loop continues
     ...
-    si  7 >= 7 la condition est  vérifiée donc la boucle s'arrête
+    if 7 >= 7 the condition is checked so the loop stops
     */
-    if ( index >= longueur){
-        valide = false; 
+    if ( index >= length){
+        valid = false; 
     }
 
     
-    if (miseSurEtagere > tableau[index]){
-        miseSurEtagere = tableau[index]
+    if (overShelving > array[index]){
+        overShelving = array[index]
     }
     
             /*
-    La condition vérifie si la valeur en ième position tableau[index] 
-    dans le tableau est plus petite que la positon index+1 qui est l
-    Si la condition est verifiée la valeur en ième position tableau[index]
-    est enregistrée dans la variable k et la variable l est incrementée.
+    The condition checks if the value in ith array position[index] 
+    in the array is smaller than the index+1 position which is the
+    If the condition is checked, the value in ith array position[index]
+    is stored in the k variable and the variable is incremented.
     */
         /*
-    Sinon l'ième position tableau[l] est enregistrée dans la variable k.
+    Otherwise the ith array position[l] is stored in the variable k.
         */
     // }
     index++;
 }
-// Affichage des valeurs du tableau
+// Display of the array values
 
-console.log(tableau);
-// Affichage de la valeur la plus petite du tableau
+console.log(array);
+// Display of the smallest value in the array
 
-console.log("La valeur la plus petite est " + miseSurEtagere + ".");
+console.log("The smallest value is "+ overShelving +".");
+

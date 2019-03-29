@@ -1,23 +1,23 @@
 module.exports = class Livre {
     constructor
-        (titre,
-         auteur,
-         codeBarre,
+        (title,
+         author,
+         barcode,
          theme
         ) {
-            this._titre = titre;
-            this._auteur = auteur;
-            this._codeBarre = codeBarre;
+            this.title = title;
+            this._author = author;
+            this.barcode = codeBarre;
             this._theme = theme;
         }
-    get titre() {
-        return this._titre;
+    get title() {
+        return this.title;
     }
-    get auteur() {
-        return this._auteur;
+    get author() {
+        return this._author;
     }
     get codeBarre() {
-        return this._codeBarre;
+        return this.barcode;
     }
     get theme() {
         return this._theme;

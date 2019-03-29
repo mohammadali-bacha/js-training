@@ -1,82 +1,78 @@
 /*
-Le but de l'exercice est de refaire l'exercice 19 (créer facture et ajouter lignes de facture).
+The purpose of the exercise is to repeat exercise 19 (create invoice and add InvoiceLines).
 */
 
 /*
-on va initialiser notre facture
+we'll initialize our invoice
 */
 
 /*
-dans les const ci-dessous, on importe les autres classes  
-(contenues dans les différents fichiers du dossier actuel) avec require :
+in the constants below, we import the other classes  
+(contained in the different files of the current folder) with require :
 */
 
 /*
-on déclare les variables : 
+we declare the variables: 
 */
-const Facture = require('./facture');
-const AdresseDeLivraison =  require('./adresse');
-const LigneDeFacture = require('./ligneDeFacture');
+const Invoice = require('./invoice');
+const DeliveryAddress = require('./address');
+const InvoiceLine = require('./InvoiceLine');
 
 /*
-on instancie les variables : 
+we instantiate the variables: 
 */
-var adresse = new AdresseDeLivraison(
+var address = new DeliveryAddress(
     "18 rue de la République",
     69003,
     "Lyon",
 );
 
-var facture = new Facture(
-    "achat de matériel",
+var invoice = new invoice(
+    "purchase of equipment",
     1809,
     "12/09/2018",
     100,
-    adresse,
+    address,
     3,
     10,
     0.2,
 );
 
-var ligne1 = new LigneDeFacture(
+var line1 = new InvoiceLine(
     5,
     20,
     0.2,
 );
 
 /*
-on ajoute une ligne (ligne1) dans le tableau via l'appel de la méthode ajouterLignes : 
+a line (line1) is added to the table via the call of the addLines method: 
 */
-facture.ajouterLignes(ligne1);
+invoice.addLines(line1);
 
-var ligne2 = new LigneDeFacture(
+var line2 = new InvoiceLine(
     20000,
     10,
     0.2,
 );
-facture.ajouterLignes(ligne2);
+invoice.addLines(line2);
 
-var ligne3 = new LigneDeFacture(
+var line3 = new InvoiceLine(
     4,
     3,
     0.2,
 );
-facture.ajouterLignes(ligne3);
+invoice.addLines(line3);
 
-var ligne4 = new LigneDeFacture(
+var line4 = new InvoiceLine(
     10,
     33,
     0.2,
 );
 
-facture.ajouterLignes(ligne4);
+invoice.addLines(line4);
 /*
-on affiche le tout :
+we display it all:
 */
-console.log(facture);
-console.log("facture.ligne : "+ facture.nombreDeLignes);
-facture.toto = 10;
-
-
-
-
+console.log(invoice);
+console.log("invoice.line: "+ invoice.numberoflines);
+toto.invoice = 10;

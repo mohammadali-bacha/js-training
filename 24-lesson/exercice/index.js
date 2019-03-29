@@ -1,15 +1,15 @@
 /*
-Implémentation de try and catch + throw dans un ancien exercice
+Implementation of try and catch + throw in an old exercise
 */
 
-const divisibleParDeux = require('./divisibleParDeux');
-// const testFonction = require('./testFonction');
+const divisiblePerTwo = require('./divisiblePerTwo');
+// const testFunction = require('./testFunction');
 
-// testFonction("toto");
+// testFunction("toto");
 
-var valeur = 11;
+var value = 11;
 
 
-var resultat = divisibleParDeux(valeur);
+var result = divisiblePerTwo(value);
 
-console.log(resultat);
+console.log(result);

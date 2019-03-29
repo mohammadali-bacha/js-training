@@ -1,32 +1,32 @@
-module.exports = class Concessionnaire {
+module.exports = class Concessionary {
     constructor() {
-        this._sportives = [];
-        this._berlines = [];
+        this._sportcars = [];
+        this._sedancars = [];
         this._suv = [];
     }
 
     get sportives() {
-        return this._sportives;
+        return this._sportcars;
     }
 
     get berlines() {
-        return this._berlines;
+        return this._sedancars;
     }
 
     get suv() {
         return this._suv;
     }
 
-    ajouterVoiture(voiture) {
+    ajouterCaretPosition(CaretPosition) {
         
-        if (voiture.constructor.name == "SUV") {
-            this._suv.push(voiture);
+        if (CaretPosition.constructor.name == "SUV") {
+            this._suv.push(CaretPosition);
         }
-        if (voiture.constructor.name == "Berline") {
-            this._berlines.push(voiture);
+        if (CaretPosition.constructor.name == "Berline") {
+            this._sedancars.push(CaretPosition);
         }
-        if (voiture.constructor.name == "Sport") {
-            this._sportives.push(voiture);
+        if (CaretPosition.constructor.name == "Sport") {
+            this._sportcars.push(CaretPosition);
         }
     }
 }

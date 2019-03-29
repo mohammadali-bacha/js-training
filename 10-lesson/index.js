@@ -1,109 +1,106 @@
-function maPremiereFonction(arg1){
-    var resultat = arg1 + 1
-    return  resultat;
+function myFirstFunction(arg1){
+    var result = arg1 + 1
+    return result;
 }
 
 /*
-cette variable stocke le résultat de la fonction
+This variable stores the result of the function
 */
-var resultat0 = maPremiereFonction(8);
-console.log(resultat0);
+var result0 = myFirstFunction(8);
+console.log(result0);
 
 
-function rechercherLaPlusPetiteValeur(tableau){
-    var miseSurEtagere = tableau[0];
+function searchTheSmallestValue(array){
+    var overShelving = array[0];
     /* 
-    Récuperation de la longeur du tableau
+    Recovery of the length of the painting
     */
-    var longueur = tableau.length;
+    var length = array.length;
     
     /*
-    Utilisation d'une boucle for pour parcourir le tableau de valeur  
+    Using a for loop to browse the value array  
     */
-    for (var index = 0; index <= longueur; index++) {
-        if (miseSurEtagere > tableau[index]) {
-            miseSurEtagere = tableau[index]
+    for (var index = 0; index <= length; index++) {
+        if (overShelving > array[index]) {
+            overShelving = array[index]
         }
         /*
-        La condition vérifie si la valeur en ième position tableau[index] 
-        dans le tableau est plus petite que la positon index+1 qui est longueur
-        Si la condition est verifiée la valeur en ième position tableau[index]
-        est enregistrée dans la variable miseSurEtagere et la variable longueur est incrémentée.
+        The condition checks if the value in ith array position[index] 
+        in the array is smaller than the index+1 positon which is length
+        If the condition is checked, the value in ith array position[index]
+        is stored in the OnShelf variable and the length variable is incremented.
         */
         /*
-        Sinon l'ième position tableau[index] est enregistrée dans la variable miseSurEtagere.
+        Otherwise, the ith array position[index] is saved in the variable OverShelve.
             */
         // }
     }
-    // Affichage des valeurs du tableau
+    // Display of the array values
     
-    console.log(tableau);
-    // Affichage de la valeur la plus petite du tableau
+    console.log(array);
+    // Display of the smallest value in the array
     
-    return miseSurEtagere;
-}
+    return overShelving;
+};
 
-var tableau = [23,46,12]
-var resultat1 = rechercherLaPlusPetiteValeur(tableau);
-
-
-console.log("La valeur la plus petite est " + resultat1 + ".");
+var array = [23,46,12];
+var result1 = searchTheSmallestValue(array);
 
 
+console.log("The smallest value is" + result1 +".");
 
 
 
-
-function rechercherLaPlusPetiteValeurParIndex(tableau, position){
-    var miseSurEtagere = tableau[0];
-    var indexMisSurEtagere = position;
+function searchTheSmallestValuePerIndex(array, position){
+    var overShelving = array[0];
+    var indexSurSurEtagere = position;
     /* 
-    Récuperation de la longeur du tableau
+    Recovery of the length of the painting
     */
-    var longueur = tableau.length;
+    var length = array.length;
     
     /*
-    Utilisation d'une boucle for pour parcourir le tableau de valeur  
+    Using a for loop to browse the value array  
     */
-    for (var index = position; index <= longueur; index++) {
-        if (miseSurEtagere > tableau[index]) {
-            miseSurEtagere = tableau[index];
-            indexMisSurEtagere = index;
+    for (var index = position; index <= length; index++) {
+        if (overShelving > array[index]) {
+            overShelving = array[index];
+            indexOverShelve = index;
         }
         /*
-        La condition vérifie si la valeur en ième position tableau[index] 
-        dans le tableau est plus petite que la positon index+1 qui est longueur
-        Si la condition est vérifiée la valeur en ième position tableau[index]
-        est enregistrée dans la variable miseSurEtagere et la variable longueur est incrémentée.
+        The condition checks if the value in ith array position[index] 
+        in the array is smaller than the index+1 positon which is length
+        If the condition is checked, the value in the ith array position[index] is checked
+        is stored in the OnShelf variable and the length variable is incremented.
         */
         /*
-        Sinon l'ième position tableau[index] est enregistrée dans la variable miseSurEtagere.
+        Otherwise, the ith array position[index] is saved in the variable OverShelve.
             */
         // }
     }
-    // Affichage des valeurs du tableau
+    // Display of the array values
     
-    console.log(tableau);
-    // Affichage de la valeur la plus petite du tableau
+    console.log(array);
+    // Display of the smallest value in the array
     
-    return indexMisSurEtagere;
+    return indexOnOverShelving;
 }
 
 
-var tableau1 = [23,46,12, 34,68,98,21,59]
-var resultat2 = rechercherLaPlusPetiteValeurParIndex(tableau1, 1);
+var array1 =[23,46,12, 34,68,98,21,59]
+var result2 = searchTheSmallestValuePerIndex(array1, 1);
 
 
-console.log("La valeur la plus petite par index est " + resultat2 + ".");
+console.log("The smallest value per index is" + result2 +".");
 
 
 /*--------------------------------
-cette variable stocke  la fonction
+this variable stores the function
 ---------------------------------*/
 
 
 /*
-var fx = maPremiereFonction;
+var fx = myFirstFunction;
 
 console.log(fx(5));
 

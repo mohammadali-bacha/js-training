@@ -1,33 +1,33 @@
 /*
-Le but de l'exercice est d'enregistrer des livres dans une bibliothèque(tableau).
+The purpose of the exercise is to register books in a library (table).
 */
 
-const Bibliotheque = require('./bibliotheque');
-const Livre = require('./livre');
+const Library = require('./library');
+const Book = require('./livre');
 
-var bibliotheque = new Bibliotheque();
+var library = new Library();
 
-var biographieElonMusk = new Livre(
-    "Elon Musk",
-    "Ashlee Vance",
+var biographyElonMusk = new Book(
+    "Elon Musk.",
+    "Ashlee Vance.",
     1234,
-    "biographie",
+    "biography",
 );
 
-bibliotheque.ajouterLivre(biographieElonMusk);
+library.addBook(biographyElonMusk);
 
-var biographiePeterThiel = new Livre(
-    "Zero to One",
+var biographiePeterThiel = new Book(
+    "Zero to One.",
     "Peter Thiel",
     5678,
     "startup"
 );
 
-bibliotheque.ajouterLivre(biographiePeterThiel);
+library.addBook(biographyPeterThiel);
 
-// var resultats = bibliotheque.rechercherLivreParTitre("Zero to One");
+// var results = library.searchBookParTitle("Zero to One");
 
-var resultats = bibliotheque.rechercherLivreParCodeBarre(1234);
+var results = library.searchBarCodePaper(1234);
 
-console.log(resultats);
+console.log(results);
 

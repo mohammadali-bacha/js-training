@@ -1,34 +1,35 @@
 /*
-L'exercice consiste à parcourir le tableau 
-et rechercher les valeurs divisibles par 2 
-puis les remplacer par 0.
+The exercise consists of going through the table 
+and search for values divisible by 2 
+then replace them with 0.
 */
 
 /* 
-Initialisation d'une variable d'un tableau
+Initialization of a variable in an array
 */
-var tab = [1,4,2,5,6,12,3];
+var tab =[1,4,2,2,5,5,6,6,12,3];
 
 /* 
-Récupération de la longeur du tableau
+Recovery of the length of the array
 */
 var lg = tab.length;
 
 /*
-Utilisation d'une boucle for pour parcourir le tableau de valeur  
+Using a for loop to browse the value table  
 */
 
 for (var i = 0; i < lg;) {
     /*
-    La condition vérifie si la valeur en ième position tab[i] 
-    dans le tableau est divisible par 2.
-    Si la condition est verifiée la valeur en ième position tab[i]
-    est mise à jour avec la valeur 0.
+    The condition checks if the value in the ith position tab[i] 
+    in the table is divisible by 2.
+    If the condition is checked, the value in the ith position tab[i]
+    is updated with the value 0.
     */
     if (tab[i] % 2 == 0 ){
         tab[i] = 0;
     }
     i++;
 }
-// Affichage des valeurs du tableau
+// Display of the table values
 console.log(tab);
+

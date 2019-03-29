@@ -1,12 +1,12 @@
 /*
-Le but de l'exercice est de pouvoir trier des voitures selon leur type.
+The purpose of the exercise is to be able to sort cars by type.
 */
 const Sport = require('./sport');
 const SUV = require('./suv');
-const Berline = require('./berline');
-const Concessionnaire = require('./concessionnaire');
+const Sedan = require('./sedan');
+Concessionaire = require('./concessionaire');
 
-var  bmw = new SUV(
+var bmw = new SUV(
     "X6",
     "BMW"
 );
@@ -22,42 +22,45 @@ var lamborghini = new SUV(
     "lamborghini"
 );
 
-var mercedes = new Berline(
-    "cla",
+var mercedes = new Sedan(
+    "cla.",
     "mercedes"
 )
 
-audi.marque = "x";
-bmw.ajouterKm(25);
-bmw.ajouterKm(25);
-bmw.ajouterKm(25);
-bmw.ajouterKm(25);
-console.log("-----------------");
+audi.mark = "x";
+bmw.addKm(25);
+bmw.addKm(25);
+bmw.addKm(25);
+bmw.addKm(25);
+console.log("-------------------------");
 
-console.log(" voiture sport, nombre de km : "+bmw.km);
+console.log(" sports car, number of km: "+bmw.km);
 
-console.log("-----------------");
+console.log("-------------------------");
 
-lamborghini.ajouterKm(25);
-lamborghini.ajouterKm(25);
-console.log("-----------------");
+lamborghini.addKm(25);
+lamborghini.addKm(25);
+console.log("-------------------------");
 
-console.log("voiture SUV, nombre de km : " + lamborghini.km);
-
-
-console.log("-----------------");
+console.log("SUV car, number of km:" + lamborghini.km);
 
 
+console.log("-------------------------");
 
-concessionnaire = new Concessionnaire();
 
-concessionnaire.ajouterVoiture(bmw);
 
-concessionnaire.ajouterVoiture(mercedes);
+concessionary = new Concessionnary();
 
-concessionnaire.ajouterVoiture(audi);
+dealer.addCar(bmw);
 
-concessionnaire.ajouterVoiture(lamborghini);
+dealer.addCar(mercedes);
 
-console.log(concessionnaire);
+dealer.addCar(audi);
+
+dealer.addCar(lamborghini);
+
+console.log(concessionary);
+
+
+
 

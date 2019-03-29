@@ -1,31 +1,31 @@
-module.exports = class Bibliotheque {
+module.exports = class Library  {
     constructor() 
     {
-        this._livres = [];
+        this._books = [];
     }
-    get livre(){
+    get book(){
         return this._livre;
     }
 
-    ajouterLivre(livre){
-        this._livres.push(livre);
+    addBook(book){
+        this._pounds.push(book);
     }
-    rechercherLivreParTitre(titre){
-        var miseSurEtagere = [];
+    searchBookPartner(title){
+        var overShelving = [];
         for (var index = 0; index < this._livres.length; index++) {
-            if (this._livres[index].titre == titre) {
+            if (this._books[index].title == title) {
                 miseSurEtagere.push(this._livres[index]);
             }
         }
-        return miseSurEtagere;
+        return overShelving;
     }
-    rechercherLivreParCodeBarre(codeBarre){
-        var miseSurEtagere = null;
+    searchBarCodeBook(barcode){
+        var overShelving = null;
         for (var index = 0; index < this._livres.length; index++) {
-            if (this._livres[index].codeBarre == codeBarre) {
-                miseSurEtagere = this._livres[index];
+            if (this._books[index].barcode == barcode) {
+                shelving = this._books[index];
             }
         }
-        return miseSurEtagere;
+        return overShelving;
     }
 }

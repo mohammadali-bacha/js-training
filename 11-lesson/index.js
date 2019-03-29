@@ -1,86 +1,85 @@
-
 /*
-Trier une suite de nombres à l'aide de la méthode du tri à selection 
-Exemple :
- var tableau = [3,4,6,2,1,7,5,8]
- tableau[0] => 3
-Rechercher la valeur plus petite que 3 en l'excluant de la recherche la valeur plus petite sera 1.
-Le principe du tri à selection est d'échanger les positions de valeurs celle en  position courante avec la plus petite
-valeur.
+Sort a sequence of numbers using the selection sorting method 
+Example :
+ var array =[3,4,6,6,2,2,1,7,5,8]
+ array[0] => 3
+Search for the value smaller than 3 by excluding it from the search the smaller value will be 1.
+The principle of selection sorting is to exchange the value positions the one in the current position with the smallest one
+value.
 
 
-La fonction de tri comporte 2 sous-fonctions ,
-    -rechercher la plus petite valeur
-    -échanger la position de la plus petite valeur avec la valeur courante :
+The sorting function has 2 sub-functions,
+    -search for the smallest value
+    -exchange the position of the smallest value with the current value:
     [3,9,2,4,5,6,7,8]
-     -   -       
-     0   2
-     on échange les positions  0 et 2
-     on va donc développer une fonction qui va nous permettre de rechercher la plus petite valeur en nous renvoyant la position de cette valeur 
-     contenue dans le tableau.
-     Dans cette fonction, on va rajouter la possibilité de définir le point de départ de cette recherche :
+     - -       
+     0 2
+     positions 0 and 2 are exchanged
+     we will therefore develop a function that will allow us to search for the smallest value by returning the position of this value 
+     contained in the array.
+     In this function, we will add the possibility to define the starting point of this search:
      [12,45,87,90,10,40]
-    la plus petite valeur a partir de 90 est la valeur 10.
+    the lowest value from 90 is 10.
 */
 
-function rechercherLaPlusPetiteValeurParIndex(tableau, position){ 
-    var miseSurEtagere = tableau[position];
-    var indexMisSurEtagere = position;
+
+ function searchTheSmallestValuePerIndex(array, position){ 
+    var overShelving = array[position];
+    var indexOverShelving = position;
     /* 
-    Récupération de la longeur du tableau
+    Recovery of the length of the painting
     */
-    var longueur = tableau.length;
+    var length = array.length;
     
     /*
-    Utilisation d'une boucle for pour parcourir le tableau de valeur  
+    Using a for loop to browse the value array  
     */
-    for (var index = position; index < longueur; index++) {
-        if (miseSurEtagere > tableau[index]) {
-            miseSurEtagere = tableau[index];
-            indexMisSurEtagere = index;
+    for (var index = position; index < length; index++) {
+        if (overShelving > array[index]) {
+            overShelving = array[index];
+            indexOverShelving = index;
         }
         /*
-        La condition vérifie si la valeur en ième position tableau[index] 
-        dans le tableau est plus petite que la valeur mise sur l'étagère
-        si la condition est vérifiée on échange les valeurs et on stocke dans une variable
-        temporaire index de la valeur mise sur l'etagere dans indexMisSurEtagere
+        The condition checks if the value in ith array position[index] 
+        in the array is smaller than the value placed on the shelf
+        if the condition is verified, the values are exchanged and stored in a variable
+        temporary index of the value placed on the shelf in indexOverShelve
         */
 
     }
 
     
-    return indexMisSurEtagere;
+    return indexOverShelving;
 }
 
-tableau = [23,56,78,93,21,43,90]
-var longueur = tableau.length;
-var valeurPositionInitiale = null;
-var valeurPositionFinale = null;
-var indexDeLaPlusPetiteValeur = 0;
+
+array =[23,56,78,78,93,21,43,90]
+var length = array.length;
+var valuePositionInitial = null;
+var valuePositionFinalValue = null;
+var indexOfTheSmallestValue = 0;
 
 
-for (var index = 0; index < longueur; index++) {
+for (var index = 0; index < length; index++) {
     
-    console.log("tableau: " + tableau);
+    console.log("array:" + array);
 
-    console.log("index : " + index);
-    valeurPositionInitiale = tableau[index];
-    console.log("valeurPositionInitiale: " + valeurPositionInitiale);
-
-
-    indexDeLaPlusPetiteValeur = rechercherLaPlusPetiteValeurParIndex(tableau, index);
-    console.log("indexDeLaPlusPetiteValeur: " + indexDeLaPlusPetiteValeur);
-    
-    valeurPositionFinale = tableau[indexDeLaPlusPetiteValeur];
-    console.log("valeurPositionFinale : " + valeurPositionFinale);
-    
-    tableau[indexDeLaPlusPetiteValeur] = valeurPositionInitiale;    
-    tableau[index] = valeurPositionFinale;
+    console.log("index :" + index);
+    InitialPositionValue = array[index];
+    console.log("InitialPositionValue:" + InitialPositionValue);
 
 
-    console.log("*********************");
+    indexOfTheSmallestValue = searchTheSmallestValuePerIndex(array, index);
+    console.log("SmallestValueOfIndex:" + SmallestValueOfIndexValue);
     
+    FinalPositionValue = array[SmallestPointsIndex];
+    console.log("FinalPositionValue:" + FinalPositionValue);
     
-    
+    array[SmallestValueOfIndexValue] = InitialPositionValue;    
+    array[index] = valueFinalPositionValue;
+
+
+    console.log("****************************************************");
+      
 }
-console.log(tableau);
+console.log(array);

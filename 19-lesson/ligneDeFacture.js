@@ -1,77 +1,77 @@
 /*
-Dans ce fichier, nous exportons la classe LignesDeFacture dans laquelle nous passons en paramètres la quantité, le prix unitaire
-et le taux de tva (qui sont des données non-calculées) puis nous initialisons  les  propriétés correspondantes + les propriétés 
-avec des données calculées comme le total HT, TVA et TTC. Pour récuperer ces données, nous mettons  en place des getters et 
-setters pour les modifier.
+In this file, we export the class Invoice Lines in which we pass in parameters the quantity, the unit price
+and the VAT rate (which are non-calculated data) then we initialize the corresponding properties + the properties 
+with calculated data such as total excluding VAT, VAT and VAT. To retrieve this data, we set up getters and 
+setters to modify them.
 */
 
-module.exports = class LigneDeFacture {
+module.exports = class InvoiceLine {
     constructor(
-        quantite,
-        prixUnitaire,
-        txTVA,
+        quantity,
+        UnitPrice,
+        txVAT,
     ) {
-        this._quantite = quantite;
-        this._prixUnitaire = prixUnitaire;
-        this._txTVA = txTVA;
-        this._totalHT = this._prixUnitaire * this._quantite;
-        this._totalTVA = this._totalHT * this._txTVA;
+        this._quantity = quantity;
+        this._UnitaryPrice = UnitPrice;
+        this._txVAT = txVAT;
+        this._totalHT = this._UnitaryPrice * this._quantity;
+        this._totalVAT = this._totalHT * this._txVAT;
         this._totalTTC = this._totalHT + this._totalTVA;
     }
 
-    get txTVA() {
-        return this._txTVA;
+    get txVAT() {
+        return this._txVAT;
     }
 
-    set txTVA(value) {
-        this._txTVA = value;
+    set txVAT(value) {
+        this._txVAT = value;
         /*
-        besoin de mettre à jour la propiété totalTTC car dépend de totalTVA qui elle même dépend de txTVA 
+        need to update the total ownership incl. VAT because it depends on totalVAT which itself depends on VAT incl. 
         */
-        this._totalTVA = this._totalHT * this._txTVA;
+        this._totalVAT = this._totalHT * this._txVAT;
         this._totalTTC = this._totalHT + this._totalTVA;
     }
 
-    get quantite() {
-        return this._quantite;
+    get quantity() {
+        return this._quantity;
     }
 
-    set quantite(value) {
-        this._quantite = value;
+    set quantity(value) {
+        this._quantity = value;
 /*
-besoin de mettre à jour toutes les propiétés car totalTTC et totalTVA dépendent de totalHT qui dépend de quantité.
+need to update all properties because totalTTC and totalTVA depend on totalHT which depends on quantity.
 */
-        this._totalHT = this._prixUnitaire * this._quantite;
-        this._totalTVA = this._totalHT * this._txTVA;
+        this._totalHT = this._UnitaryPrice* this._quantity;
+        this._totalVAT = this._totalHT * this._txVAT;
         this._totalTTC = this._totalHT + this._totalTVA;
     }
 
-    get prixUnitaire() {
-        return this._prixUnitaire;
+    get UnitPrice(){
+        return this._UnitaryPrice;
     }
 
-    set prixUnitaire(value) {
-        this._prixUnitaire = value;
+    set UnitPrice(value) {
+        this._UnitaryPrice= value;
 /*
-besoin de mettre à jour toutes les propiétés car totalTTC et totalTVA dépendent de totalHT qui dépend de prixUnitaire.
+need to update all properties because totalTTC and totalVAT depend on totalHT which depends on unit price.
 */
-        this._totalHT = this._prixUnitaire * this._quantite;
-        this._totalTVA = this._totalHT * this._txTVA;
+        this._totalHT = this._UnitaryPrice * this._quantity;
+        this._totalVAT = this._totalHT * this._txVAT;
         this._totalTTC = this._totalHT + this._totalTVA;
     }
 /*
-On récupère les propiétés :
+We get the properties back:
 */
     get totalHT() {
         return this._totalHT;
     }
-    get totalTVA() {
-        return this._totalTVA;
+    get totalVAT() {
+        return this._totalVAT;
     }
     get totalTTC() {
         return this._totalTTC;
     }
 }
 
-// retourner les toutes les donnees 
-// setter que les donees non-calculees
+// return all data 
+// setter that the non-calculated data

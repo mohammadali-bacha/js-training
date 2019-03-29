@@ -1,11 +1,11 @@
-module.exports = function verifierTxDeGlucose(txDInsuline) {
+module.exports = function checkTxOfGlucose(txOfInsuline) {
     try {
-        var message = "Rien a signaler";
-        if (txDInsuline > 1 && txDInsuline < 2) {
-            throw "prevenir l'infirmiere";
+        var message = "Nothing to report";
+        if (txOfInsuline > 1 && txOfInsuline < 2) {
+            throw "warn the nurse";
         }
-        if (txDInsuline > 2.5) {
-            throw "prevenir SAMU";
+        if (txOfInsuline > 2.5) {
+            throw "prevent SAMU";
         }
 
     } catch (error) {

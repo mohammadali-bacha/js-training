@@ -1,11 +1,11 @@
-module.exports = class Tableau {
+module.exports = class Table {
     constructor() {
-        this._lignes =[];
+        this._lines =[];
     }
-    ajouterLigne(ligne){
-        this._lignes.push(ligne);
+    addLine(line){
+        this._lignes.push(line);
     }
-    get lignes(){
+    get lines(){
         return this._lignes;
     }
 }

@@ -1,15 +1,15 @@
-module.exports = class Pere {
-    constructor(nom){
-        this._fils = [];
-        this._nom = nom;
+module.exports = class Dad {
+    constructor(name){
+        this._son = [];
+        this._name = name;
     }
-    get nom (){
-        return this._nom;
+    get name (){
+        return this._name;
     }
-    get fils(){
-        return this._fils;
+    get son(){
+        return this._son;
     }
-    ajouterFils(fils){
-        this._fils.push(fils);
+    addFSon(son){
+        this._son.push(son);
     }
 }

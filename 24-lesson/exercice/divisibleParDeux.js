@@ -1,13 +1,13 @@
-module.exports = function valeurDivisibleParDeux(valeur) {
+module.exports = function valueDivisibleValuePerTwo(value) {
     try {
-    var reponse = false;
-     var reste =  valeur % 2;
-        if (reste == 0) {
-           reponse = true; 
+    var answer = false;
+     var rest = value % 2;
+        if (rest == 0) {
+           answer = true; 
         }else{
-           throw "la valeur n'est pas divisble par 2";    
+           throw "the value is not divisible by 2";    
         }
-        return reponse;
+        return reply;
     } catch (error) {
         console.log(error);   
     }

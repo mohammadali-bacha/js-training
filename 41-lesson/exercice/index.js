@@ -1,11 +1,10 @@
 /*
-Exemple de cas d'utilisation d'async/await
+Example of async/await use case
 */
 
-
 (async function() {
-    let attente = await fetch('/')
-    console.log(await attente.text())
+    let expectation = await fetch('/')
+    console.log(await expectation.text())
   })()
 
   
@@ -16,7 +15,7 @@ Exemple de cas d'utilisation d'async/await
     const res = await fetch('//api.github.com/users/lquixada');
 
     if (res.status >= 400) {
-      throw new Error("erreur");
+      throw new Error("error");
     }
 
     const user = await res.json();

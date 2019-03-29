@@ -1,30 +1,30 @@
 /*
-Rechercher l'index d'une valeur dans le tableau en utilisant une boucle while  :
+Search the index of a value in the array using a while loop :
 */
 
-console.log("Rechercher une valeur dans l'index : ");
+console.log("Search for a value in the index:");
 var search = 9;
-var arr0 = [4,8,9,0,2,5];
+var arr0 =[4,8,9,9,0,0,2,5];
 var i = 0;
-var valide = true;
+var valid = true;
 var j = null;
 
-while (valide) {
+while (valid) {
     if (arr0[i] == search){
-        valide = false;
-        // i++;  ne s'arrête jamais
+        valid = false;
+        // i+++; never stops
     }
     i++;
     console.log(i);   
 }
 
 /*
-Lorsque la valeur recherchée dans la boucle est trouvée la valeur de l'index i est incrementé
-exemple:
-si la valeur 9 à un index de 2 l'index passe à 3
+When the value searched in the loop is found the value of index i is increased
+example:
+if the value 9 to an index of 2 the index changes to 3
 */
 
 j = i - 1
-console.log("L'index de la valeur recherchee est : " + j);
+console.log("The index of the searched value is:" + j);
 
 // console.log(arr0);

@@ -1,17 +1,17 @@
-const Cellule = require('./cellule');
+const Cell = require('./cell');
 
-module.exports = class Ligne {
+module.exports = class Line {
     constructor() {
-        this._cellules = [];
-        this._cellules.push(new Cellule("A"));
-        this._cellules.push(new Cellule("B"));
-        this._cellules.push(new Cellule("C"));
-        this._cellules.push(new Cellule("D"));
-        this._cellules.push(new Cellule("E"));
+        this._cells = [];
+        this._cellules.push(new Cell("A"));
+        this._cellules.push(new Cell("B"));
+        this._cellules.push(new Cell("C"));
+        this._cellules.push(new Cell("D"));
+        this._cellules.push(new Cell("E"));
 
     }
-    get cellules() {
-        return this._cellules;
+    get cells() {
+        return this. _cells;
     }
     
 }

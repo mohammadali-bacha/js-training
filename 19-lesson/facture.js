@@ -1,30 +1,30 @@
 /*
-Ce fichier contient la classe Facture dans laquelle nous initialisons les données
-relatives a une facture (nom,date,numeor,adresse,accompte), de plus nous initialisons
-les propiétés totalHT,totalTVA et totalTTC à 0 et _ligneDeFactures avec un tableau vide.     
+This file contains the Invoice class in which we initialize the data
+related to an invoice (name,date,numeor,address,account), in addition we initialize
+the properties totalHT, totalVAT and totalTTC at 0 and _invoiceLine with an empty table.     
 */
 
-module.exports = class Facture {
+module.exports = class Invoice {
     constructor(
         name,
-        numero,
+        number,
         date,
-        accompte,
-        addresseDeLivraison,
+        deposit,
+        deliveryAddress,
     ) {
         this._name = name;
-        this._numero = numero;
+        this._numero = number;
         this._date = date;
-        this._accompte = accompte;
-        this._addresseDeLivraison = addresseDeLivraison;
+        this._account = deposit;
+        this.deliveryAddress = deliveryAddress;
         this._totalHT = 0;
-        this._totalTVA = 0;
+        this._totalVAT = 0;
         this._totalTTC = 0;
-        this._ligneDeFactures = [];
-        this._nombreDeLignes = 0;
+        this._InvoiceLine = [];
+        this._numberOfLines = 0;
     }
     /*
-    On récupère les propiétés
+    We're getting the properties back.
     */
     get name() {
         return this._name;
@@ -35,59 +35,60 @@ module.exports = class Facture {
     get date() {
         return this._date;
     }
-    get accompte() {
-        return this._accompte;
+    get deposit() {
+        return this. _account;
     }
-    get adresseDeLivraison() {
-        return this._adresseDeLivraison;
+    get deliveryAddress() {
+        return this. deliveryAddress;
     }
     get totalHT() {
         return this._totalHT;
     }
-    get totalTVA() {
-        return this._totalTVA;
+    get totalVAT() {
+        return this._totalVAT;
     }
     get totalTTC() {
         return this._totalTTC;
     }
     /*
-    cette méthode nous permet d'ajouter des lignes 
+    this method allows us to add lines 
     */
-    ajouterLignes(ligne) {
+    addLines(line) {
         try {
-            this._ligneDeFactures.push(ligne);
+            this._invoiceLine.push(line);
             this._totalHT = 0;
             this._totalTTC = 0;
-            this._totalTVA = 0;
+            this._totalVAT = 0;
     
             for (var index = 0; index < this._ligneDeFactures.length; index++) {
     
                 /*
-                on met a jour les propiétés du dessus en les cumulant avec la valeur de l'index parcourue au moment t des totaux de chaque ligne        
+                the properties above are updated by adding them to the value of the index searched at time t of the totals of each line        
                 */
-                var tempTotalHT = this._ligneDeFactures[index].totalHT; //
-                var tempTotalTVA = this._ligneDeFactures[index].totalTVA
-                var tempTotalTTC = this._ligneDeFactures[index].totalTTC;
+                var tempTotalHT = this._invoiceLine[index].totalHT; //
+                var tempTotalVAT = this._invoiceLine[index].totalVAT
+                var tempTotalTTC = this._invoiceLine[index].totalTTC;
                 
-                // le total ttc n'a pas ete encore maj, 
-                // on calcule la valeur totalTTC qui va etre maj
+                /// the total including all taxes has not yet been increased, 
+                // we calculate the total value including all taxes which will be capitalized
                  if (this._totalTTC + tempTotalTTC > 10000) {
-                     throw "";
+                     throw"";
                  }
 
                 this._totalHT += tempTotalHT;
-                this._totalTVA += tempTotalTVA;
+                this._totalVAT += tempTotalVAT;
                 this._totalTTC += tempTotalTTC;
   
             }
-            this._nombreDeLignes = this._ligneDeFactures.length;
+            this._numberOfLines = this._invoice.line.length;
         } catch (error) {
-            this._ligneDeFactures.pop();
-            console.log("Le montant de la facture est supérieur a 10 000$ !");
+            this._invoiceLine.pop();
+            console.log("The invoice amount is greater than $10,000!");
             
         }
     }
-    get nombreDeLignes() {
-        return this._nombreDeLignes;
+    get numberOfLines() { {
+        return this. _numberOfLines;
     }
+}
 }

@@ -1,14 +1,14 @@
-module.exports = function conversionEuroDollars(valeur, txChange) {
-    var valeurConvertie = 0;
-    var valeurCalculee = (valeur * txChange);
+module.exports = function EuroDollarsconversion(value, txChange) {
+    varConvertedvalue = 0;
+    var valueCalculated  = (value * txChange);
 
-    if (valeur < 100) {
-        valeurConvertie = valeurCalculee - 5;
+    if (value < 100) {
+        valueConverted = valueCalculated - 5;
 
     } else {
-        valeurConvertie = valeurCalculee - (3 / 100) * valeurCalculee;
+        ConvertedValue = CalculatedValue - (3 / 100) * CalculatedValue;
 
     }
 
-    return valeurConvertie;
+    return valueConverted ;
 }

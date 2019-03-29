@@ -1,12 +1,12 @@
 /*
-Le but de l'exercice est de vérifier le taux de lymphocites et retourner un message  selon le cas.
+The purpose of the exercise is to check the lymphocyte count and return a message as appropriate.
 */
 
-const priseDeSang = require('./verifierTxDeLymphocites')
+const bloodTest = require('./verifyTxOfLymphocites')
 
-var txDeLymphocites = 0.9;
+var txOfLymphocites = 0.9;
 
- priseDeSang(txDeLymphocites);
+  bloodTest(txOfLymphocites);
 
 
 

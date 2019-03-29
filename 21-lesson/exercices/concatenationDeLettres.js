@@ -1,32 +1,32 @@
 /*
-Le but de l'exercice est de faire une fonction qui va retourner un mot en concaténant des lettres contenues
-dans un tableau.
+The purpose of the exercise is to make a function that will return a word by 
+concatenating contained letters in a table.
 */
 
 /*
-Dans cette fonction, nous parcourons le tableau de lettres à l'aide d'une boucle for et à chaque parcours,
-la valeur parcourue est concaténée avec la précédente pour ainsi former le mot.
+In this function, we scroll through the letter table using a for loop and at each path,
+the value traveled is concatenated with the previous one to form the word.
 
 */
 
 // module.exports = 
 
-function mot(lettres) {
+function word(letters) {
 
-    var mot = [];
+    var word = [];
 
-    for (var index = 0; index < lettres.length; index++) {
-        mot += lettres[index];        
+    for (var index = 0; index < letters.length; index++) {
+        word += letters[index];        
     } 
-    return mot;
+    return word;
 }
 
-var lettres0 = ["b","o","n","j","o","u","r"];
+var letters0 = ["m", "o", "r", "n", "i", "n", "g"]
 
-var lettres1 = ["s","a","l","u","t"];
+var letters1 = ["h", "e", "l", "l", "o"];
 
-var lettres = lettres1;
+var letters = letters1;
 
-var resultat = mot(lettres);
+var result = word(letters);
 
-console.log(resultat);
+console.log(result);

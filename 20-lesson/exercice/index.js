@@ -1,36 +1,34 @@
 /*
-Le but de l'exercice est de faire une fonction qui va stocker dans un tableau tous les mots .
+The purpose of the exercise is to make a function that will store all the words in a array.
 */
 
-function dictionnaireDeMots(compteRendu) {
-    var mot = "";
-    var dictionnaire = [];
+function dictionaryWords(report) {
+    var word ="";
+    var dictionary = [];
 
 
-    for (var index = 0; index < compteRendu.length; index++) {
-        var lettre = compteRendu[index];
+    for (var index = 0; index < reportReport.length; index++) {
+        var letter = report[index];
   
-        if(lettre != " "){
-            mot = mot + lettre;
+        if(letter !=""){
+            word = word + letter;
 
         }else{
 
-            dictionnaire.push(mot);  
-            mot = '';
+            dictionary.push(word);  
+            word = '';
         }
         
     }
-    console.log("dernier mot");
-    dictionnaire.push(mot);  
-    console.log(mot)
-    return dictionnaire;
+    console.log("last word");
+    dictionary.push(word);  
+    console.log(word)
+    return dictionary;
 }
 
 
-var compteRendu = "les chats mangent des souris";
+varReport = "cats eat mouses";
 
-var resultat = dictionnaireDeMots(compteRendu);
+var result = dictionaryWords(report);
 
-console.log(resultat);
-
-
+console.log(result);

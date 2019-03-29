@@ -1,16 +1,16 @@
 /*
-Dans ce fichier, nous avons exporté la classe AdresseDeLivraison dans laquelle nous passons en paramètres 
-la rue, le code postal et la ville puis nous initialisons  les  propriétés correspondantes. 
+In this file, we have exported the DeliveryAddress class in which we pass in parameters 
+the street, the postal code and the city and then we initialize the corresponding properties. 
 */
 
-module.exports = class AdresseDeLivraison {
+module.exports = class DeliveryAddress  {
     constructor(
-        rue,
+        street,
         code,
-        ville
+        city
     ) {
-        this.rue = rue;
+        this.street = street;
         this.code = code;
-        this.ville = ville;
+        this.city = city;
     }
 }

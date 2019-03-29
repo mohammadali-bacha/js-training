@@ -1,44 +1,44 @@
 /*
-Le but de l'exercice est de rechercher la plus petite valeur à partir d'un tabeleau
+The purpose of the exercise is to search for the smallest value from a array
 [23,56,98,43,67,11,3]
 */
 
-function rechercherLaPlusPetiteValeur(tableau) {
+function searchTheSmallestValue(array) {
     /*
-    on initialise la variable 
+    we initialize the variable 
     */
-    var miseSurEtagere = tableau[0];
+    var overShelving = array[0];
     /*
-    Une boucle pour parcourir le tableau :
+    A loop to go through the array:
     */
-    for (var index = 0; index < tableau.length; index++) {
-        console.log("tableau" + tableau[index]);
+    for (var index = 0; index < array.length; index++) {
+        console.log("array" + array[index]);
     /*
-        Dans cette condition, si miseSurEtagere est plus grande que la valeur au moment du parcours de la boucle dans le tableau, alors miseSurEtagere est
-        égale à cette valeur jusqu'à que ce soit la plus petite
+        In this condition, if the overlay shelf is greater than the value at the time of the loop path in the array, then the overlay shelf is
+        equal to this value until it is the smallest
     */
-        if (miseSurEtagere > tableau[index]) {
-            miseSurEtagere = tableau[index];
+        if (overShelving > array[index]) {
+            overShelving = array[index];
         }
     }
 /*
-On retourne la valeur 
+We return the value 
 */
-    return miseSurEtagere;
+    return overShelving;
 }
 
 /*
-On initialise la variable tableau
+We initialize the array variable
 */
 
-var tableau = [23,56,12,43,67,11];
-
-/*
-On stocke le résultat de la fonction dans une variable...
-*/
-resultat = rechercherLaPlusPetiteValeur(tableau);
+var array =[23,56,12,12,43,67,11];
 
 /*
-pour pouvoir l'afficher ensuite
+The result of the function is stored in a variable....
 */
-console.log(resultat); 
+result = searchTheSmallestValue(array);
+
+/*
+so that it can be displayed later
+*/
+console.log(result); 

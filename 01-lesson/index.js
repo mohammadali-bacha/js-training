@@ -1,16 +1,18 @@
 /*
-L'exercice consiste à récupérer la longeur d'un tableau
+The exercise consists in recovering the length of a array.
 */
 
 /* 
-Initialisation d'une variable tab contenant un tableau
+Initialization of a tab variable containing an array
 */
-var tab = [1,4,2,5,6,12,3];
+var tab =[1,4,2,2,5,5,6,6,12,3];
 
 /* 
-Récupération de la longeur du tableau
+Recovery of the length of the array
 */
 var lg = tab.length;
 
-// Affichage de la longueur du tableau
-console.log('la taille est de '+ lg);
+// Display of the table length
+console.log('size is' + lg);
+
+

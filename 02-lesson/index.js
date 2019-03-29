@@ -1,23 +1,23 @@
 /*
-L'exercice consiste à parcourir un tableau 
+The exercise consists of going through a table 
 */
 
 /* 
-Initialisation d'une variable tab contenant un tableau
+Initialization of a tab variable containing an array
 */
-var tab = [1,4,2,5,6,12,3];
+var tab =[1,4,2,2,5,5,6,6,12,3];
 
 /* 
-Récupération de la longeur du tableau
+Recovery of the length of the painting
 */
 var lg = tab.length;
 
 /*
-Utilisation d'une boucle for pour parcourir le tableau de valeurs 
+Using a for loop to browse the value table 
 */
 for (var i = 0; i < lg;) {
 
-    // Affichage des valeurs du tableau
+    // Display of the table values
     console.log(tab[i]);
     i++;
 }

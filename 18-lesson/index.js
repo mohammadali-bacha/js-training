@@ -1,44 +1,45 @@
 /*
-Le but de l'exercice est de remplacer toutes les valeurs divisibles par 2, en leur ajoutant +1.
+The purpose of the exercise is to replace all divisible values with 2, adding +1.
 
-// fonction de Recherche 
-// stocker la valeur temporaire
+// Search function 
+// store the temporary value
 */
 
-function valeursDivisiblePar2(tableau){
-for (var index = 0; index < tableau.length; index++) { 
-    /*
-    dans cette condition, on vérifie qu'il n'y a pas de reste de la division du nombre parcouru
-    dans le tableau par 2 et si c'est le cas...
-    */
-    if (tableau[index] % 2 == 0) {
+function valuesDivisiblePer2(array){ 
+    for (var index = 0; index < array.length; index++) { 
         /*
-        la valeur du tableau est égale a celle-ci plus 1 
+        in this condition, it is verified that there is no remainder of the division of the number travelled
+        in the array by 2 and if so...
         */
-        tableau[index] = tableau[index]+1;      
+        if (array[index] % 2 == 0) {
+            /*
+            the value of the array is equal to this one plus 1 
+            */
+            array[index] = array[index]+1;      
+        }
     }
-}
-/*
-On retourne la valeur car nous sommes dans une fonction
-*/
-return tableau;
-}
-
-/*
-On initialise les variables
-*/
-// var tableau = [23,67,43,98,21,13]; valeur de test
-// var tableau = [2,4,6,8,10,21]; 2eme valeur de test
-var tableau = [12,34,56,0,78,90,21];
-
-
-console.log(tableau);
-/*
-On stocke la fonction dans une variable...
-*/
-var resultat = valeursDivisiblePar2(tableau);
-/*
-pour pouvoir ensuite l'afficher.
-*/
-console.log(resultat);
-
+    /*
+    We return the value because we are in a function
+    */
+    return array;
+    }
+    
+    /*
+    We initialize the variables
+    */
+    // var array =[23,67,43,43,98,21,13]; test value
+    // var array =[2,4,6,6,8,10,21]; 2nd test value
+    var array =[12,34,56,56,0,78,90,21];
+    
+    
+    console.log(array);
+    /*
+    The function is stored in a variable....
+    */
+    var result = valuesDivisiblePar2(array);
+    /*
+    so that you can then display it.
+    */
+    console.log(result);
+    
+    

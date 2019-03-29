@@ -1,23 +1,23 @@
 module.exports = class Voiture {
     constructor
         (
-            modele,
-            marque
+            model,
+            brand
         ) {
-            this._modele = modele;
-            this._marque = marque;
+            this._model = model;
+            this._brand = brand;
             this._km = 0;
         }
 
     get km() {
         return this._km;
     }
-    get modele() {
-        return this._modele;
+    get model() {
+        return this._model;
     }
 
-    get marque() {
-        return this._marque;
+    get brand() {
+        return this._brand;
     }
 
     ajouterKm(km) {
